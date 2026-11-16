@@ -1,0 +1,187 @@
+<section class="modulex-kayan-sekme-serit{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-kayan-sekme-serit-ic">
+    {{fbbas}}
+    {{fbgovde}}
+  </div>
+</section>
+
+<style>
+  /* kayan-sekme-serit — Noktalar yerine slayt başlıkları okunur (ne geleceği görünür) ve geçişe kalan süre çizgide izlenir; Ken Burns yakınlaşması yok, panelli okunur metin. */
+  .modulex-kayan-sekme-serit { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --text--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-kayan-sekme-serit *, .modulex-kayan-sekme-serit *::before, .modulex-kayan-sekme-serit *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-kayan-sekme-serit :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-kayan-sekme-serit :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-kayan-sekme-serit :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-kayan-sekme-serit :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-kayan-sekme-serit img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-kayan-sekme-serit) img { height: auto; }
+  .modulex-kayan-sekme-serit [hidden] { display: none !important; }
+  .modulex-kayan-sekme-serit :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-kayan-sekme-serit :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-kayan-sekme-serit-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-kayan-sekme-serit-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-kayan-sekme-serit--bassiz .modulex-kayan-sekme-serit-bas { display: none; }
+  .modulex-kayan-sekme-serit-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-kayan-sekme-serit-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-kayan-sekme-serit-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-kayan-sekme-serit-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-kayan-sekme-serit-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-kayan-sekme-serit-dugme:hover { transform: translateY(-2px); }
+  .modulex-kayan-sekme-serit-dugme--ikincil { background: transparent; color: --text--; border-color: --cizgi--; }
+  .modulex-kayan-sekme-serit-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-kayan-sekme-serit-dugme .material-symbols-outlined { font-size: 20px; }
+
+  .modulex-kayan-sekme-serit { position: relative; }
+  /* tam genişlik: taban «.modulex-kayan-sekme-serit { padding }» ve 768px «padding-inline: 16px» kuralları sonra gelir → çift sınıfla sıfırla */
+  .modulex-kayan-sekme-serit.modulex-kayan-sekme-serit { padding: 0; }
+  .modulex-kayan-sekme-serit-karusel { position: relative; outline: none; }
+  .modulex-kayan-sekme-serit-karusel:focus-visible { outline: 3px solid --accent--; outline-offset: -3px; }
+  .modulex-kayan-sekme-serit-durum { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  .modulex-kayan-sekme-serit-sust { color: inherit; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; opacity: 0.92; }
+  .modulex-kayan-sekme-serit-sbaslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.9rem, 4.4vw, 3.6rem); font-weight: 780; letter-spacing: -0.03em; line-height: 1.05; }
+  .modulex-kayan-sekme-serit-smetin { font-size: clamp(1rem, 1.4vw, 1.15rem); line-height: 1.65; }
+  .modulex-kayan-sekme-serit-scta { display: inline-flex; align-items: center; gap: 8px; justify-self: start; min-height: 48px; padding: 12px 22px; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, box-shadow 0.25s ease; }
+  .modulex-kayan-sekme-serit-scta:hover { transform: translateY(-2px); box-shadow: 0 14px 26px -16px --accent--; }
+  .modulex-kayan-sekme-serit-scta .material-symbols-outlined { font-size: 20px; }
+  .modulex-kayan-sekme-serit-gorsel { width: 100%; height: 100%; object-fit: cover; }
+  .modulex-kayan-sekme-serit-yer { background: linear-gradient(135deg, color-mix(in srgb, --accent-- 55%, --text--), color-mix(in srgb, --accent-- 20%, --text--)); }
+  .modulex-kayan-sekme-serit-ok, .modulex-kayan-sekme-serit-oynat { display: inline-grid; place-items: center; width: 48px; height: 48px; padding: 0; border: 1px solid --cizgi--; border-radius: 50%; background: --bg--; color: --text--; transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease; }
+  .modulex-kayan-sekme-serit-ok:hover, .modulex-kayan-sekme-serit-oynat:hover { background: --accent--; color: --accentText--; border-color: --accent--; }
+  .modulex-kayan-sekme-serit-ok:active { transform: scale(0.94); }
+  .modulex-kayan-sekme-serit-nokta { padding: 0; border: 0; background: transparent; color: inherit; font: inherit; }
+  .modulex-kayan-sekme-serit-karusel--tek :is(.modulex-kayan-sekme-serit-ok, .modulex-kayan-sekme-serit-oynat, .modulex-kayan-sekme-serit-nokta, .modulex-kayan-sekme-serit-denetim, .modulex-kayan-sekme-serit-sekmeler, .modulex-kayan-sekme-serit-kucukler) { display: none; }
+
+  .modulex-kayan-sekme-serit-sahne { position: relative; display: grid; min-height: clamp(380px, var(--kayan-yk), 100vh); overflow: hidden; }
+  .modulex-kayan-sekme-serit-slayt { position: relative; grid-area: 1 / 1; display: grid; opacity: 0; visibility: hidden; transition: opacity 0.7s ease, visibility 0s linear 0.7s; }
+  .modulex-kayan-sekme-serit-slayt--aktif { opacity: 1; visibility: visible; transition: opacity 0.7s ease, visibility 0s; }
+  .modulex-kayan-sekme-serit-slayt .modulex-kayan-sekme-serit-gorsel { position: absolute; inset: 0; transform: scale(1.03); transition: transform 1.2s ease; }
+  .modulex-kayan-sekme-serit-slayt--aktif .modulex-kayan-sekme-serit-gorsel { transform: none; }
+  .modulex-kayan-sekme-serit-ic2 { position: relative; z-index: 1; display: grid; align-items: end; width: 100%; max-width: --max--; margin-inline: auto; padding: clamp(32px, 6vw, 72px) 20px clamp(28px, 4vw, 48px); }
+  .modulex-kayan-sekme-serit-panel { display: grid; gap: 14px; max-width: 620px; padding: clamp(22px, 3vw, 36px); border-radius: --yuvarlak--; background-color: --overlay--; color: --overlayText--; }
+  .modulex-kayan-sekme-serit-panel .modulex-kayan-sekme-serit-scta { margin-block-start: 6px; }
+  .modulex-kayan-sekme-serit-alt { display: flex; align-items: stretch; gap: 16px; max-width: --max--; margin-inline: auto; padding: 0 20px 18px; }
+  .modulex-kayan-sekme-serit-sekmeler { display: grid; flex: 1; grid-auto-columns: minmax(0, 1fr); grid-auto-flow: column; gap: 4px; }
+  .modulex-kayan-sekme-serit-nokta { position: relative; display: grid; grid-template-columns: auto minmax(0, 1fr); align-content: start; gap: 4px 12px; min-height: 64px; padding: 16px 4px 12px; border-block-start: 2px solid --cizgi--; color: --muted--; text-align: start; transition: color 0.25s ease; }
+  .modulex-kayan-sekme-serit-nokta:hover, .modulex-kayan-sekme-serit-nokta--aktif { color: --text--; }
+  .modulex-kayan-sekme-serit-sno { font-size: 0.8rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .modulex-kayan-sekme-serit-sad { overflow: hidden; font-weight: 650; line-height: 1.35; text-overflow: ellipsis; white-space: nowrap; }
+  .modulex-kayan-sekme-serit-dolgu { position: absolute; inset-block-start: -2px; inset-inline: 0; height: 2px; background: --accent--; transform: scaleX(0); transform-origin: var(--kayan-koken, left); }
+  :is([dir="rtl"]) .modulex-kayan-sekme-serit-dolgu { --kayan-koken: right; }
+  .modulex-kayan-sekme-serit-nokta--aktif .modulex-kayan-sekme-serit-dolgu { transform: scaleX(1); }
+  .modulex-kayan-sekme-serit--oynuyor .modulex-kayan-sekme-serit-nokta--aktif .modulex-kayan-sekme-serit-dolgu { animation: modulex-kayan-sekme-serit-dol var(--kayan-sure) linear both; }
+  @keyframes modulex-kayan-sekme-serit-dol { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+  .modulex-kayan-sekme-serit-denetim { display: flex; flex: none; align-items: center; gap: 8px; padding-block-start: 12px; }
+  .modulex-kayan-sekme-serit-ok, .modulex-kayan-sekme-serit-oynat { background: transparent; color: --text--; }
+  @media (max-width: 768px) {
+    .modulex-kayan-sekme-serit-sahne { min-height: clamp(460px, var(--kayan-yk), 100vh); }
+    .modulex-kayan-sekme-serit-ic2 { padding-inline: 16px; }
+    .modulex-kayan-sekme-serit-alt { flex-direction: column; gap: 4px; padding-inline: 16px; }
+    .modulex-kayan-sekme-serit-sad { display: none; }
+    .modulex-kayan-sekme-serit-nokta { grid-template-columns: minmax(0, 1fr); min-height: 44px; padding-block: 12px 8px; }
+    .modulex-kayan-sekme-serit-denetim { justify-content: flex-end; padding-block: 4px 0; }
+  }
+
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-kayan-sekme-serit :is(.modulex-kayan-sekme-serit-baslik, .modulex-kayan-sekme-serit-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-kayan-sekme-serit-baslik { line-height: 1.35; }
+  @media (max-width: 768px) {
+    .modulex-kayan-sekme-serit { padding-inline: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-kayan-sekme-serit *, .modulex-kayan-sekme-serit *::before, .modulex-kayan-sekme-serit *::after { animation: none !important; transition: none !important; }
+  }
+</style>
+<script>
+  (() => {
+    const P = "modulex-kayan-sekme-serit";
+    const az = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+    const kayan = (s, P, az) => {
+          const k = s.querySelector("." + P + "-karusel");
+          if (!k) return;
+          const sl = [...k.querySelectorAll("." + P + "-slayt")];
+          const nk = [...k.querySelectorAll("." + P + "-nokta")];
+          const oy = k.querySelector("." + P + "-oynat");
+          const du = k.querySelector("." + P + "-durum");
+          const n = sl.length;
+          if (n < 2) return;
+          s.classList.add(P + "--js");
+          let sure = Number(k.dataset.sure);
+          if (!Number.isFinite(sure)) sure = 6000;
+          sure = Math.min(20000, Math.max(3000, sure));
+          let oto = k.dataset.oto !== "0" && !az;
+          let aktif = 0;
+          let zam = null;
+          let bekle = false;
+          const rtl = () => getComputedStyle(k).direction === "rtl";
+          const goster = (i, duyur) => {
+            i = ((i % n) + n) % n;
+            sl.forEach((x, j) => {
+              const a = j === i;
+              x.classList.toggle(P + "-slayt--aktif", a);
+              x.setAttribute("aria-hidden", String(!a));
+              x.inert = !a;
+            });
+            nk.forEach((x, j) => {
+              x.classList.toggle(P + "-nokta--aktif", j === i);
+              if (j === i) x.setAttribute("aria-current", "true");
+              else x.removeAttribute("aria-current");
+            });
+            k.style.setProperty("--i", String(i));
+            aktif = i;
+            if (du && duyur) du.textContent = sl[i].getAttribute("aria-label") || "";
+          };
+          const durdur = () => {
+            if (zam) { clearInterval(zam); zam = null; }
+            k.classList.remove(P + "--oynuyor");
+          };
+          const baslat = () => {
+            durdur();
+            if (!oto || bekle || document.hidden) return;
+            void k.offsetWidth;
+            k.classList.add(P + "--oynuyor");
+            zam = setInterval(() => goster(aktif + 1, false), sure);
+          };
+          const etiket = () => {
+            if (!oy) return;
+            oy.setAttribute("aria-label", oto ? (k.dataset.dur || "") : (k.dataset.oyna || ""));
+            const ik = oy.querySelector(".material-symbols-outlined");
+            if (ik) ik.textContent = oto ? "pause" : "play_arrow";
+          };
+          const git = (i) => { goster(i, true); baslat(); };
+          k.querySelectorAll("[data-kayan]").forEach((b) => b.addEventListener("click", () => git(aktif + (b.dataset.kayan === "geri" ? -1 : 1))));
+          nk.forEach((b, j) => b.addEventListener("click", () => git(j)));
+          if (oy) oy.addEventListener("click", () => { oto = !oto; etiket(); if (oto) { bekle = false; baslat(); } else durdur(); });
+          k.addEventListener("keydown", (e) => {
+            const r = rtl();
+            if (e.key === "ArrowRight") { e.preventDefault(); git(aktif + (r ? -1 : 1)); }
+            else if (e.key === "ArrowLeft") { e.preventDefault(); git(aktif + (r ? 1 : -1)); }
+            else if (e.key === "Home") { e.preventDefault(); git(0); }
+            else if (e.key === "End") { e.preventDefault(); git(n - 1); }
+          });
+          k.addEventListener("mouseenter", () => { bekle = true; durdur(); });
+          k.addEventListener("mouseleave", () => { bekle = false; baslat(); });
+          k.addEventListener("focusin", () => { bekle = true; durdur(); });
+          k.addEventListener("focusout", (e) => { if (!k.contains(e.relatedTarget)) { bekle = false; baslat(); } });
+          let bx = null;
+          k.addEventListener("touchstart", (e) => { bx = e.touches && e.touches[0] ? e.touches[0].clientX : null; }, { passive: true });
+          k.addEventListener("touchend", (e) => {
+            if (bx === null || !e.changedTouches || !e.changedTouches[0]) return;
+            const f = e.changedTouches[0].clientX - bx;
+            bx = null;
+            if (Math.abs(f) < 40) return;
+            git(aktif + ((f < 0) !== rtl() ? 1 : -1));
+          }, { passive: true });
+          document.addEventListener("visibilitychange", () => { if (document.hidden) durdur(); else baslat(); });
+          goster(0, false);
+          etiket();
+          baslat();
+        };
+    document.querySelectorAll("." + P).forEach((s) => {
+      if (s.dataset.fbHazir) return;
+      s.dataset.fbHazir = "1";
+      kayan(s, P, az);
+    });
+  })();
+</script>

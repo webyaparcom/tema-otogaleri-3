@@ -1,0 +1,151 @@
+<section class="modulex-sayac-doner-vitrin{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-sayac-doner-vitrin-ic">
+    {{fbbas}}
+    {{fbgovde}}
+  </div>
+</section>
+
+<style>
+  /* sayac-doner-vitrin — sayac-ray yatay kaydırma, sayac-yigin yelpaze, sayac-yaprak-takvim yaprak yığınıdır; bu modül taşları perspective + rotateY ile 3B döner tabla halkasına dizer (kuyumcu vitrini dili: kesim SVG + ayar damgası + kaide iskeleti). */
+  .modulex-sayac-doner-vitrin { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --text--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-sayac-doner-vitrin *, .modulex-sayac-doner-vitrin *::before, .modulex-sayac-doner-vitrin *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-sayac-doner-vitrin :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-sayac-doner-vitrin :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-sayac-doner-vitrin :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-sayac-doner-vitrin :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-sayac-doner-vitrin img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-sayac-doner-vitrin) img { height: auto; }
+  .modulex-sayac-doner-vitrin [hidden] { display: none !important; }
+  .modulex-sayac-doner-vitrin :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-sayac-doner-vitrin :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-sayac-doner-vitrin-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-sayac-doner-vitrin-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-sayac-doner-vitrin--bassiz .modulex-sayac-doner-vitrin-bas { display: none; }
+  .modulex-sayac-doner-vitrin-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-sayac-doner-vitrin-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-sayac-doner-vitrin-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-sayac-doner-vitrin-bas { max-width: 780px; margin-inline: auto; text-align: center; justify-items: center; }
+  .modulex-sayac-doner-vitrin-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-sayac-doner-vitrin-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-sayac-doner-vitrin-dugme:hover { transform: translateY(-2px); }
+  .modulex-sayac-doner-vitrin-dugme--ikincil { background: transparent; color: --text--; border-color: --cizgi--; }
+  .modulex-sayac-doner-vitrin-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-sayac-doner-vitrin-dugme .material-symbols-outlined { font-size: 20px; }
+
+  .modulex-sayac-doner-vitrin-vitrin { display: grid; gap: 22px; }
+  .modulex-sayac-doner-vitrin-tabla { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr)); gap: 22px; }
+  .modulex-sayac-doner-vitrin-tas { display: grid; justify-items: center; gap: 0; }
+  .modulex-sayac-doner-vitrin-mucevher { position: relative; display: grid; justify-items: center; gap: 8px; width: 100%; padding: 28px 22px 26px; border: 1px solid --cizgi--; border-radius: --yuvarlak--; background: linear-gradient(170deg, color-mix(in srgb, --accent-- 14%, transparent), transparent 55%), --kartBg--; text-align: center; transition: box-shadow 0.5s ease, border-color 0.5s ease; }
+  .modulex-sayac-doner-vitrin-kesim { width: 84px; height: auto; margin-block-end: 6px; overflow: visible; filter: drop-shadow(0 8px 16px color-mix(in srgb, --accent-- 45%, transparent)); }
+  .modulex-sayac-doner-vitrin-kesim-ust { fill: color-mix(in srgb, --accent-- 60%, --bg--); }
+  .modulex-sayac-doner-vitrin-kesim-alt { fill: --accent--; }
+  .modulex-sayac-doner-vitrin-kesim-cizgi { fill: none; stroke: --bg--; stroke-width: 1.4; stroke-linejoin: round; opacity: 0.7; }
+  .modulex-sayac-doner-vitrin-deger { font-family: var(--mx-font-heading, Georgia, serif); font-size: clamp(2.4rem, 4.6vw, 3.4rem); font-weight: 600; font-variant-numeric: tabular-nums lining-nums; letter-spacing: -0.02em; line-height: 1; }
+  .modulex-sayac-doner-vitrin-ek { color: --accentInk--; font-size: 0.5em; }
+  .modulex-sayac-doner-vitrin-etiket { font-size: 0.86rem; font-weight: 700; letter-spacing: 0.14em; line-height: 1.4; text-transform: uppercase; }
+  .modulex-sayac-doner-vitrin-not { max-width: 26ch; color: --muted--; font-size: 0.9rem; }
+  .modulex-sayac-doner-vitrin-damga { position: absolute; inset-block-start: 12px; inset-inline-end: 12px; display: inline-flex; align-items: center; gap: 4px; padding: 3px 10px; border: 1.5px solid --accentInk--; border-radius: 999px; color: --accentInk--; font-family: var(--mx-font-mono, ui-monospace, monospace); font-size: 0.72rem; font-weight: 700; }
+  .modulex-sayac-doner-vitrin-damga-i { font-size: 14px; }
+  .modulex-sayac-doner-vitrin-kaide { width: 70%; height: 22px; margin-block-start: -4px; border-radius: 50%; background: radial-gradient(closest-side, color-mix(in srgb, --accent-- 55%, transparent), transparent); }
+  .modulex-sayac-doner-vitrin--vjs .modulex-sayac-doner-vitrin-sahne { --rk: 1; display: grid; place-items: start center; height: 350px; padding-block-start: 20px; overflow: clip; perspective: 1600px; }
+  .modulex-sayac-doner-vitrin--vjs .modulex-sayac-doner-vitrin-tabla { --yon: 1; position: relative; display: block; width: 100%; height: 100%; transform: translateZ(calc(var(--r) * var(--rk) * -1)) rotateY(calc(var(--adim, 0) * var(--a) * var(--yon) * -1)); transform-style: preserve-3d; transition: transform 0.9s cubic-bezier(0.3, 0.9, 0.3, 1); }
+  [dir="rtl"] .modulex-sayac-doner-vitrin--vjs .modulex-sayac-doner-vitrin-tabla { --yon: -1; }
+  .modulex-sayac-doner-vitrin--vjs .modulex-sayac-doner-vitrin-tas { position: absolute; inset-block-start: 0; inset-inline-start: calc(50% - 130px); width: 260px; backface-visibility: hidden; transform: rotateY(calc(var(--i) * var(--a) * var(--yon))) translateZ(calc(var(--r) * var(--rk))); transition: opacity 0.6s ease, filter 0.6s ease; }
+  .modulex-sayac-doner-vitrin--vjs .modulex-sayac-doner-vitrin-tas:not(.modulex-sayac-doner-vitrin-tas--on) { opacity: 0.35; filter: saturate(0.4); }
+  .modulex-sayac-doner-vitrin--vjs .modulex-sayac-doner-vitrin-tas--on .modulex-sayac-doner-vitrin-mucevher { border-color: color-mix(in srgb, --accent-- 60%, transparent); box-shadow: 0 30px 60px -30px color-mix(in srgb, --accent-- 70%, transparent); }
+  .modulex-sayac-doner-vitrin-denetim { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 14px 18px; }
+  .modulex-sayac-doner-vitrin-don { display: inline-grid; place-items: center; width: 50px; height: 50px; border: 1px solid --cizgi--; border-radius: 50%; background: transparent; color: --text--; transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease; }
+  .modulex-sayac-doner-vitrin-don:hover { border-color: --accent--; background: --accent--; color: --accentText--; }
+  .modulex-sayac-doner-vitrin-konum { min-width: 8ch; font-family: var(--mx-font-mono, ui-monospace, monospace); font-weight: 700; font-variant-numeric: tabular-nums; text-align: center; }
+  .modulex-sayac-doner-vitrin-cipler { display: flex; flex-basis: 100%; flex-wrap: wrap; justify-content: center; gap: 8px; }
+  .modulex-sayac-doner-vitrin-cip { display: inline-flex; align-items: center; gap: 8px; min-height: 40px; padding: 6px 16px; border: 1px solid --cizgi--; border-radius: 999px; background: transparent; color: --text--; font: inherit; font-size: 0.88rem; font-weight: 600; transition: background 0.25s ease, border-color 0.25s ease, color 0.25s ease; }
+  .modulex-sayac-doner-vitrin-cip:hover { border-color: --accent--; }
+  .modulex-sayac-doner-vitrin-cip[aria-pressed="true"] { border-color: --accent--; background: --accent--; color: --accentText--; }
+  .modulex-sayac-doner-vitrin-cip-no { font-family: var(--mx-font-mono, ui-monospace, monospace); font-size: 0.75rem; font-weight: 800; }
+  @media (max-width: 768px) {
+    .modulex-sayac-doner-vitrin--vjs .modulex-sayac-doner-vitrin-sahne { --rk: 0.62; height: 370px; }
+    .modulex-sayac-doner-vitrin--vjs .modulex-sayac-doner-vitrin-tas { inset-inline-start: calc(50% - 110px); width: 220px; }
+    .modulex-sayac-doner-vitrin-cip { padding-inline: 12px; font-size: 0.82rem; }
+  }
+
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-sayac-doner-vitrin :is(.modulex-sayac-doner-vitrin-baslik, .modulex-sayac-doner-vitrin-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-sayac-doner-vitrin-baslik { line-height: 1.35; }
+  @media (max-width: 768px) {
+    .modulex-sayac-doner-vitrin { padding-inline: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-sayac-doner-vitrin *, .modulex-sayac-doner-vitrin *::before, .modulex-sayac-doner-vitrin *::after { animation: none !important; transition: none !important; }
+  }
+</style>
+<script>
+  (() => {
+    const P = "modulex-sayac-doner-vitrin";
+    const az = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+    const sayac = (s, P, az) => {
+        const el = [...s.querySelectorAll("[data-hedef]")];
+        if (!el.length || az || !("IntersectionObserver" in window)) return;
+        const dl = document.documentElement.lang || undefined;
+        const oynat = () => el.forEach((e) => {
+          const h = Number(e.dataset.hedef);
+          const od = Number(e.dataset.ondalik) || 0;
+          const son = e.textContent;
+          if (!Number.isFinite(h)) return;
+          let f;
+          try { f = new Intl.NumberFormat(dl, { minimumFractionDigits: od, maximumFractionDigits: od }); } catch (x) { return; }
+          const t0 = performance.now();
+          const adim = (t) => {
+            const p = Math.min(1, (t - t0) / 1300);
+            e.textContent = p < 1 ? f.format(h * (1 - Math.pow(1 - p, 3))) : son;
+            if (p < 1) requestAnimationFrame(adim);
+          };
+          requestAnimationFrame(adim);
+        });
+        const io = new IntersectionObserver((gs) => {
+          gs.forEach((g) => { if (g.isIntersecting) { oynat(); io.disconnect(); } });
+        }, { threshold: 0.3 });
+        io.observe(s);
+      };
+    const vitrin = (s, P) => {
+        const tb = s.querySelector("[data-vitrin-tabla]");
+        const d = s.querySelector("[data-vitrin-denetim]");
+        const t = tb ? [...tb.querySelectorAll("[data-vitrin-tas]")] : [];
+        if (t.length < 2 || !d) return;
+        const sec = [...d.querySelectorAll("[data-vitrin-sec]")];
+        const ok = [...d.querySelectorAll("[data-vitrin-git]")];
+        const konum = d.querySelector("[data-vitrin-no]");
+        const n = t.length;
+        const mod = (v) => ((v % n) + n) % n;
+        const ad = (j) => { const e = t[j].querySelector("[data-vitrin-ad]"); return e ? e.textContent.trim() : String(j + 1); };
+        const iki = (v) => String(v).padStart(2, "0");
+        let adim = 0;
+        s.classList.add(P + "--vjs");
+        d.hidden = false;
+        const kur = (yeni) => {
+          adim = mod(yeni);
+          const i = adim;
+          tb.style.setProperty("--adim", String(adim));
+          t.forEach((x, j) => { const on = j === i; x.classList.toggle(P + "-tas--on", on); x.inert = !on; x.setAttribute("aria-hidden", String(!on)); });
+          if (konum) konum.textContent = `${iki(i + 1)} / ${iki(n)}`;
+          ok.forEach((b) => b.setAttribute("aria-label", ad(mod(i + Number(b.dataset.vitrinGit)))));
+          sec.forEach((b, j) => b.setAttribute("aria-pressed", String(j === i)));
+        };
+        ok.forEach((b) => b.addEventListener("click", () => kur(adim + Number(b.dataset.vitrinGit))));
+        sec.forEach((b, j) => b.addEventListener("click", () => kur(j)));
+        d.addEventListener("keydown", (e) => {
+          const rtl = getComputedStyle(s).direction === "rtl";
+          if (e.key === (rtl ? "ArrowLeft" : "ArrowRight")) { e.preventDefault(); kur(adim + 1); }
+          else if (e.key === (rtl ? "ArrowRight" : "ArrowLeft")) { e.preventDefault(); kur(adim - 1); }
+        });
+        kur(0);
+      };
+    document.querySelectorAll("." + P).forEach((s) => {
+      if (s.dataset.fbHazir) return;
+      s.dataset.fbHazir = "1";
+      sayac(s, P, az);
+      vitrin(s, P, az);
+    });
+  })();
+</script>

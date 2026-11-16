@@ -1,0 +1,135 @@
+<section class="modulex-referans-sektor-sayac{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-referans-sektor-sayac-ic">
+    {{fbbas}}
+    {{fbgovde}}
+  </div>
+</section>
+
+<style>
+  /* referans-sektor-sayac — referans-sekme-sektor sektöre göre panel değiştirir, referans-sayi-duvar sabit tek sayı basar; bu modül tüm duvarı yerinde tutup seçilmeyenleri söndürür ve sayacı sektör adedine yeniden saydırır — paylı çubuk lejantı + vurgu panosu iskeleti ailede yok. */
+  .modulex-referans-sektor-sayac { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --text--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-referans-sektor-sayac *, .modulex-referans-sektor-sayac *::before, .modulex-referans-sektor-sayac *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-referans-sektor-sayac :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-referans-sektor-sayac :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-referans-sektor-sayac :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-referans-sektor-sayac :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-referans-sektor-sayac img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-referans-sektor-sayac) img { height: auto; }
+  .modulex-referans-sektor-sayac [hidden] { display: none !important; }
+  .modulex-referans-sektor-sayac :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-referans-sektor-sayac :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-referans-sektor-sayac-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-referans-sektor-sayac-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-referans-sektor-sayac--bassiz .modulex-referans-sektor-sayac-bas { display: none; }
+  .modulex-referans-sektor-sayac-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-referans-sektor-sayac-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-referans-sektor-sayac-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-referans-sektor-sayac-bas { max-width: 780px; margin-inline: auto; text-align: center; justify-items: center; }
+  .modulex-referans-sektor-sayac-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-referans-sektor-sayac-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-referans-sektor-sayac-dugme:hover { transform: translateY(-2px); }
+  .modulex-referans-sektor-sayac-dugme--ikincil { background: transparent; color: --text--; border-color: --cizgi--; }
+  .modulex-referans-sektor-sayac-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-referans-sektor-sayac-dugme .material-symbols-outlined { font-size: 20px; }
+
+  .modulex-referans-sektor-sayac-duzen { display: grid; grid-template-columns: minmax(240px, 0.75fr) minmax(0, 2fr); gap: clamp(24px, 4vw, 56px); align-items: start; }
+  .modulex-referans-sektor-sayac-yan { position: sticky; inset-block-start: 96px; display: grid; gap: 20px; padding: 26px; border-radius: --yuvarlak--; background: --vurguBg--; color: --vurguText--; }
+  .modulex-referans-sektor-sayac-sayac { display: grid; gap: 4px; }
+  .modulex-referans-sektor-sayac-rakam { font-size: clamp(3.2rem, 7vw, 5.2rem); font-weight: 850; line-height: 0.95; letter-spacing: -0.05em; font-variant-numeric: tabular-nums; }
+  .modulex-referans-sektor-sayac-retiket { font-size: 0.85rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; }
+  .modulex-referans-sektor-sayac-retiket:empty { display: none; }
+  .modulex-referans-sektor-sayac-sektorler { display: grid; gap: 4px; padding-block-start: 16px; border-block-start: 1px solid color-mix(in srgb, --vurguText-- 30%, transparent); }
+  .modulex-referans-sektor-sayac-sek { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px 10px; align-items: center; width: 100%; padding: 8px 10px; border: 0; border-radius: 10px; background: transparent; color: inherit; font: inherit; text-align: start; transition: box-shadow 0.25s ease; }
+  .modulex-referans-sektor-sayac-sek:hover { box-shadow: inset 0 0 0 1px color-mix(in srgb, currentColor 45%, transparent); }
+  .modulex-referans-sektor-sayac-sek[aria-pressed="true"] { box-shadow: inset 0 0 0 2px currentColor; }
+  .modulex-referans-sektor-sayac:not(.modulex-referans-sektor-sayac--sjs) .modulex-referans-sektor-sayac-sek { cursor: default; }
+  .modulex-referans-sektor-sayac-sad { font-weight: 650; }
+  .modulex-referans-sektor-sayac-sn { font-weight: 800; font-variant-numeric: tabular-nums; }
+  .modulex-referans-sektor-sayac-pay { grid-column: 1 / -1; height: 4px; overflow: hidden; border-radius: 4px; background: color-mix(in srgb, currentColor 22%, transparent); }
+  .modulex-referans-sektor-sayac-pay::before { content: ""; display: block; width: calc(var(--pay) * 100%); height: 100%; border-radius: inherit; background: currentColor; transition: width 0.6s ease; }
+  .modulex-referans-sektor-sayac-duvar { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+  .modulex-referans-sektor-sayac-hucre > *, .modulex-referans-sektor-sayac-hucre > .modulex-referans-sektor-sayac-bag { display: grid; place-items: center; align-content: center; gap: 8px; min-height: 120px; padding: 18px 12px; border: 1px solid --cizgi--; border-radius: calc(--yuvarlak-- * 0.6); background: --kartBg--; text-align: center; transition: opacity 0.4s ease, filter 0.4s ease, transform 0.4s ease, border-color 0.4s ease; }
+  .modulex-referans-sektor-sayac-hucre:hover > * { border-color: --accent--; }
+  .modulex-referans-sektor-sayac-hucre--soluk > * { opacity: 0.3; filter: grayscale(1); transform: scale(0.95); }
+  .modulex-referans-sektor-sayac-hucre--parlak > * { border-color: --accent--; box-shadow: 0 14px 26px -22px color-mix(in srgb, --text-- 60%, transparent); }
+  .modulex-referans-sektor-sayac-hucre--parlak .modulex-referans-sektor-sayac-logo { filter: none; }
+  .modulex-referans-sektor-sayac-hsek { color: --muted--; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }
+  .modulex-referans-sektor-sayac-kelime { font-size: 1rem; }
+  @media (max-width: 1024px) {
+    .modulex-referans-sektor-sayac-duzen { grid-template-columns: minmax(0, 1fr); }
+    .modulex-referans-sektor-sayac-yan { position: static; }
+    .modulex-referans-sektor-sayac-duvar { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  }
+  @media (max-width: 768px) {
+    .modulex-referans-sektor-sayac-duvar { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .modulex-referans-sektor-sayac-sektorler { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .modulex-referans-sektor-sayac-hucre > *, .modulex-referans-sektor-sayac-hucre > .modulex-referans-sektor-sayac-bag { min-height: 100px; }
+  }
+  .modulex-referans-sektor-sayac-logo { display: block; width: auto; max-width: 100%; height: clamp(32px, 4vw, 48px); object-fit: contain; filter: grayscale(1); transition: filter 0.3s ease, transform 0.3s ease; }
+  .modulex-referans-sektor-sayac-kelime { display: inline-block; color: --text--; font-family: var(--mx-font-heading, inherit); font-weight: 800; letter-spacing: -0.02em; line-height: 1.15; transition: color 0.3s ease; }
+  .modulex-referans-sektor-sayac-bag { color: inherit; text-decoration: none; }
+  .modulex-referans-sektor-sayac-sektor { color: --accentInk--; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; }
+  .modulex-referans-sektor-sayac-kmetin { color: --muted--; font-size: 0.95rem; line-height: 1.65; }
+  .modulex-referans-sektor-sayac-yil { color: --muted--; font-size: 0.85rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .modulex-referans-sektor-sayac-harf img { width: 100%; height: 100%; object-fit: contain; }
+
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-referans-sektor-sayac :is(.modulex-referans-sektor-sayac-baslik, .modulex-referans-sektor-sayac-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-referans-sektor-sayac-baslik { line-height: 1.35; }
+  @media (max-width: 768px) {
+    .modulex-referans-sektor-sayac { padding-inline: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-referans-sektor-sayac *, .modulex-referans-sektor-sayac *::before, .modulex-referans-sektor-sayac *::after { animation: none !important; transition: none !important; }
+  }
+</style>
+<script>
+  (() => {
+    const P = "modulex-referans-sektor-sayac";
+    const az = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+    const sektorSayac = (s, P, az) => {
+        const b = [...s.querySelectorAll("[data-ss]")];
+        if (!b.length) return;
+        s.classList.add(P + "--sjs");
+        const rakam = s.querySelector("[data-ss-rakam]");
+        const etk = s.querySelector("[data-ss-etiket]");
+        const hucre = [...s.querySelectorAll("[data-ss-sek]")];
+        let nf = null;
+        try { nf = new Intl.NumberFormat(document.documentElement.lang || undefined); } catch (x) { nf = null; }
+        const yaz = (n) => { if (rakam) rakam.textContent = nf ? nf.format(n) : String(n); };
+        let simdi = hucre.length;
+        let rf = 0;
+        const say = (hedef) => {
+          cancelAnimationFrame(rf);
+          if (az) { simdi = hedef; yaz(hedef); return; }
+          const bas = simdi;
+          const t0 = performance.now();
+          const adim = (t) => {
+            const p = Math.min(1, (t - t0) / 650);
+            simdi = Math.round(bas + (hedef - bas) * (1 - Math.pow(1 - p, 3)));
+            yaz(simdi);
+            if (p < 1) rf = requestAnimationFrame(adim);
+          };
+          rf = requestAnimationFrame(adim);
+        };
+        b.forEach((x) => x.addEventListener("click", () => {
+          const v = x.dataset.ss;
+          b.forEach((y) => y.setAttribute("aria-pressed", String(y === x)));
+          hucre.forEach((h) => {
+            const es = !v || h.dataset.ssSek === v;
+            h.classList.toggle(P + "-hucre--soluk", !es);
+            h.classList.toggle(P + "-hucre--parlak", !!v && es);
+          });
+          if (etk) { const ad = x.querySelector("." + P + "-sad"); etk.textContent = v && ad ? ad.textContent : etk.dataset.ssTum || ""; }
+          say(Number(x.dataset.ssN) || 0);
+        }));
+      };
+    document.querySelectorAll("." + P).forEach((s) => {
+      if (s.dataset.fbHazir) return;
+      s.dataset.fbHazir = "1";
+      sektorSayac(s, P, az);
+    });
+  })();
+</script>

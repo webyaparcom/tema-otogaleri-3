@@ -1,0 +1,111 @@
+<section class="modulex-cagri-takip-no{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-cagri-takip-no-ic">
+    {{fbbas}}
+    {{fbgovde}}
+  </div>
+</section>
+
+<style>
+  /* cagri-takip-no — Ailede ziyaretçiden veri alan çağrı yok; bu modül çağrıyı arama kutusuna çevirir (takip numarası → taşıyıcı sayfası) ve aşama şeridiyle süreci gösterir — cagri-adimlar'ın numaralı adımları yerine hareketli taşıma çizgisi. */
+  .modulex-cagri-takip-no { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --yaziRenk--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-cagri-takip-no *, .modulex-cagri-takip-no *::before, .modulex-cagri-takip-no *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-cagri-takip-no :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-cagri-takip-no :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-cagri-takip-no :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-cagri-takip-no :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-cagri-takip-no img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-cagri-takip-no) img { height: auto; }
+  .modulex-cagri-takip-no [hidden] { display: none !important; }
+  .modulex-cagri-takip-no :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-cagri-takip-no :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-cagri-takip-no-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-cagri-takip-no-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-cagri-takip-no--bassiz .modulex-cagri-takip-no-bas { display: none; }
+  .modulex-cagri-takip-no-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-cagri-takip-no-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-cagri-takip-no-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-cagri-takip-no-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-cagri-takip-no-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-cagri-takip-no-dugme:hover { transform: translateY(-2px); }
+  .modulex-cagri-takip-no-dugme--ikincil { background: transparent; color: --yaziRenk--; border-color: --cizgi--; }
+  .modulex-cagri-takip-no-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-cagri-takip-no-dugme .material-symbols-outlined { font-size: 20px; }
+
+  .modulex-cagri-takip-no-etiket-kart { position: relative; overflow: hidden; border: 2px solid --yaziRenk--; border-radius: --yuvarlak--; background: --kartBg--; }
+  .modulex-cagri-takip-no-ust-serit { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px; padding: 14px clamp(18px, 3vw, 32px); border-block-end: 2px dashed --cizgi--; }
+  .modulex-cagri-takip-no-barkod { order: 2; width: clamp(120px, 22vw, 220px); height: 34px; background: repeating-linear-gradient(90deg, --yaziRenk-- 0 2px, transparent 2px 4px, --yaziRenk-- 4px 7px, transparent 7px 9px, --yaziRenk-- 9px 10px, transparent 10px 13px); }
+  .modulex-cagri-takip-no-govde { display: grid; gap: 14px; padding: clamp(22px, 4vw, 40px) clamp(18px, 3vw, 32px); }
+  .modulex-cagri-takip-no-sorgu { display: grid; gap: 8px; max-width: 640px; margin-block-start: 6px; }
+  .modulex-cagri-takip-no-setiket { font-size: 0.85rem; font-weight: 700; }
+  .modulex-cagri-takip-no-skutu { display: flex; align-items: center; gap: 8px; padding: 6px; padding-inline-start: 14px; border: 2px solid --cizgi--; border-radius: 14px; background: --bg--; transition: border-color 0.25s ease, box-shadow 0.25s ease; }
+  .modulex-cagri-takip-no-skutu:focus-within { border-color: --accent--; box-shadow: 0 0 0 4px color-mix(in srgb, --accent-- 20%, transparent); }
+  .modulex-cagri-takip-no-sikon { color: --accentInk--; font-size: 24px; }
+  .modulex-cagri-takip-no-sgirdi { flex: 1; min-width: 0; min-height: 44px; border: 0; background: transparent; color: --yaziRenk--; font: inherit; font-size: 1.1rem; font-weight: 600; letter-spacing: 0.06em; font-variant-numeric: tabular-nums; }
+  .modulex-cagri-takip-no-sgirdi:focus { outline: none; }
+  .modulex-cagri-takip-no-sgirdi::placeholder { color: --muted--; letter-spacing: 0.02em; }
+  .modulex-cagri-takip-no-sdugme { display: inline-flex; align-items: center; gap: 6px; flex: none; min-height: 44px; padding: 8px 16px; border: 0; border-radius: 10px; background: --accent--; color: --accentText--; font: inherit; font-weight: 750; transition: filter 0.25s ease; }
+  .modulex-cagri-takip-no-sdugme:hover { filter: brightness(1.08); }
+  .modulex-cagri-takip-no-hat { position: relative; padding: 46px clamp(18px, 3vw, 32px) 20px; border-block-start: 1px solid --cizgi--; }
+  .modulex-cagri-takip-no-kamyon { position: absolute; inset-block-start: 12px; inset-inline-start: clamp(18px, 3vw, 32px); color: --accentInk--; font-size: 28px; animation: modulex-cagri-takip-no-git 9s ease-in-out infinite; }
+  .modulex-cagri-takip-no-duraklar { position: relative; display: grid; grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); gap: 12px; list-style: none; }
+  .modulex-cagri-takip-no-duraklar::before { content: ""; position: absolute; inset-block-start: 14px; inset-inline: 14px; height: 2px; background: repeating-linear-gradient(90deg, --accent-- 0 8px, transparent 8px 14px); }
+  .modulex-cagri-takip-no-durak { position: relative; display: grid; justify-items: start; gap: 6px; font-size: 0.9rem; font-weight: 600; }
+  .modulex-cagri-takip-no-dikon { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: --kartBg--; box-shadow: 0 0 0 2px --accent--; color: --accentInk--; font-size: 18px; }
+  .modulex-cagri-takip-no-alt { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px; padding: 18px clamp(18px, 3vw, 32px) clamp(20px, 3vw, 28px); }
+  .modulex-cagri-takip-no-alt .modulex-cagri-takip-no-cta { margin: 0; }
+  @keyframes modulex-cagri-takip-no-git { 0% { inset-inline-start: clamp(18px, 3vw, 32px); } 50%, 60% { inset-inline-start: calc(100% - 60px); } 100% { inset-inline-start: clamp(18px, 3vw, 32px); } }
+  @media (max-width: 768px) {
+    .modulex-cagri-takip-no-duraklar { grid-auto-flow: row; }
+    .modulex-cagri-takip-no-duraklar::before { inset-block: 14px; inset-inline: 14px auto; width: 2px; height: auto; background: repeating-linear-gradient(180deg, --accent-- 0 8px, transparent 8px 14px); }
+    .modulex-cagri-takip-no-durak { grid-template-columns: auto minmax(0, 1fr); align-items: center; }
+    .modulex-cagri-takip-no-hat { padding-block-start: 20px; }
+    .modulex-cagri-takip-no-kamyon { display: none; }
+    .modulex-cagri-takip-no-sdugme span:not(.material-symbols-outlined) { display: none; }
+  }
+  .modulex-cagri-takip-no-wasvg { width: 1.25em; height: 1.25em; flex: none; }
+  .modulex-cagri-takip-no-maddeler { display: grid; gap: 12px; }
+  .modulex-cagri-takip-no-madde { display: flex; align-items: flex-start; gap: 12px; }
+  .modulex-cagri-takip-no-mikon { flex: none; color: --accentInk--; font-size: 24px; }
+  .modulex-cagri-takip-no-myazi { display: grid; gap: 2px; }
+  .modulex-cagri-takip-no-myazi strong { font-weight: 700; }
+  .modulex-cagri-takip-no-myazi small { color: --muted--; font-size: 0.92rem; }
+  .modulex-cagri-takip-no-not { color: --muted--; font-size: 0.9rem; }
+  .modulex-cagri-takip-no-saat { display: flex; align-items: center; gap: 8px; color: --muted--; font-size: 0.95rem; }
+  .modulex-cagri-takip-no-saat .material-symbols-outlined { font-size: 20px; color: --accentInk--; }
+  .modulex-cagri-takip-no-metin { max-width: 62ch; }
+
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-cagri-takip-no :is(.modulex-cagri-takip-no-baslik, .modulex-cagri-takip-no-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-cagri-takip-no-baslik { line-height: 1.35; }
+  @media (max-width: 768px) {
+    .modulex-cagri-takip-no { padding-inline: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-cagri-takip-no *, .modulex-cagri-takip-no *::before, .modulex-cagri-takip-no *::after { animation: none !important; transition: none !important; }
+  }
+</style>
+<script>
+  (() => {
+    const P = "modulex-cagri-takip-no";
+    const az = !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+    const takip = (s) => {
+        s.querySelectorAll("form[data-takip]").forEach((f) => {
+          const g = f.querySelector("input:not([type=hidden])");
+          f.addEventListener("submit", (e) => {
+            if (!g) return;
+            g.value = g.value.replace(/\s+/g, "");
+            if (!g.value) { e.preventDefault(); g.reportValidity(); return; }
+            const sb = f.dataset.takip || "";
+            if (sb.includes("{no}")) { e.preventDefault(); location.href = sb.split("{no}").join(encodeURIComponent(g.value)); }
+          });
+        });
+      };
+    document.querySelectorAll("." + P).forEach((s) => {
+      if (s.dataset.fbHazir) return;
+      s.dataset.fbHazir = "1";
+      takip(s, P, az);
+    });
+  })();
+</script>

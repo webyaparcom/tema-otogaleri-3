@@ -1,0 +1,46 @@
+{
+  "id": "kalitepolitikamiz",
+  "name": {
+    "tr": "Kalite Politikamız",
+    "en": "Quality Policy",
+    "ar": "سياسة الجودة"
+  },
+  "description": {
+    "tr": "Kalite politikamız",
+    "en": "Our quality policy",
+    "ar": "سياسة الجودة لدينا"
+  },
+  "keyword": {
+    "tr": "Kalite Politikamız",
+    "en": "quality policy, quality, continuous improvement",
+    "ar": "سياسة الجودة, الجودة, التحسين المستمر"
+  },
+  "path": "kalitepolitikamiz",
+  "icon": "verified",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "index": 2,
+  "url": "",
+  "text": {
+    "tr": "<h2>Kalite Politikamız</h2>\n<p>Her araçta yetki belgesi no, unvan ve bağımsız ekspertiz raporu; km ve hasar beyanı rapora dayanır.</p>",
+    "en": "<h2>Our quality policy</h2>\n<p>Authorisation number, trade name and an independent inspection report on every car; mileage and damage statements rely on the report.</p>",
+    "ar": "<h2>سياسة الجودة لدينا</h2>\n<p>رقم التفويض والاسم التجاري وتقرير فحص مستقل لكل سيارة، وتستند بيانات المسافة والأضرار إلى التقرير.</p>"
+  },
+  "title": {
+    "tr": "Kalite Politikamız",
+    "en": "Quality Policy",
+    "ar": "سياسة الجودة"
+  },
+  "date": "2026-11-16T16:05:23.148Z",
+  "update": "2026-11-16T16:24:43.897Z",
+  "sablonIzi": "acedf6b7c400faec",
+  "sablonIziDil": {
+    "en": "587042c99dce90ca",
+    "ar": "a5348f544603b25e"
+  }
+}

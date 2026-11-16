@@ -1,0 +1,47 @@
+{
+  "name": {
+    "tr": "Galeri",
+    "en": "Showroom",
+    "ar": "المعرض"
+  },
+  "status": "play",
+  "category": "",
+  "id": "hakkimizda",
+  "url": "",
+  "path": "hakkimizda",
+  "index": 0,
+  "icon": "info",
+  "desing": {
+    "header": [],
+    "body": [
+      "8ie85l",
+      "w0vu2o"
+    ],
+    "footer": []
+  },
+  "pathnext": "",
+  "description": {
+    "tr": "Galeri rakamları ve teslim dağılımı (kurgusal).",
+    "en": "Showroom figures and handover breakdown (fictional).",
+    "ar": "أرقام المعرض وتوزيع التسليمات (افتراضية)."
+  },
+  "spot": {
+    "tr": "",
+    "en": "",
+    "ar": ""
+  },
+  "desc": {},
+  "title": {
+    "tr": "Galeri",
+    "en": "Showroom",
+    "ar": "المعرض"
+  },
+  "keyword": {
+    "tr": "hakkımızda",
+    "en": "about",
+    "ar": "من نحن"
+  },
+  "text": {},
+  "update": "2026-11-16T16:24:43.873Z",
+  "date": "2026-10-30"
+}

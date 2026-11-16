@@ -1,0 +1,40 @@
+{
+  "id": "8379pr1jg0",
+  "name": {
+    "tr": "Teslimler",
+    "en": "Handovers",
+    "ar": "التسليمات"
+  },
+  "description": {
+    "tr": "Kimlere araç teslim ettik (kurgusal).",
+    "en": "Who we handed cars to (fictional).",
+    "ar": "لمن سلّمنا السيارات (افتراضي)."
+  },
+  "keyword": {
+    "tr": "referans, müşteri yorumu",
+    "en": "reference, review",
+    "ar": "مرجع، تقييم"
+  },
+  "path": "referanslar",
+  "icon": "stars",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "w0vu2o",
+      "9d3li7"
+    ],
+    "footer": []
+  },
+  "index": 2,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Teslimler",
+    "en": "Handovers",
+    "ar": "التسليمات"
+  },
+  "date": "2026-11-16T16:05:23.280Z",
+  "update": "2026-11-16T16:24:43.884Z"
+}

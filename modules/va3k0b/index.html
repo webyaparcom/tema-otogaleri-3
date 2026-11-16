@@ -1,0 +1,89 @@
+<header class="modulex-ust-etiket-bulut{{fbsinif}}" {{fbetiket}}>
+  <div class="modulex-ust-etiket-bulut-ic">
+    {{fbbas}}
+    {{fbgovde}}
+  </div>
+</header>
+
+<style>
+  /* ust-etiket-bulut — Düzenli satır yerine ritmi bozuk, oyunbaz bir etiket bulutu: gençlik, sahne ve topluluk siteleri için hareketli, afiş gibi bir gezinme. */
+  .modulex-ust-etiket-bulut { box-sizing: border-box; width: 100%; padding: --bosluk-- 20px; background: --bg--; color: --text--; font-size: 1rem; line-height: 1.6; font-family: var(--mx-font-sans, inherit); overflow-wrap: break-word; }
+  .modulex-ust-etiket-bulut *, .modulex-ust-etiket-bulut *::before, .modulex-ust-etiket-bulut *::after { box-sizing: border-box; }
+  /* ham/css.css «* { font-size: 14px }» kalıtımı keser — modül içinde boyut üstten gelsin (ikon yazı tipi hariç) */
+  .modulex-ust-etiket-bulut :where(*:not(.material-symbols-outlined)) { font-size: inherit; }
+  /* aynı «*» kuralı font-weight 400 · line-height 1.2 · font-family de basar — modül içinde kalıtım */
+  .modulex-ust-etiket-bulut :where(*:not(.material-symbols-outlined)) { font-weight: inherit; line-height: inherit; font-family: inherit; }
+  .modulex-ust-etiket-bulut :where(h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd) { margin: 0; }
+  .modulex-ust-etiket-bulut :where(ul, ol) { padding: 0; list-style: none; }
+  .modulex-ust-etiket-bulut img { display: block; max-width: 100%; }
+  /* <img width height> öznitelik yüksekliği CSS aspect-ratio'yu ezer — sıfır özgüllükle auto (modül sınıfının height'ı yine kazanır) */
+  :where(.modulex-ust-etiket-bulut) img { height: auto; }
+  .modulex-ust-etiket-bulut [hidden] { display: none !important; }
+  .modulex-ust-etiket-bulut :where(a, button, summary, [data-cevir]) { cursor: pointer; }
+  .modulex-ust-etiket-bulut :where(a, button, summary, [tabindex]):focus-visible { outline: 3px solid --accent--; outline-offset: 3px; }
+  .modulex-ust-etiket-bulut-ic { max-width: --max--; margin-inline: auto; }
+  .modulex-ust-etiket-bulut-bas { display: grid; gap: 12px; margin-block-end: clamp(32px, 4vw, 52px); }
+  .modulex-ust-etiket-bulut--bassiz .modulex-ust-etiket-bulut-bas { display: none; }
+  .modulex-ust-etiket-bulut-ust { color: --accentInk--; font-size: 0.8rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; }
+  .modulex-ust-etiket-bulut-baslik { font-family: var(--mx-font-heading, inherit); font-size: clamp(1.8rem, 3.4vw, 2.8rem); font-weight: 750; letter-spacing: -0.025em; line-height: 1.1; }
+  .modulex-ust-etiket-bulut-metin { color: --muted--; font-size: 1.05rem; line-height: 1.7; }
+  .modulex-ust-etiket-bulut-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 8px; }
+  .modulex-ust-etiket-bulut-dugme { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 2px solid --accent--; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease; }
+  .modulex-ust-etiket-bulut-dugme:hover { transform: translateY(-2px); }
+  .modulex-ust-etiket-bulut-dugme--ikincil { background: transparent; color: --text--; border-color: --cizgi--; }
+  .modulex-ust-etiket-bulut-dugme--ikincil:hover { border-color: --accent--; }
+  .modulex-ust-etiket-bulut-dugme .material-symbols-outlined { font-size: 20px; }
+
+  .modulex-ust-etiket-bulut { position: relative; z-index: 900; }
+  .modulex-ust-etiket-bulut-logo { display: inline-flex; flex: 0 1 auto; min-width: 0; align-items: center; color: inherit; text-decoration: none; }
+  /* dar ekranda geniş logo/uzun ad çubuğu taşırmasın: logo daralır (img max-width 100%), ad sarar */
+  .modulex-ust-etiket-bulut-logo img { width: auto; max-height: --logoH--; }
+  .modulex-ust-etiket-bulut-ad { font-family: var(--mx-font-heading, inherit); font-size: 1.3rem; font-weight: 800; letter-spacing: -0.02em; line-height: 1.1; }
+  .modulex-ust-etiket-bulut-oge { position: relative; display: inline-flex; align-items: center; min-height: 44px; color: inherit; font-weight: 600; text-decoration: none; transition: color 0.2s ease, background 0.2s ease; }
+  .modulex-ust-etiket-bulut-oge:hover, .modulex-ust-etiket-bulut-oge[aria-current="page"] { color: --accentInk--; }
+  .modulex-ust-etiket-bulut-cta { display: inline-flex; flex: none; align-items: center; gap: 6px; min-height: 44px; padding: 8px 18px; border-radius: 999px; background: --accent--; color: --accentText--; font-weight: 700; text-decoration: none; white-space: nowrap; transition: transform 0.2s ease, box-shadow 0.2s ease; }
+  .modulex-ust-etiket-bulut-cta:hover { transform: translateY(-2px); box-shadow: 0 10px 20px -12px --accent--; }
+  .modulex-ust-etiket-bulut-cta .material-symbols-outlined, .modulex-ust-etiket-bulut-tel .material-symbols-outlined, .modulex-ust-etiket-bulut-posta .material-symbols-outlined { font-size: 18px; }
+  .modulex-ust-etiket-bulut-tel, .modulex-ust-etiket-bulut-posta { display: inline-flex; align-items: center; gap: 6px; color: inherit; text-decoration: none; white-space: nowrap; }
+  .modulex-ust-etiket-bulut-tel:hover, .modulex-ust-etiket-bulut-posta:hover { color: --accentInk--; }
+  .modulex-ust-etiket-bulut-dil:empty { display: none; }
+  .modulex-ust-etiket-bulut-ac { display: none; align-items: center; gap: 10px; min-width: 46px; min-height: 46px; padding: 0 12px; border: 1px solid --cizgi--; border-radius: 999px; background: transparent; color: inherit; font: inherit; font-weight: 700; }
+  .modulex-ust-etiket-bulut-ac-ikon { display: grid; gap: 4px; width: 20px; }
+  .modulex-ust-etiket-bulut-ac-ikon span { display: block; height: 2px; border-radius: 2px; background: currentColor; transition: transform 0.3s ease, opacity 0.3s ease; }
+  .modulex-ust-etiket-bulut--acik .modulex-ust-etiket-bulut-ac-ikon span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+  .modulex-ust-etiket-bulut--acik .modulex-ust-etiket-bulut-ac-ikon span:nth-child(2) { opacity: 0; }
+  .modulex-ust-etiket-bulut--acik .modulex-ust-etiket-bulut-ac-ikon span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+  .modulex-ust-etiket-bulut-kapat { display: inline-grid; place-items: center; width: 46px; height: 46px; border: 1px solid --cizgi--; border-radius: 50%; background: transparent; color: inherit; }
+  .modulex-ust-etiket-bulut-perde { position: fixed; inset: 0; z-index: 1; background: color-mix(in srgb, --text-- 45%, transparent); animation: modulex-ust-etiket-bulut-sol 0.3s ease both; }
+  @keyframes modulex-ust-etiket-bulut-sol { from { opacity: 0; } to { opacity: 1; } }
+
+  .modulex-ust-etiket-bulut-cubuk { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px; padding-block: 16px 6px; }
+  .modulex-ust-etiket-bulut-uc { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 12px; }
+  .modulex-ust-etiket-bulut-cubuk > .modulex-ust-etiket-bulut-logo { padding: 6px 12px; border-radius: 12px; background-color: --text--; color: --bg--; }
+  .modulex-ust-etiket-bulut-nav { padding-block: 8px 20px; }
+  .modulex-ust-etiket-bulut-bulut { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; }
+  .modulex-ust-etiket-bulut-etiket { display: inline-flex; align-items: center; gap: 2px; min-height: 40px; padding: 4px 14px; border-radius: 999px; background-color: --kartBg--; color: inherit; font-weight: 600; text-decoration: none; transform: rotate(var(--egim, 0deg)); transition: transform 0.25s ease, background-color 0.25s ease, color 0.25s ease; }
+  .modulex-ust-etiket-bulut-etiket::before { content: "#"; color: --accentInk--; font-weight: 800; transition: color 0.25s ease; }
+  .modulex-ust-etiket-bulut-bulut > li:nth-child(even) .modulex-ust-etiket-bulut-etiket { background-color: transparent; box-shadow: inset 0 0 0 1px --cizgi--; }
+  .modulex-ust-etiket-bulut-bulut > li:nth-child(3n + 1) .modulex-ust-etiket-bulut-etiket { font-size: 1.15rem; font-weight: 800; }
+  .modulex-ust-etiket-bulut-bulut > li:nth-child(4n + 2) .modulex-ust-etiket-bulut-etiket { --egim: -2deg; font-size: 0.92rem; }
+  .modulex-ust-etiket-bulut-bulut > li:nth-child(5n + 3) .modulex-ust-etiket-bulut-etiket { --egim: 1.5deg; font-family: var(--mx-font-heading, inherit); font-size: 1.3rem; }
+  .modulex-ust-etiket-bulut-etiket:hover { background-color: --accent--; color: --accentText--; transform: rotate(0deg) scale(1.06); }
+  .modulex-ust-etiket-bulut-etiket:hover::before, .modulex-ust-etiket-bulut-etiket[aria-current="page"]::before { color: inherit; }
+  .modulex-ust-etiket-bulut-etiket[aria-current="page"] { background-color: --text--; color: --bg--; }
+  @media (max-width: 768px) {
+    .modulex-ust-etiket-bulut-bulut { gap: 6px; }
+    .modulex-ust-etiket-bulut-etiket { min-height: 36px; padding-inline: 12px; }
+    .modulex-ust-etiket-bulut-bulut > li:nth-child(3n + 1) .modulex-ust-etiket-bulut-etiket, .modulex-ust-etiket-bulut-bulut > li:nth-child(5n + 3) .modulex-ust-etiket-bulut-etiket { font-size: 1.05rem; }
+    .modulex-ust-etiket-bulut-uc .modulex-ust-etiket-bulut-cta { min-height: 40px; padding-inline: 14px; font-size: 0.9rem; }
+  }
+
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-ust-etiket-bulut :is(.modulex-ust-etiket-bulut-baslik, .modulex-ust-etiket-bulut-ust, h3, h4, strong) { letter-spacing: 0; }
+  :is([lang="ar"], [lang="fa"], [lang="he"], [lang="ur"]) .modulex-ust-etiket-bulut-baslik { line-height: 1.35; }
+  @media (max-width: 768px) {
+    .modulex-ust-etiket-bulut { padding-inline: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .modulex-ust-etiket-bulut *, .modulex-ust-etiket-bulut *::before, .modulex-ust-etiket-bulut *::after { animation: none !important; transition: none !important; }
+  }
+</style>

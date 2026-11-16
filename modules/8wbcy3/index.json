@@ -1,0 +1,57 @@
+{
+  "name": "Kayan Sekme Şeridi — başlıklı sekmeler ve dolan süre çizgisi",
+  "description": "Tam genişlik görsel slaytlar arasında yumuşak geçiş; altta her slaytın başlığını taşıyan sekme şeridi, etkin sekmede otomatik geçiş süresi kadar dolan çizgi. Metin görselin üstünde koyu panelde. Noktalar yerine slayt başlıkları okunur (ne geleceği görünür) ve geçişe kalan süre çizgide izlenir; Ken Burns yakınlaşması yok, panelli okunur metin. Erişilebilir carousel (aria-roledescription, aria-live, inert), otomatik geçiş reduced-motion'da kapalı, duraklat düğmesi. Renkler desing + var(--mx-site-*); mantıksal CSS → RTL.",
+  "version": "1.0.0",
+  "icon": "tab",
+  "category": "slider",
+  "subCategory": "tab-progress",
+  "tags": [
+    "slider",
+    "tabs",
+    "progress",
+    "fullwidth",
+    "carousel",
+    "rtl",
+    "fabrika"
+  ],
+  "desing": {
+    "max": "1200px",
+    "bosluk": "clamp(56px, 8vw, 104px)",
+    "yuvarlak": "18px",
+    "ust": "",
+    "baslik": "",
+    "metin": "",
+    "yukseklik": "72",
+    "sure": "6000",
+    "otomatik": "true",
+    "bg": "var(--mx-site-text, #111318)",
+    "text": "var(--mx-site-bg, #ffffff)",
+    "muted": "color-mix(in srgb, var(--mx-site-bg, #ffffff) 78%, var(--mx-site-text, #111318))",
+    "kartBg": "color-mix(in srgb, var(--mx-site-bg, #ffffff) 7%, transparent)",
+    "cizgi": "color-mix(in srgb, var(--mx-site-bg, #ffffff) 18%, transparent)",
+    "accent": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 55%, var(--mx-site-bg, #ffffff))",
+    "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 45%, var(--mx-site-bg, #ffffff))",
+    "accentText": "var(--mx-site-text, #111318)",
+    "vurguBg": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 55%, var(--mx-site-bg, #ffffff))",
+    "vurguText": "var(--mx-site-text, #111318)",
+    "overlay": "color-mix(in srgb, var(--mx-site-text, #111318) 86%, transparent)",
+    "overlayText": "var(--mx-site-bg, #ffffff)",
+    "bgcolor": "var(--mx-site-text, #111318)",
+    "color": "var(--mx-site-bg, #ffffff)"
+  },
+  "data": [],
+  "veri": {
+    "statik": true,
+    "dinamik": false,
+    "kaynak": "data",
+    "alanlar": {
+      "img": "görsel yolu (yoksa vurgu rengi zemin)",
+      "alt": "görsel açıklaması (dil sözlüğü; boşsa başlık)",
+      "ust": "üst etiket (slider-kenburns `eyebrow`)",
+      "baslik": "slayt başlığı (dil sözlüğü)",
+      "metin": "açıklama (slider-kenburns `text`)",
+      "cta": "düğme yazısı",
+      "url": "düğme bağlantısı (iç yol dil önekiyle)"
+    }
+  }
+}

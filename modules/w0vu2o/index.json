@@ -1,0 +1,55 @@
+{
+  "name": "Referans Sektör Sayaç — sektör lejantı, dev sayaç ve sönen logo duvarı",
+  "description": "Solda vurgu renkli yapışkan panoda dev sayı (toplam referans) ve paylı çubuklu sektör lejantı; sağda 4 sütun logo duvarı. Bir sektör seçilince sayaç o sektörün adedine sayar, etiket sektör adını alır, diğer logolar söner. JS yokken lejant durağan bir dağılım tablosudur, tüm logolar görünür. referans-sekme-sektor sektöre göre panel değiştirir, referans-sayi-duvar sabit tek sayı basar; bu modül tüm duvarı yerinde tutup seçilmeyenleri söndürür ve sayacı sektör adedine yeniden saydırır — paylı çubuk lejantı + vurgu panosu iskeleti ailede yok. Metinler dil sözlüğü, renkler desing + var(--mx-site-*), mantıksal CSS → RTL. Veri yoksa blok basılmaz.",
+  "version": "1.0.0",
+  "icon": "donut_small",
+  "category": "referans",
+  "subCategory": "sector-counter",
+  "tags": [
+    "referans",
+    "sector",
+    "counter",
+    "legend",
+    "logos",
+    "rtl",
+    "fabrika"
+  ],
+  "desing": {
+    "max": "1200px",
+    "bosluk": "clamp(56px, 8vw, 104px)",
+    "yuvarlak": "18px",
+    "ust": "",
+    "baslik": "",
+    "metin": "",
+    "sayi": "",
+    "sayiEtiket": "",
+    "bg": "var(--mx-site-surface, #f6f7f9)",
+    "text": "var(--mx-site-text, #111318)",
+    "muted": "color-mix(in srgb, var(--mx-site-text, #111318) 70%, var(--mx-site-surface, #f6f7f9))",
+    "kartBg": "var(--mx-site-bg, #ffffff)",
+    "cizgi": "color-mix(in srgb, var(--mx-site-text, #111318) 12%, transparent)",
+    "accent": "var(--mx-site-primary, #2563eb)",
+    "accentInk": "color-mix(in srgb, var(--mx-site-primary, #2563eb) 70%, var(--mx-site-text, #111318))",
+    "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+    "vurguBg": "var(--mx-site-primary, #2563eb)",
+    "vurguText": "var(--mx-site-primary-contrast, #ffffff)",
+    "toplamEtiket": "",
+    "bgcolor": "var(--mx-site-surface, #f6f7f9)",
+    "color": "var(--mx-site-text, #111318)"
+  },
+  "data": [],
+  "veri": {
+    "statik": true,
+    "dinamik": false,
+    "kaynak": "data",
+    "alanlar": {
+      "ad": "marka / kurum adı (dil sözlüğü ya da düz metin; logo alt yazısı)",
+      "img": "logo görseli yolu (boşsa yazı logosu)",
+      "url": "iç/dış bağlantı (dış → yeni sekme)",
+      "sektor": "dil sözlüğü (sektör / iş alanı)",
+      "metin": "dil sözlüğü (kısa görüş / iş özeti)",
+      "kisi": "dil sözlüğü (görüş sahibi)",
+      "yil": "birlikte çalışma yılı (düz metin)"
+    }
+  }
+}

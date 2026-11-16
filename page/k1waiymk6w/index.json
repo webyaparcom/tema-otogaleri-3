@@ -1,0 +1,40 @@
+{
+  "id": "k1waiymk6w",
+  "name": {
+    "tr": "Sözlük",
+    "en": "Glossary",
+    "ar": "المسرد"
+  },
+  "description": {
+    "tr": "Ekspertiz, tramer, kasko ve noter terimleri.",
+    "en": "Inspection, claims-record, insurance and notary terms.",
+    "ar": "مصطلحات الفحص وسجل الحوادث والتأمين والكاتب العدل."
+  },
+  "keyword": {
+    "tr": "sss, soru cevap",
+    "en": "faq, questions",
+    "ar": "أسئلة وأجوبة"
+  },
+  "path": "sorular",
+  "icon": "help",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "jdnyv9",
+      "9d3li7"
+    ],
+    "footer": []
+  },
+  "index": 1,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Sözlük",
+    "en": "Glossary",
+    "ar": "المسرد"
+  },
+  "date": "2026-11-16T16:05:23.274Z",
+  "update": "2026-11-16T16:24:43.879Z"
+}
