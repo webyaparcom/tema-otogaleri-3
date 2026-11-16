@@ -1,0 +1,113 @@
+{
+  "data": [
+    {
+      "name": {
+        "tr": "Galeri",
+        "en": "Showroom",
+        "ar": "المعرض"
+      },
+      "status": "play",
+      "id": "hakkimizda",
+      "path": "hakkimizda",
+      "category": "",
+      "url": "",
+      "index": 0,
+      "icon": "info",
+      "desing": {
+        "header": [],
+        "body": [
+          "8ie85l",
+          "w0vu2o"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Galeri rakamları ve teslim dağılımı (kurgusal).",
+        "en": "Showroom figures and handover breakdown (fictional).",
+        "ar": "أرقام المعرض وتوزيع التسليمات (افتراضية)."
+      }
+    },
+    {
+      "id": "k1waiymk6w",
+      "name": {
+        "tr": "Sözlük",
+        "en": "Glossary",
+        "ar": "المسرد"
+      },
+      "description": {
+        "tr": "Ekspertiz, tramer, kasko ve noter terimleri.",
+        "en": "Inspection, claims-record, insurance and notary terms.",
+        "ar": "مصطلحات الفحص وسجل الحوادث والتأمين والكاتب العدل."
+      },
+      "path": "sorular",
+      "icon": "help",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "jdnyv9",
+          "9d3li7"
+        ],
+        "footer": []
+      },
+      "index": 1
+    },
+    {
+      "id": "8379pr1jg0",
+      "name": {
+        "tr": "Teslimler",
+        "en": "Handovers",
+        "ar": "التسليمات"
+      },
+      "description": {
+        "tr": "Kimlere araç teslim ettik (kurgusal).",
+        "en": "Who we handed cars to (fictional).",
+        "ar": "لمن سلّمنا السيارات (افتراضي)."
+      },
+      "path": "referanslar",
+      "icon": "stars",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "w0vu2o",
+          "9d3li7"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "name": {
+        "tr": "İletişim",
+        "en": "Contact",
+        "ar": "اتصل بنا"
+      },
+      "status": "play",
+      "id": "iletisim",
+      "path": "iletisim",
+      "category": "",
+      "url": "",
+      "index": 3,
+      "icon": "call",
+      "desing": {
+        "header": [],
+        "body": [
+          "y7psr9",
+          "k8mp01"
+        ],
+        "footer": []
+      },
+      "pathnext": "",
+      "description": {
+        "tr": "Adres, saatler, telefon ve test sürüşü.",
+        "en": "Address, hours, phone and test drives.",
+        "ar": "العنوان والساعات والهاتف وتجربة القيادة."
+      }
+    }
+  ],
+  "desc": []
+}

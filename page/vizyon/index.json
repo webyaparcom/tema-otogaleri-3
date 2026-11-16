@@ -1,0 +1,46 @@
+{
+  "id": "vizyon",
+  "name": {
+    "tr": "Vizyon",
+    "en": "Vision",
+    "ar": "الرؤية"
+  },
+  "description": {
+    "tr": "Vizyonumuz",
+    "en": "Our vision",
+    "ar": "رؤيتنا"
+  },
+  "keyword": {
+    "tr": "Vizyon",
+    "en": "vision, our vision, goals",
+    "ar": "الرؤية, رؤيتنا, الأهداف"
+  },
+  "path": "vizyon",
+  "icon": "visibility",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "index": 1,
+  "url": "",
+  "text": {
+    "tr": "<h2>Vizyonumuz</h2>\n<p>Alıcının ekspertiz, tramer ve kasko terimlerini galeriden öğrendiği yer olmak.</p>",
+    "en": "<h2>Our vision</h2>\n<p>To be the place where buyers learn inspection, claims-record and insurance terms.</p>",
+    "ar": "<h2>رؤيتنا</h2>\n<p>أن نكون المكان الذي يتعلّم فيه المشتري مصطلحات الفحص وسجل الحوادث والتأمين.</p>"
+  },
+  "title": {
+    "tr": "Vizyon",
+    "en": "Vision",
+    "ar": "الرؤية"
+  },
+  "date": "2026-11-16T16:05:23.148Z",
+  "update": "2026-11-16T16:24:43.896Z",
+  "sablonIzi": "c3ebee5f049bdfb4",
+  "sablonIziDil": {
+    "en": "67bb554c6c4d5984",
+    "ar": "7e4e23377d70548a"
+  }
+}
