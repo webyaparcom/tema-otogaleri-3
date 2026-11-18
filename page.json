@@ -4,7 +4,9 @@
       "name": {
         "tr": "Galeri",
         "en": "Showroom",
-        "ar": "المعرض"
+        "ar": "المعرض",
+        "de": "Galerie",
+        "ru": "Галерея"
       },
       "status": "play",
       "id": "hakkimizda",
@@ -25,7 +27,9 @@
       "description": {
         "tr": "Galeri rakamları ve teslim dağılımı (kurgusal).",
         "en": "Showroom figures and handover breakdown (fictional).",
-        "ar": "أرقام المعرض وتوزيع التسليمات (افتراضية)."
+        "ar": "أرقام المعرض وتوزيع التسليمات (افتراضية).",
+        "de": "Galeriezahlen und Verteilung der Übergaben (fiktiv).",
+        "ru": "Цифры галереи и распределение выдач (вымышленно)."
       }
     },
     {
@@ -33,12 +37,16 @@
       "name": {
         "tr": "Sözlük",
         "en": "Glossary",
-        "ar": "المسرد"
+        "ar": "المسرد",
+        "de": "Glossar",
+        "ru": "Глоссарий"
       },
       "description": {
         "tr": "Ekspertiz, tramer, kasko ve noter terimleri.",
         "en": "Inspection, claims-record, insurance and notary terms.",
-        "ar": "مصطلحات الفحص وسجل الحوادث والتأمين والكاتب العدل."
+        "ar": "مصطلحات الفحص وسجل الحوادث والتأمين والكاتب العدل.",
+        "de": "Begriffe zu Gutachten, Tramer, Kasko und Notar.",
+        "ru": "Термины: экспертиза, Tramer, КАСКО и нотариус."
       },
       "path": "sorular",
       "icon": "help",
@@ -59,12 +67,16 @@
       "name": {
         "tr": "Teslimler",
         "en": "Handovers",
-        "ar": "التسليمات"
+        "ar": "التسليمات",
+        "de": "Übergaben",
+        "ru": "Выдача"
       },
       "description": {
         "tr": "Kimlere araç teslim ettik (kurgusal).",
         "en": "Who we handed cars to (fictional).",
-        "ar": "لمن سلّمنا السيارات (افتراضي)."
+        "ar": "لمن سلّمنا السيارات (افتراضي).",
+        "de": "Wem wir Fahrzeuge übergeben haben (fiktiv).",
+        "ru": "Кому мы передали автомобили (вымышленно)."
       },
       "path": "referanslar",
       "icon": "stars",
@@ -84,7 +96,9 @@
       "name": {
         "tr": "İletişim",
         "en": "Contact",
-        "ar": "اتصل بنا"
+        "ar": "اتصل بنا",
+        "de": "Kontakt",
+        "ru": "Контакты"
       },
       "status": "play",
       "id": "iletisim",
@@ -105,7 +119,9 @@
       "description": {
         "tr": "Adres, saatler, telefon ve test sürüşü.",
         "en": "Address, hours, phone and test drives.",
-        "ar": "العنوان والساعات والهاتف وتجربة القيادة."
+        "ar": "العنوان والساعات والهاتف وتجربة القيادة.",
+        "de": "Adresse, Öffnungszeiten, Telefon und Probefahrten.",
+        "ru": "Адрес, часы работы, телефон и тест-драйвы."
       }
     }
   ],

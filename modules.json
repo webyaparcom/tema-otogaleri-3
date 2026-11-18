@@ -14,28 +14,38 @@
         "ariaLabel": {
           "tr": "Demo site uyarısı",
           "en": "Demo site notice",
-          "ar": "تنبيه الموقع التجريبي"
+          "ar": "تنبيه الموقع التجريبي",
+          "de": "Hinweis zur Demo-Website",
+          "ru": "Предупреждение о демонстрационном сайте"
         },
         "text": {
           "tr": "Bu bir demo sitedir — içerik kurgusaldır, ödeme alınmaz",
           "en": "This is a demo site — the content is fictional and no payment is taken",
-          "ar": "هذا موقع تجريبي — المحتوى افتراضي ولا يتم تحصيل أي مدفوعات"
+          "ar": "هذا موقع تجريبي — المحتوى افتراضي ولا يتم تحصيل أي مدفوعات",
+          "de": "Dies ist eine Demo-Website — die Inhalte sind fiktiv, es wird keine Zahlung entgegengenommen",
+          "ru": "Это демо-сайт — контент вымышленный, оплата не принимается"
         },
         "ctaText": {
           "tr": "Bu temayı iste",
           "en": "Get this theme",
-          "ar": "اطلب هذا القالب"
+          "ar": "اطلب هذا القالب",
+          "de": "Dieses Thema anfordern",
+          "ru": "Заказать эту тему"
         },
         "newTabText": {
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
-          "ar": "(يفتح في علامة تبويب جديدة)"
+          "ar": "(يفتح في علامة تبويب جديدة)",
+          "de": "(öffnet in einem neuen Tab)",
+          "ru": "(открывается в новой вкладке)"
         },
         "girisHref": "",
         "girisText": {
           "tr": "Üye Girişi",
           "en": "Login",
-          "ar": "تسجيل الدخول"
+          "ar": "تسجيل الدخول",
+          "de": "Mitglieder-Login",
+          "ru": "Вход для участников"
         },
         "hataBildir": "https://webyapar.com/api/portal/tema-hata.js"
       },
@@ -78,28 +88,38 @@
         "badge": {
           "tr": "Emlak",
           "en": "Real estate",
-          "ar": "عقارات"
+          "ar": "عقارات",
+          "de": "Immobilien",
+          "ru": "Недвижимость"
         },
         "title": {
           "tr": "Hayalinizdeki yeri birlikte bulalım",
           "en": "Let's find your dream home together",
-          "ar": "لنجد معًا المكان الذي تحلم به"
+          "ar": "لنجد معًا المكان الذي تحلم به",
+          "de": "Finden wir gemeinsam Ihren Traumort",
+          "ru": "Давайте вместе найдём место вашей мечты"
         },
         "description": {
           "tr": "Satılık ve kiralık seçkin portföy, şeffaf süreç, her ilanda yetki belgesi numarası.",
           "en": "A curated sale and rental portfolio, a transparent process, a permit number on every listing.",
-          "ar": "محفظة مختارة للبيع والإيجار وعملية شفافة ورقم ترخيص في كل إعلان."
+          "ar": "محفظة مختارة للبيع والإيجار وعملية شفافة ورقم ترخيص في كل إعلان.",
+          "de": "Ausgewählte Immobilien zum Kauf und zur Miete, transparenter Ablauf, bei jedem Inserat die Nummer der Vollmacht.",
+          "ru": "Избранный портфель недвижимости на продажу и в аренду, прозрачный процесс, номер разрешительного документа в каждом объявлении."
         },
         "btn1Text": {
           "tr": "İlanları gör",
           "en": "Browse listings",
-          "ar": "تصفح الإعلانات"
+          "ar": "تصفح الإعلانات",
+          "de": "Anzeigen durchsuchen",
+          "ru": "Просмотреть объявления"
         },
         "btn1Url": "ilanlar",
         "btn2Text": {
           "tr": "Değerleme",
           "en": "Valuation",
-          "ar": "التقييم"
+          "ar": "التقييم",
+          "de": "Bewertung",
+          "ru": "Оценка"
         },
         "btn2Url": "iletisim"
       },
@@ -129,127 +149,177 @@
         "title": {
           "tr": "Emlak İlanları",
           "en": "Property Listings",
-          "ar": "إعلانات العقارات"
+          "ar": "إعلانات العقارات",
+          "de": "Immobilienangebote",
+          "ru": "Объявления о недвижимости"
         },
         "subtitle": {
           "tr": "Satılık ve kiralık ilanları süzün, sıralayın ve karşılaştırın.",
           "en": "Filter, sort and compare properties for sale and for rent.",
-          "ar": "صفِّ العقارات المعروضة للبيع والإيجار ورتّبها وقارن بينها."
+          "ar": "صفِّ العقارات المعروضة للبيع والإيجار ورتّبها وقارن بينها.",
+          "de": "Objekte zum Kauf und zur Miete filtern, sortieren und vergleichen.",
+          "ru": "Фильтруйте, сортируйте и сравнивайте объекты на продажу и в аренду."
         },
         "searchLabel": {
           "tr": "İlan ara",
           "en": "Search listings",
-          "ar": "ابحث في الإعلانات"
+          "ar": "ابحث في الإعلانات",
+          "de": "Inserate suchen",
+          "ru": "Искать объявления"
         },
         "searchPlaceholder": {
           "tr": "Semt veya ilan başlığı…",
           "en": "District or listing title…",
-          "ar": "الحي أو عنوان الإعلان…"
+          "ar": "الحي أو عنوان الإعلان…",
+          "de": "Stadtteil oder Anzeigentitel…",
+          "ru": "Район или заголовок объявления…"
         },
         "dealGroupLabel": {
           "tr": "İşlem türü",
           "en": "Deal type",
-          "ar": "نوع الصفقة"
+          "ar": "نوع الصفقة",
+          "de": "Transaktionstyp",
+          "ru": "Тип сделки"
         },
         "dealAll": {
           "tr": "Tümü",
           "en": "All",
-          "ar": "الكل"
+          "ar": "الكل",
+          "de": "Alle",
+          "ru": "Все"
         },
         "dealSale": {
           "tr": "Satılık",
           "en": "For sale",
-          "ar": "للبيع"
+          "ar": "للبيع",
+          "de": "Zu verkaufen",
+          "ru": "Продам"
         },
         "dealRent": {
           "tr": "Kiralık",
           "en": "For rent",
-          "ar": "للإيجار"
+          "ar": "للإيجار",
+          "de": "Zu vermieten",
+          "ru": "Аренда"
         },
         "filtersTitle": {
           "tr": "Filtreler",
           "en": "Filters",
-          "ar": "التصفية"
+          "ar": "التصفية",
+          "de": "Filter",
+          "ru": "Фильтры"
         },
         "typeTitle": {
           "tr": "Emlak türü",
           "en": "Property type",
-          "ar": "نوع العقار"
+          "ar": "نوع العقار",
+          "de": "Eigentumsart",
+          "ru": "Тип недвижимости"
         },
         "roomsTitle": {
           "tr": "Oda sayısı",
           "en": "Rooms",
-          "ar": "عدد الغرف"
+          "ar": "عدد الغرف",
+          "de": "Zimmerzahl",
+          "ru": "Количество комнат"
         },
         "m2Title": {
           "tr": "Alan (m²)",
           "en": "Area (m²)",
-          "ar": "المساحة (م²)"
+          "ar": "المساحة (م²)",
+          "de": "Fläche (m²)",
+          "ru": "Площадь (м²)"
         },
         "priceTitle": {
           "tr": "Fiyat",
           "en": "Price",
-          "ar": "السعر"
+          "ar": "السعر",
+          "de": "Preis",
+          "ru": "Цена"
         },
         "districtTitle": {
           "tr": "Semt",
           "en": "District",
-          "ar": "الحي"
+          "ar": "الحي",
+          "de": "Stadtviertel",
+          "ru": "Район"
         },
         "districtAll": {
           "tr": "Tüm semtler",
           "en": "All districts",
-          "ar": "كل الأحياء"
+          "ar": "كل الأحياء",
+          "de": "Alle Stadtteile",
+          "ru": "Все районы"
         },
         "minLabel": {
           "tr": "En az",
           "en": "Min",
-          "ar": "الحد الأدنى"
+          "ar": "الحد الأدنى",
+          "de": "Mindestens",
+          "ru": "Минимум"
         },
         "maxLabel": {
           "tr": "En çok",
           "en": "Max",
-          "ar": "الحد الأقصى"
+          "ar": "الحد الأقصى",
+          "de": "Max",
+          "ru": "Макс"
         },
         "m2Unit": {
           "tr": "m²",
           "en": "m²",
-          "ar": "م²"
+          "ar": "م²",
+          "de": "m²",
+          "ru": "m²"
         },
         "sortLabel": {
           "tr": "Sırala",
           "en": "Sort by",
-          "ar": "ترتيب حسب"
+          "ar": "ترتيب حسب",
+          "de": "Sortieren",
+          "ru": "Сортировать"
         },
         "sortDate": {
           "tr": "En yeni",
           "en": "Newest",
-          "ar": "الأحدث"
+          "ar": "الأحدث",
+          "de": "Neueste",
+          "ru": "Самые новые"
         },
         "sortPrice": {
           "tr": "Fiyat: düşükten yükseğe",
           "en": "Price: low to high",
-          "ar": "السعر: من الأقل إلى الأعلى"
+          "ar": "السعر: من الأقل إلى الأعلى",
+          "de": "Preis: aufsteigend",
+          "ru": "Цена: по возрастанию"
         },
         "sortPriceDesc": {
           "tr": "Fiyat: yüksekten düşüğe",
           "en": "Price: high to low",
-          "ar": "السعر: من الأعلى إلى الأقل"
+          "ar": "السعر: من الأعلى إلى الأقل",
+          "de": "Preis: absteigend",
+          "ru": "Цена: по убыванию"
         },
         "sortM2": {
           "tr": "Alan: büyükten küçüğe",
           "en": "Area: large to small",
-          "ar": "المساحة: من الأكبر إلى الأصغر"
+          "ar": "المساحة: من الأكبر إلى الأصغر",
+          "de": "Fläche: von groß nach klein",
+          "ru": "Площадь: от большой к малой"
         },
         "sortM2Asc": {
           "tr": "Alan: küçükten büyüğe",
           "en": "Area: small to large",
-          "ar": "المساحة: من الأصغر إلى الأكبر"
+          "ar": "المساحة: من الأصغر إلى الأكبر",
+          "de": "Fläche: von klein nach groß",
+          "ru": "Площадь: от меньшей к большей"
         },
         "resetFilters": {
           "tr": "Filtreleri temizle",
           "en": "Clear filters",
-          "ar": "مسح عوامل التصفية"
+          "ar": "مسح عوامل التصفية",
+          "de": "Filter zurücksetzen",
+          "ru": "Сбросить фильтры"
         },
         "resultCount": {
           "tr": {
@@ -289,62 +359,86 @@
         "noResultTitle": {
           "tr": "Sonuç bulunamadı",
           "en": "No results found",
-          "ar": "لم يتم العثور على نتائج"
+          "ar": "لم يتم العثور على نتائج",
+          "de": "Keine Ergebnisse gefunden",
+          "ru": "Ничего не найдено"
         },
         "noResultText": {
           "tr": "Filtreleri gevşetmeyi veya temizlemeyi deneyin.",
           "en": "Try loosening or clearing your filters.",
-          "ar": "جرّب تخفيف عوامل التصفية أو مسحها."
+          "ar": "جرّب تخفيف عوامل التصفية أو مسحها.",
+          "de": "Versuchen Sie, die Filter zu lockern oder zurückzusetzen.",
+          "ru": "Попробуйте ослабить или сбросить фильтры."
         },
         "pagesLabel": {
           "tr": "Sayfalama",
           "en": "Pagination",
-          "ar": "التنقل بين الصفحات"
+          "ar": "التنقل بين الصفحات",
+          "de": "Seitennavigation",
+          "ru": "Постраничная навигация"
         },
         "prevPage": {
           "tr": "Önceki sayfa",
           "en": "Previous page",
-          "ar": "الصفحة السابقة"
+          "ar": "الصفحة السابقة",
+          "de": "Vorherige Seite",
+          "ru": "Предыдущая страница"
         },
         "nextPage": {
           "tr": "Sonraki sayfa",
           "en": "Next page",
-          "ar": "الصفحة التالية"
+          "ar": "الصفحة التالية",
+          "de": "Nächste Seite",
+          "ru": "Следующая страница"
         },
         "pageN": {
           "tr": "Sayfa {n}",
           "en": "Page {n}",
-          "ar": "الصفحة {n}"
+          "ar": "الصفحة {n}",
+          "de": "Seite {n}",
+          "ru": "Страница {n}"
         },
         "permitLabel": {
           "tr": "Yetki belgesi no",
           "en": "Authorization certificate no.",
-          "ar": "رقم شهادة التفويض"
+          "ar": "رقم شهادة التفويض",
+          "de": "Zulassungsnummer",
+          "ru": "Номер разрешительного документа"
         },
         "permitDemo": {
           "tr": "Yetki belgesi no: örnek ilan (DEMO)",
           "en": "Authorization no.: sample listing (DEMO)",
-          "ar": "رقم شهادة التفويض: إعلان تجريبي (عرض توضيحي)"
+          "ar": "رقم شهادة التفويض: إعلان تجريبي (عرض توضيحي)",
+          "de": "Zulassungsnr.: Beispielanzeige (DEMO)",
+          "ru": "Номер разрешения: пример объявления (ДЕМО)"
         },
         "perMonth": {
           "tr": "/ ay",
           "en": "/ month",
-          "ar": "/ شهريًا"
+          "ar": "/ شهريًا",
+          "de": "/ month",
+          "ru": "/ month"
         },
         "details": {
           "tr": "İlan detayı",
           "en": "View listing",
-          "ar": "تفاصيل الإعلان"
+          "ar": "تفاصيل الإعلان",
+          "de": "Anzeigedetails",
+          "ru": "Детали объявления"
         },
         "dateLabel": {
           "tr": "İlan tarihi",
           "en": "Listed on",
-          "ar": "تاريخ الإعلان"
+          "ar": "تاريخ الإعلان",
+          "de": "Einschaltungsdatum",
+          "ru": "Дата размещения"
         },
         "demoNote": {
           "tr": "Bu sayfadaki ilanlar kurgusaldır; yetki belgesi numaraları örnektir (DEMO).",
           "en": "Listings on this page are fictional; authorization numbers are samples (DEMO).",
-          "ar": "الإعلانات في هذه الصفحة وهمية، وأرقام شهادات التفويض أمثلة فقط (عرض توضيحي)."
+          "ar": "الإعلانات في هذه الصفحة وهمية، وأرقام شهادات التفويض أمثلة فقط (عرض توضيحي).",
+          "de": "Die Anzeigen auf dieser Seite sind fiktiv; die Genehmigungsnummern sind Beispiele (DEMO).",
+          "ru": "Объявления на этой странице вымышлены; номера разрешений приведены в качестве примеров (DEMO)."
         }
       },
       "version": "1.0.0",
@@ -361,27 +455,37 @@
           "daire": {
             "tr": "Daire",
             "en": "Apartment",
-            "ar": "شقة"
+            "ar": "شقة",
+            "de": "Wohnung",
+            "ru": "Квартира"
           },
           "villa": {
             "tr": "Villa",
             "en": "Villa",
-            "ar": "فيلا"
+            "ar": "فيلا",
+            "de": "Villa",
+            "ru": "Villa"
           },
           "rezidans": {
             "tr": "Rezidans",
             "en": "Residence",
-            "ar": "مجمّع سكني"
+            "ar": "مجمّع سكني",
+            "de": "Residenz",
+            "ru": "Резиденция"
           },
           "arsa": {
             "tr": "Arsa",
             "en": "Land",
-            "ar": "أرض"
+            "ar": "أرض",
+            "de": "Grundstück",
+            "ru": "Участок"
           },
           "isyeri": {
             "tr": "İşyeri",
             "en": "Commercial",
-            "ar": "محل تجاري"
+            "ar": "محل تجاري",
+            "de": "Arbeitsplatz",
+            "ru": "Место работы"
           }
         },
         "listings": [
@@ -390,7 +494,9 @@
             "title": {
               "tr": "Deniz manzaralı 3+1 daire",
               "en": "3+1 apartment with sea view",
-              "ar": "شقة 3+1 بإطلالة بحرية"
+              "ar": "شقة 3+1 بإطلالة بحرية",
+              "de": "3+1-Wohnung mit Meerblick",
+              "ru": "Квартира 3+1 с видом на море"
             },
             "deal": "sale",
             "type": "daire",
@@ -401,12 +507,16 @@
             "city": {
               "tr": "İstanbul",
               "en": "Istanbul",
-              "ar": "إسطنبول"
+              "ar": "إسطنبول",
+              "de": "Istanbul",
+              "ru": "Стамбул"
             },
             "district": {
               "tr": "Kadıköy",
               "en": "Kadikoy",
-              "ar": "قاضي كوي"
+              "ar": "قاضي كوي",
+              "de": "Kadıköy",
+              "ru": "Кадыкёй"
             },
             "img": [],
             "permitNo": "DEMO-34-0001",
@@ -415,7 +525,9 @@
             "badge": {
               "tr": "Yeni",
               "en": "New",
-              "ar": "جديد"
+              "ar": "جديد",
+              "de": "Neu",
+              "ru": "Новинка"
             }
           },
           {
@@ -423,7 +535,9 @@
             "title": {
               "tr": "Bahçe katı 2+1 kiralık daire",
               "en": "2+1 garden-floor apartment for rent",
-              "ar": "شقة 2+1 في الطابق الأرضي مع حديقة للإيجار"
+              "ar": "شقة 2+1 في الطابق الأرضي مع حديقة للإيجار",
+              "de": "2+1-Mietwohnung im Gartengeschoss",
+              "ru": "Квартира 2+1 в аренду на садовом этаже"
             },
             "deal": "rent",
             "type": "daire",
@@ -434,12 +548,16 @@
             "city": {
               "tr": "Ankara",
               "en": "Ankara",
-              "ar": "أنقرة"
+              "ar": "أنقرة",
+              "de": "Ankara",
+              "ru": "Ankara"
             },
             "district": {
               "tr": "Çankaya",
               "en": "Cankaya",
-              "ar": "تشانكايا"
+              "ar": "تشانكايا",
+              "de": "Çankaya",
+              "ru": "Чанкая"
             },
             "img": [],
             "permitNo": "DEMO-06-0002",
@@ -451,7 +569,9 @@
             "title": {
               "tr": "Havuzlu müstakil villa",
               "en": "Detached villa with pool",
-              "ar": "فيلا مستقلة مع مسبح"
+              "ar": "فيلا مستقلة مع مسبح",
+              "de": "Freistehende Villa mit Pool",
+              "ru": "Отдельно стоящая вилла с бассейном"
             },
             "deal": "sale",
             "type": "villa",
@@ -462,12 +582,16 @@
             "city": {
               "tr": "Muğla",
               "en": "Mugla",
-              "ar": "موغلا"
+              "ar": "موغلا",
+              "de": "Muğla",
+              "ru": "Мугла"
             },
             "district": {
               "tr": "Bodrum",
               "en": "Bodrum",
-              "ar": "بودروم"
+              "ar": "بودروم",
+              "de": "Bodrum",
+              "ru": "Bodrum"
             },
             "img": [],
             "permitNo": "DEMO-48-0003",
@@ -479,7 +603,9 @@
             "title": {
               "tr": "Eşyalı 1+1 kiralık daire",
               "en": "Furnished 1+1 apartment for rent",
-              "ar": "شقة 1+1 مفروشة للإيجار"
+              "ar": "شقة 1+1 مفروشة للإيجار",
+              "de": "Möblierte 1+1-Wohnung zur Miete",
+              "ru": "Меблированная квартира 1+1 в аренду"
             },
             "deal": "rent",
             "type": "daire",
@@ -490,12 +616,16 @@
             "city": {
               "tr": "İzmir",
               "en": "Izmir",
-              "ar": "إزمير"
+              "ar": "إزمير",
+              "de": "İzmir",
+              "ru": "Измир"
             },
             "district": {
               "tr": "Karşıyaka",
               "en": "Karsiyaka",
-              "ar": "قارشيياكا"
+              "ar": "قارشيياكا",
+              "de": "Karşıyaka",
+              "ru": "Каршияка"
             },
             "img": [],
             "permitNo": "DEMO-35-0004",
@@ -507,7 +637,9 @@
             "title": {
               "tr": "İmarlı satılık arsa",
               "en": "Zoned plot for sale",
-              "ar": "أرض مخططة للبيع"
+              "ar": "أرض مخططة للبيع",
+              "de": "Baugrundstück mit Bebauungsplan zu verkaufen",
+              "ru": "Участок под застройку на продажу"
             },
             "deal": "sale",
             "type": "arsa",
@@ -518,12 +650,16 @@
             "city": {
               "tr": "İzmir",
               "en": "Izmir",
-              "ar": "إزمير"
+              "ar": "إزمير",
+              "de": "İzmir",
+              "ru": "Измир"
             },
             "district": {
               "tr": "Urla",
               "en": "Urla",
-              "ar": "أورلا"
+              "ar": "أورلا",
+              "de": "Urla",
+              "ru": "Urla"
             },
             "img": [],
             "permitNo": "DEMO-35-0005",
@@ -535,7 +671,9 @@
             "title": {
               "tr": "Cadde üstü kiralık dükkân",
               "en": "Street-front shop for rent",
-              "ar": "محل على الشارع الرئيسي للإيجار"
+              "ar": "محل على الشارع الرئيسي للإيجار",
+              "de": "Ladenlokal an der Hauptstraße zu vermieten",
+              "ru": "Магазин на главной улице в аренду"
             },
             "deal": "rent",
             "type": "isyeri",
@@ -546,12 +684,16 @@
             "city": {
               "tr": "İstanbul",
               "en": "Istanbul",
-              "ar": "إسطنبول"
+              "ar": "إسطنبول",
+              "de": "Istanbul",
+              "ru": "Стамбул"
             },
             "district": {
               "tr": "Şişli",
               "en": "Sisli",
-              "ar": "شيشلي"
+              "ar": "شيشلي",
+              "de": "Şişli",
+              "ru": "Шишли"
             },
             "img": [],
             "permitNo": "DEMO-34-0006",
@@ -563,7 +705,9 @@
             "title": {
               "tr": "Site içinde 2+1 daire",
               "en": "2+1 apartment in a gated complex",
-              "ar": "شقة 2+1 داخل مجمع سكني مسوّر"
+              "ar": "شقة 2+1 داخل مجمع سكني مسوّر",
+              "de": "2+1 Wohnung in einer Wohnanlage",
+              "ru": "Квартира 2+1 в закрытом комплексе"
             },
             "deal": "sale",
             "type": "daire",
@@ -574,12 +718,16 @@
             "city": {
               "tr": "Bursa",
               "en": "Bursa",
-              "ar": "بورصة"
+              "ar": "بورصة",
+              "de": "Bursa",
+              "ru": "Bursa"
             },
             "district": {
               "tr": "Nilüfer",
               "en": "Nilufer",
-              "ar": "نيلوفر"
+              "ar": "نيلوفر",
+              "de": "Nilüfer",
+              "ru": "Nilüfer"
             },
             "img": [],
             "permitNo": "DEMO-16-0007",
@@ -591,7 +739,9 @@
             "title": {
               "tr": "Merkezi konumda 1+1 rezidans",
               "en": "1+1 residence in a central location",
-              "ar": "وحدة 1+1 في مجمّع سكني بموقع مركزي"
+              "ar": "وحدة 1+1 في مجمّع سكني بموقع مركزي",
+              "de": "1+1-Residenz in zentraler Lage",
+              "ru": "Резиденция 1+1 в центральном районе"
             },
             "deal": "sale",
             "type": "rezidans",
@@ -602,12 +752,16 @@
             "city": {
               "tr": "İstanbul",
               "en": "Istanbul",
-              "ar": "إسطنبول"
+              "ar": "إسطنبول",
+              "de": "Istanbul",
+              "ru": "Стамбул"
             },
             "district": {
               "tr": "Beşiktaş",
               "en": "Besiktas",
-              "ar": "بشيكتاش"
+              "ar": "بشيكتاش",
+              "de": "Beşiktaş",
+              "ru": "Бешикташ"
             },
             "img": [],
             "permitNo": "DEMO-34-0008",
@@ -642,7 +796,9 @@
           "label": {
             "tr": "Tamamlanan Proje",
             "en": "Completed Projects",
-            "ar": "مشروع منجز"
+            "ar": "مشروع منجز",
+            "de": "Abgeschlossene Projekte",
+            "ru": "Завершённые проекты"
           },
           "icon": "task_alt"
         },
@@ -652,7 +808,9 @@
           "label": {
             "tr": "Mutlu Müşteri",
             "en": "Happy Customers",
-            "ar": "عميل سعيد"
+            "ar": "عميل سعيد",
+            "de": "Zufriedene Kunden",
+            "ru": "Довольные клиенты"
           },
           "icon": "sentiment_satisfied"
         },
@@ -662,7 +820,9 @@
           "label": {
             "tr": "Yıllık Deneyim",
             "en": "Years of Experience",
-            "ar": "سنوات من الخبرة"
+            "ar": "سنوات من الخبرة",
+            "de": "Jahre Erfahrung",
+            "ru": "Лет опыта"
           },
           "icon": "workspace_premium"
         },
@@ -672,7 +832,9 @@
           "label": {
             "tr": "Destek",
             "en": "Support",
-            "ar": "الدعم"
+            "ar": "الدعم",
+            "de": "Support",
+            "ru": "Поддержка"
           },
           "icon": "support_agent"
         }
@@ -696,17 +858,23 @@
         "badge": {
           "tr": "Ekip",
           "en": "Team",
-          "ar": "الفريق"
+          "ar": "الفريق",
+          "de": "Team",
+          "ru": "Команда"
         },
         "title": {
           "tr": "Danışmanlarımız",
           "en": "Our advisors",
-          "ar": "مستشارونا"
+          "ar": "مستشارونا",
+          "de": "Unsere Berater",
+          "ru": "Наши консультанты"
         },
         "description": {
           "tr": "Alanında deneyimli ekibimiz projelerinize değer katmak için burada.",
           "en": "Our experienced team is here to add value to your projects.",
-          "ar": "فريقنا ذو الخبرة هنا ليضيف قيمة إلى مشاريعك."
+          "ar": "فريقنا ذو الخبرة هنا ليضيف قيمة إلى مشاريعك.",
+          "de": "Unser erfahrenes Team ist hier, um Ihren Projekten Mehrwert zu verleihen.",
+          "ru": "Наша опытная команда готова принести пользу вашим проектам."
         },
         "accentText": "#ffffff"
       },
@@ -718,12 +886,16 @@
           "role": {
             "tr": "Kurucu / CEO",
             "en": "Founder / CEO",
-            "ar": "المؤسس / الرئيس التنفيذي"
+            "ar": "المؤسس / الرئيس التنفيذي",
+            "de": "Gründer / CEO",
+            "ru": "Основатель / CEO"
           },
           "bio": {
             "tr": "10+ yıllık sektör deneyimi ile strateji ve yönetim.",
             "en": "Strategy and management with 10+ years of industry experience.",
-            "ar": "الاستراتيجية والإدارة بخبرة تتجاوز 10 سنوات في القطاع."
+            "ar": "الاستراتيجية والإدارة بخبرة تتجاوز 10 سنوات في القطاع.",
+            "de": "Strategie und Management mit über 10 Jahren Branchenerfahrung.",
+            "ru": "Стратегия и управление с опытом работы в отрасли более 10 лет."
           },
           "img": ""
         },
@@ -732,12 +904,16 @@
           "role": {
             "tr": "Tasarım Direktörü",
             "en": "Design Director",
-            "ar": "مدير التصميم"
+            "ar": "مدير التصميم",
+            "de": "Design Director",
+            "ru": "Арт-директор"
           },
           "bio": {
             "tr": "Marka kimliği ve kullanıcı deneyimi tasarımı.",
             "en": "Brand identity and user experience design.",
-            "ar": "تصميم هوية العلامة التجارية وتجربة المستخدم."
+            "ar": "تصميم هوية العلامة التجارية وتجربة المستخدم.",
+            "de": "Markenidentität und Gestaltung der Nutzererfahrung.",
+            "ru": "Фирменный стиль и дизайн пользовательского опыта."
           },
           "img": ""
         },
@@ -746,12 +922,16 @@
           "role": {
             "tr": "Yazılım Geliştirici",
             "en": "Software Developer",
-            "ar": "مطوّر برمجيات"
+            "ar": "مطوّر برمجيات",
+            "de": "Softwareentwickler",
+            "ru": "Разработчик программного обеспечения"
           },
           "bio": {
             "tr": "Modern web teknolojileri ile ölçeklenebilir çözümler.",
             "en": "Scalable solutions with modern web technologies.",
-            "ar": "حلول قابلة للتوسّع بتقنيات الويب الحديثة."
+            "ar": "حلول قابلة للتوسّع بتقنيات الويب الحديثة.",
+            "de": "Skalierbare Lösungen mit modernen Webtechnologien.",
+            "ru": "Масштабируемые решения на современных веб-технологиях."
           },
           "img": ""
         }
@@ -796,7 +976,9 @@
         "name": {
           "tr": "Bize Ulaşın",
           "en": "Contact Us",
-          "ar": "تواصل معنا"
+          "ar": "تواصل معنا",
+          "de": "Kontaktieren Sie uns",
+          "ru": "Свяжитесь с нами"
         },
         "margin": "30px 0px 30px 0px",
         "linkcolor": "var(--mx-site-primary, #2563eb)",
@@ -850,33 +1032,45 @@
         "name": {
           "tr": "Hakkımızda",
           "en": "About us",
-          "ar": "من نحن"
+          "ar": "من نحن",
+          "de": "Über uns",
+          "ru": "О нас"
         },
         "description": {
           "tr": "Bu sayfa bir tema örneğidir; içerik demo üretiminde doldurulur.",
           "en": "This page is a theme sample; its content is filled in during demo production.",
-          "ar": "هذه الصفحة نموذج للقالب؛ يُملأ محتواها عند إنتاج العرض التجريبي."
+          "ar": "هذه الصفحة نموذج للقالب؛ يُملأ محتواها عند إنتاج العرض التجريبي.",
+          "de": "Diese Seite ist ein Theme-Beispiel; der Inhalt wird bei der Demo-Erstellung befüllt.",
+          "ru": "Эта страница — пример темы; содержание заполняется при создании демо."
         },
         "name2": {
           "tr": "Vizyonumuz",
           "en": "Our Vision",
-          "ar": "رؤيتنا"
+          "ar": "رؤيتنا",
+          "de": "Unsere Vision",
+          "ru": "Наше видение"
         },
         "spot2": {
           "tr": "Sektörümüzde yenilikçi yaklaşımlarla öncü olmak.",
           "en": "To lead our industry with innovative approaches.",
-          "ar": "أن نكون روّادًا في قطاعنا بأساليب مبتكرة."
+          "ar": "أن نكون روّادًا في قطاعنا بأساليب مبتكرة.",
+          "de": "In unserer Branche mit innovativen Ansätzen führend zu sein.",
+          "ru": "Быть лидером в нашей отрасли благодаря инновационным подходам."
         },
         "icon2": "visibility",
         "name3": {
           "tr": "Misyonumuz",
           "en": "Our Mission",
-          "ar": "مهمتنا"
+          "ar": "مهمتنا",
+          "de": "Unsere Mission",
+          "ru": "Наша миссия"
         },
         "spot3": {
           "tr": "İhtiyaç duyulan çözümleri hızlı ve şeffaf sunmak.",
           "en": "Deliver needed solutions quickly and transparently.",
-          "ar": "تقديم الحلول المطلوبة بسرعة وشفافية."
+          "ar": "تقديم الحلول المطلوبة بسرعة وشفافية.",
+          "de": "Die benötigten Lösungen schnell und transparent bereitstellen.",
+          "ru": "Быстро и прозрачно предлагать необходимые решения."
         },
         "icon3": "flag",
         "img": "index.jpg",
@@ -887,7 +1081,9 @@
         "title": {
           "tr": "Kurumsal",
           "en": "Corporate",
-          "ar": "المؤسسة"
+          "ar": "المؤسسة",
+          "de": "Über uns",
+          "ru": "О нас"
         },
         "stil": ""
       },
@@ -917,127 +1113,177 @@
         "title": {
           "tr": "Emlak İlanları",
           "en": "Property Listings",
-          "ar": "إعلانات العقارات"
+          "ar": "إعلانات العقارات",
+          "de": "Immobilienangebote",
+          "ru": "Объявления о недвижимости"
         },
         "subtitle": {
           "tr": "Satılık ve kiralık ilanları süzün, sıralayın ve karşılaştırın.",
           "en": "Filter, sort and compare properties for sale and for rent.",
-          "ar": "صفِّ العقارات المعروضة للبيع والإيجار ورتّبها وقارن بينها."
+          "ar": "صفِّ العقارات المعروضة للبيع والإيجار ورتّبها وقارن بينها.",
+          "de": "Objekte zum Kauf und zur Miete filtern, sortieren und vergleichen.",
+          "ru": "Фильтруйте, сортируйте и сравнивайте объекты на продажу и в аренду."
         },
         "searchLabel": {
           "tr": "İlan ara",
           "en": "Search listings",
-          "ar": "ابحث في الإعلانات"
+          "ar": "ابحث في الإعلانات",
+          "de": "Inserate suchen",
+          "ru": "Искать объявления"
         },
         "searchPlaceholder": {
           "tr": "Semt veya ilan başlığı…",
           "en": "District or listing title…",
-          "ar": "الحي أو عنوان الإعلان…"
+          "ar": "الحي أو عنوان الإعلان…",
+          "de": "Stadtteil oder Anzeigentitel…",
+          "ru": "Район или заголовок объявления…"
         },
         "dealGroupLabel": {
           "tr": "İşlem türü",
           "en": "Deal type",
-          "ar": "نوع الصفقة"
+          "ar": "نوع الصفقة",
+          "de": "Transaktionstyp",
+          "ru": "Тип сделки"
         },
         "dealAll": {
           "tr": "Tümü",
           "en": "All",
-          "ar": "الكل"
+          "ar": "الكل",
+          "de": "Alle",
+          "ru": "Все"
         },
         "dealSale": {
           "tr": "Satılık",
           "en": "For sale",
-          "ar": "للبيع"
+          "ar": "للبيع",
+          "de": "Zu verkaufen",
+          "ru": "Продам"
         },
         "dealRent": {
           "tr": "Kiralık",
           "en": "For rent",
-          "ar": "للإيجار"
+          "ar": "للإيجار",
+          "de": "Zu vermieten",
+          "ru": "Аренда"
         },
         "filtersTitle": {
           "tr": "Filtreler",
           "en": "Filters",
-          "ar": "التصفية"
+          "ar": "التصفية",
+          "de": "Filter",
+          "ru": "Фильтры"
         },
         "typeTitle": {
           "tr": "Emlak türü",
           "en": "Property type",
-          "ar": "نوع العقار"
+          "ar": "نوع العقار",
+          "de": "Eigentumsart",
+          "ru": "Тип недвижимости"
         },
         "roomsTitle": {
           "tr": "Oda sayısı",
           "en": "Rooms",
-          "ar": "عدد الغرف"
+          "ar": "عدد الغرف",
+          "de": "Zimmerzahl",
+          "ru": "Количество комнат"
         },
         "m2Title": {
           "tr": "Alan (m²)",
           "en": "Area (m²)",
-          "ar": "المساحة (م²)"
+          "ar": "المساحة (م²)",
+          "de": "Fläche (m²)",
+          "ru": "Площадь (м²)"
         },
         "priceTitle": {
           "tr": "Fiyat",
           "en": "Price",
-          "ar": "السعر"
+          "ar": "السعر",
+          "de": "Preis",
+          "ru": "Цена"
         },
         "districtTitle": {
           "tr": "Semt",
           "en": "District",
-          "ar": "الحي"
+          "ar": "الحي",
+          "de": "Stadtviertel",
+          "ru": "Район"
         },
         "districtAll": {
           "tr": "Tüm semtler",
           "en": "All districts",
-          "ar": "كل الأحياء"
+          "ar": "كل الأحياء",
+          "de": "Alle Stadtteile",
+          "ru": "Все районы"
         },
         "minLabel": {
           "tr": "En az",
           "en": "Min",
-          "ar": "الحد الأدنى"
+          "ar": "الحد الأدنى",
+          "de": "Mindestens",
+          "ru": "Минимум"
         },
         "maxLabel": {
           "tr": "En çok",
           "en": "Max",
-          "ar": "الحد الأقصى"
+          "ar": "الحد الأقصى",
+          "de": "Max",
+          "ru": "Макс"
         },
         "m2Unit": {
           "tr": "m²",
           "en": "m²",
-          "ar": "م²"
+          "ar": "م²",
+          "de": "m²",
+          "ru": "m²"
         },
         "sortLabel": {
           "tr": "Sırala",
           "en": "Sort by",
-          "ar": "ترتيب حسب"
+          "ar": "ترتيب حسب",
+          "de": "Sortieren",
+          "ru": "Сортировать"
         },
         "sortDate": {
           "tr": "En yeni",
           "en": "Newest",
-          "ar": "الأحدث"
+          "ar": "الأحدث",
+          "de": "Neueste",
+          "ru": "Самые новые"
         },
         "sortPrice": {
           "tr": "Fiyat: düşükten yükseğe",
           "en": "Price: low to high",
-          "ar": "السعر: من الأقل إلى الأعلى"
+          "ar": "السعر: من الأقل إلى الأعلى",
+          "de": "Preis: aufsteigend",
+          "ru": "Цена: по возрастанию"
         },
         "sortPriceDesc": {
           "tr": "Fiyat: yüksekten düşüğe",
           "en": "Price: high to low",
-          "ar": "السعر: من الأعلى إلى الأقل"
+          "ar": "السعر: من الأعلى إلى الأقل",
+          "de": "Preis: absteigend",
+          "ru": "Цена: по убыванию"
         },
         "sortM2": {
           "tr": "Alan: büyükten küçüğe",
           "en": "Area: large to small",
-          "ar": "المساحة: من الأكبر إلى الأصغر"
+          "ar": "المساحة: من الأكبر إلى الأصغر",
+          "de": "Fläche: von groß nach klein",
+          "ru": "Площадь: от большой к малой"
         },
         "sortM2Asc": {
           "tr": "Alan: küçükten büyüğe",
           "en": "Area: small to large",
-          "ar": "المساحة: من الأصغر إلى الأكبر"
+          "ar": "المساحة: من الأصغر إلى الأكبر",
+          "de": "Fläche: von klein nach groß",
+          "ru": "Площадь: от меньшей к большей"
         },
         "resetFilters": {
           "tr": "Filtreleri temizle",
           "en": "Clear filters",
-          "ar": "مسح عوامل التصفية"
+          "ar": "مسح عوامل التصفية",
+          "de": "Filter zurücksetzen",
+          "ru": "Сбросить фильтры"
         },
         "resultCount": {
           "tr": {
@@ -1077,62 +1323,86 @@
         "noResultTitle": {
           "tr": "Sonuç bulunamadı",
           "en": "No results found",
-          "ar": "لم يتم العثور على نتائج"
+          "ar": "لم يتم العثور على نتائج",
+          "de": "Keine Ergebnisse gefunden",
+          "ru": "Ничего не найдено"
         },
         "noResultText": {
           "tr": "Filtreleri gevşetmeyi veya temizlemeyi deneyin.",
           "en": "Try loosening or clearing your filters.",
-          "ar": "جرّب تخفيف عوامل التصفية أو مسحها."
+          "ar": "جرّب تخفيف عوامل التصفية أو مسحها.",
+          "de": "Versuchen Sie, die Filter zu lockern oder zurückzusetzen.",
+          "ru": "Попробуйте ослабить или сбросить фильтры."
         },
         "pagesLabel": {
           "tr": "Sayfalama",
           "en": "Pagination",
-          "ar": "التنقل بين الصفحات"
+          "ar": "التنقل بين الصفحات",
+          "de": "Seitennavigation",
+          "ru": "Постраничная навигация"
         },
         "prevPage": {
           "tr": "Önceki sayfa",
           "en": "Previous page",
-          "ar": "الصفحة السابقة"
+          "ar": "الصفحة السابقة",
+          "de": "Vorherige Seite",
+          "ru": "Предыдущая страница"
         },
         "nextPage": {
           "tr": "Sonraki sayfa",
           "en": "Next page",
-          "ar": "الصفحة التالية"
+          "ar": "الصفحة التالية",
+          "de": "Nächste Seite",
+          "ru": "Следующая страница"
         },
         "pageN": {
           "tr": "Sayfa {n}",
           "en": "Page {n}",
-          "ar": "الصفحة {n}"
+          "ar": "الصفحة {n}",
+          "de": "Seite {n}",
+          "ru": "Страница {n}"
         },
         "permitLabel": {
           "tr": "Yetki belgesi no",
           "en": "Authorization certificate no.",
-          "ar": "رقم شهادة التفويض"
+          "ar": "رقم شهادة التفويض",
+          "de": "Zulassungsnummer",
+          "ru": "Номер разрешительного документа"
         },
         "permitDemo": {
           "tr": "Yetki belgesi no: örnek ilan (DEMO)",
           "en": "Authorization no.: sample listing (DEMO)",
-          "ar": "رقم شهادة التفويض: إعلان تجريبي (عرض توضيحي)"
+          "ar": "رقم شهادة التفويض: إعلان تجريبي (عرض توضيحي)",
+          "de": "Zulassungsnr.: Beispielanzeige (DEMO)",
+          "ru": "Номер разрешения: пример объявления (ДЕМО)"
         },
         "perMonth": {
           "tr": "/ ay",
           "en": "/ month",
-          "ar": "/ شهريًا"
+          "ar": "/ شهريًا",
+          "de": "/ month",
+          "ru": "/ month"
         },
         "details": {
           "tr": "İlan detayı",
           "en": "View listing",
-          "ar": "تفاصيل الإعلان"
+          "ar": "تفاصيل الإعلان",
+          "de": "Anzeigedetails",
+          "ru": "Детали объявления"
         },
         "dateLabel": {
           "tr": "İlan tarihi",
           "en": "Listed on",
-          "ar": "تاريخ الإعلان"
+          "ar": "تاريخ الإعلان",
+          "de": "Einschaltungsdatum",
+          "ru": "Дата размещения"
         },
         "demoNote": {
           "tr": "Bu sayfadaki ilanlar kurgusaldır; yetki belgesi numaraları örnektir (DEMO).",
           "en": "Listings on this page are fictional; authorization numbers are samples (DEMO).",
-          "ar": "الإعلانات في هذه الصفحة وهمية، وأرقام شهادات التفويض أمثلة فقط (عرض توضيحي)."
+          "ar": "الإعلانات في هذه الصفحة وهمية، وأرقام شهادات التفويض أمثلة فقط (عرض توضيحي).",
+          "de": "Die Anzeigen auf dieser Seite sind fiktiv; die Genehmigungsnummern sind Beispiele (DEMO).",
+          "ru": "Объявления на этой странице вымышлены; номера разрешений приведены в качестве примеров (DEMO)."
         }
       },
       "version": "1.0.0",
@@ -1149,27 +1419,37 @@
           "daire": {
             "tr": "Daire",
             "en": "Apartment",
-            "ar": "شقة"
+            "ar": "شقة",
+            "de": "Wohnung",
+            "ru": "Квартира"
           },
           "villa": {
             "tr": "Villa",
             "en": "Villa",
-            "ar": "فيلا"
+            "ar": "فيلا",
+            "de": "Villa",
+            "ru": "Villa"
           },
           "rezidans": {
             "tr": "Rezidans",
             "en": "Residence",
-            "ar": "مجمّع سكني"
+            "ar": "مجمّع سكني",
+            "de": "Residenz",
+            "ru": "Резиденция"
           },
           "arsa": {
             "tr": "Arsa",
             "en": "Land",
-            "ar": "أرض"
+            "ar": "أرض",
+            "de": "Grundstück",
+            "ru": "Участок"
           },
           "isyeri": {
             "tr": "İşyeri",
             "en": "Commercial",
-            "ar": "محل تجاري"
+            "ar": "محل تجاري",
+            "de": "Arbeitsplatz",
+            "ru": "Место работы"
           }
         },
         "listings": [
@@ -1178,7 +1458,9 @@
             "title": {
               "tr": "Deniz manzaralı 3+1 daire",
               "en": "3+1 apartment with sea view",
-              "ar": "شقة 3+1 بإطلالة بحرية"
+              "ar": "شقة 3+1 بإطلالة بحرية",
+              "de": "3+1-Wohnung mit Meerblick",
+              "ru": "Квартира 3+1 с видом на море"
             },
             "deal": "sale",
             "type": "daire",
@@ -1189,12 +1471,16 @@
             "city": {
               "tr": "İstanbul",
               "en": "Istanbul",
-              "ar": "إسطنبول"
+              "ar": "إسطنبول",
+              "de": "Istanbul",
+              "ru": "Стамбул"
             },
             "district": {
               "tr": "Kadıköy",
               "en": "Kadikoy",
-              "ar": "قاضي كوي"
+              "ar": "قاضي كوي",
+              "de": "Kadıköy",
+              "ru": "Кадыкёй"
             },
             "img": [],
             "permitNo": "DEMO-34-0001",
@@ -1203,7 +1489,9 @@
             "badge": {
               "tr": "Yeni",
               "en": "New",
-              "ar": "جديد"
+              "ar": "جديد",
+              "de": "Neu",
+              "ru": "Новинка"
             }
           },
           {
@@ -1211,7 +1499,9 @@
             "title": {
               "tr": "Bahçe katı 2+1 kiralık daire",
               "en": "2+1 garden-floor apartment for rent",
-              "ar": "شقة 2+1 في الطابق الأرضي مع حديقة للإيجار"
+              "ar": "شقة 2+1 في الطابق الأرضي مع حديقة للإيجار",
+              "de": "2+1-Mietwohnung im Gartengeschoss",
+              "ru": "Квартира 2+1 в аренду на садовом этаже"
             },
             "deal": "rent",
             "type": "daire",
@@ -1222,12 +1512,16 @@
             "city": {
               "tr": "Ankara",
               "en": "Ankara",
-              "ar": "أنقرة"
+              "ar": "أنقرة",
+              "de": "Ankara",
+              "ru": "Ankara"
             },
             "district": {
               "tr": "Çankaya",
               "en": "Cankaya",
-              "ar": "تشانكايا"
+              "ar": "تشانكايا",
+              "de": "Çankaya",
+              "ru": "Чанкая"
             },
             "img": [],
             "permitNo": "DEMO-06-0002",
@@ -1239,7 +1533,9 @@
             "title": {
               "tr": "Havuzlu müstakil villa",
               "en": "Detached villa with pool",
-              "ar": "فيلا مستقلة مع مسبح"
+              "ar": "فيلا مستقلة مع مسبح",
+              "de": "Freistehende Villa mit Pool",
+              "ru": "Отдельно стоящая вилла с бассейном"
             },
             "deal": "sale",
             "type": "villa",
@@ -1250,12 +1546,16 @@
             "city": {
               "tr": "Muğla",
               "en": "Mugla",
-              "ar": "موغلا"
+              "ar": "موغلا",
+              "de": "Muğla",
+              "ru": "Мугла"
             },
             "district": {
               "tr": "Bodrum",
               "en": "Bodrum",
-              "ar": "بودروم"
+              "ar": "بودروم",
+              "de": "Bodrum",
+              "ru": "Bodrum"
             },
             "img": [],
             "permitNo": "DEMO-48-0003",
@@ -1267,7 +1567,9 @@
             "title": {
               "tr": "Eşyalı 1+1 kiralık daire",
               "en": "Furnished 1+1 apartment for rent",
-              "ar": "شقة 1+1 مفروشة للإيجار"
+              "ar": "شقة 1+1 مفروشة للإيجار",
+              "de": "Möblierte 1+1-Wohnung zur Miete",
+              "ru": "Меблированная квартира 1+1 в аренду"
             },
             "deal": "rent",
             "type": "daire",
@@ -1278,12 +1580,16 @@
             "city": {
               "tr": "İzmir",
               "en": "Izmir",
-              "ar": "إزمير"
+              "ar": "إزمير",
+              "de": "İzmir",
+              "ru": "Измир"
             },
             "district": {
               "tr": "Karşıyaka",
               "en": "Karsiyaka",
-              "ar": "قارشيياكا"
+              "ar": "قارشيياكا",
+              "de": "Karşıyaka",
+              "ru": "Каршияка"
             },
             "img": [],
             "permitNo": "DEMO-35-0004",
@@ -1295,7 +1601,9 @@
             "title": {
               "tr": "İmarlı satılık arsa",
               "en": "Zoned plot for sale",
-              "ar": "أرض مخططة للبيع"
+              "ar": "أرض مخططة للبيع",
+              "de": "Baugrundstück mit Bebauungsplan zu verkaufen",
+              "ru": "Участок под застройку на продажу"
             },
             "deal": "sale",
             "type": "arsa",
@@ -1306,12 +1614,16 @@
             "city": {
               "tr": "İzmir",
               "en": "Izmir",
-              "ar": "إزمير"
+              "ar": "إزمير",
+              "de": "İzmir",
+              "ru": "Измир"
             },
             "district": {
               "tr": "Urla",
               "en": "Urla",
-              "ar": "أورلا"
+              "ar": "أورلا",
+              "de": "Urla",
+              "ru": "Urla"
             },
             "img": [],
             "permitNo": "DEMO-35-0005",
@@ -1323,7 +1635,9 @@
             "title": {
               "tr": "Cadde üstü kiralık dükkân",
               "en": "Street-front shop for rent",
-              "ar": "محل على الشارع الرئيسي للإيجار"
+              "ar": "محل على الشارع الرئيسي للإيجار",
+              "de": "Ladenlokal an der Hauptstraße zu vermieten",
+              "ru": "Магазин на главной улице в аренду"
             },
             "deal": "rent",
             "type": "isyeri",
@@ -1334,12 +1648,16 @@
             "city": {
               "tr": "İstanbul",
               "en": "Istanbul",
-              "ar": "إسطنبول"
+              "ar": "إسطنبول",
+              "de": "Istanbul",
+              "ru": "Стамбул"
             },
             "district": {
               "tr": "Şişli",
               "en": "Sisli",
-              "ar": "شيشلي"
+              "ar": "شيشلي",
+              "de": "Şişli",
+              "ru": "Шишли"
             },
             "img": [],
             "permitNo": "DEMO-34-0006",
@@ -1351,7 +1669,9 @@
             "title": {
               "tr": "Site içinde 2+1 daire",
               "en": "2+1 apartment in a gated complex",
-              "ar": "شقة 2+1 داخل مجمع سكني مسوّر"
+              "ar": "شقة 2+1 داخل مجمع سكني مسوّر",
+              "de": "2+1 Wohnung in einer Wohnanlage",
+              "ru": "Квартира 2+1 в закрытом комплексе"
             },
             "deal": "sale",
             "type": "daire",
@@ -1362,12 +1682,16 @@
             "city": {
               "tr": "Bursa",
               "en": "Bursa",
-              "ar": "بورصة"
+              "ar": "بورصة",
+              "de": "Bursa",
+              "ru": "Bursa"
             },
             "district": {
               "tr": "Nilüfer",
               "en": "Nilufer",
-              "ar": "نيلوفر"
+              "ar": "نيلوفر",
+              "de": "Nilüfer",
+              "ru": "Nilüfer"
             },
             "img": [],
             "permitNo": "DEMO-16-0007",
@@ -1379,7 +1703,9 @@
             "title": {
               "tr": "Merkezi konumda 1+1 rezidans",
               "en": "1+1 residence in a central location",
-              "ar": "وحدة 1+1 في مجمّع سكني بموقع مركزي"
+              "ar": "وحدة 1+1 في مجمّع سكني بموقع مركزي",
+              "de": "1+1-Residenz in zentraler Lage",
+              "ru": "Резиденция 1+1 в центральном районе"
             },
             "deal": "sale",
             "type": "rezidans",
@@ -1390,12 +1716,16 @@
             "city": {
               "tr": "İstanbul",
               "en": "Istanbul",
-              "ar": "إسطنبول"
+              "ar": "إسطنبول",
+              "de": "Istanbul",
+              "ru": "Стамбул"
             },
             "district": {
               "tr": "Beşiktaş",
               "en": "Besiktas",
-              "ar": "بشيكتاش"
+              "ar": "بشيكتاش",
+              "de": "Beşiktaş",
+              "ru": "Бешикташ"
             },
             "img": [],
             "permitNo": "DEMO-34-0008",
@@ -1424,22 +1754,30 @@
         "text": {
           "tr": "Bu demo {brand} tarafından hazırlanmıştır —",
           "en": "This demo was prepared by {brand} —",
-          "ar": "تم إعداد هذا العرض التجريبي بواسطة {brand} —"
+          "ar": "تم إعداد هذا العرض التجريبي بواسطة {brand} —",
+          "de": "Diese Demo wurde von {brand} erstellt —",
+          "ru": "Это демо подготовлено компанией {brand} —"
         },
         "ctaText": {
           "tr": "Bu temayı iste",
           "en": "Get this theme",
-          "ar": "اطلب هذا القالب"
+          "ar": "اطلب هذا القالب",
+          "de": "Dieses Thema anfordern",
+          "ru": "Заказать эту тему"
         },
         "newTabText": {
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
-          "ar": "(يفتح في علامة تبويب جديدة)"
+          "ar": "(يفتح في علامة تبويب جديدة)",
+          "de": "(öffnet in einem neuen Tab)",
+          "ru": "(открывается в новой вкладке)"
         },
         "ariaLabel": {
           "tr": "Demo bilgisi",
           "en": "Demo credit",
-          "ar": "معلومات العرض التجريبي"
+          "ar": "معلومات العرض التجريبي",
+          "de": "Demo-Hinweis",
+          "ru": "Демо-информация"
         }
       },
       "veri": {
@@ -1479,7 +1817,9 @@
         "cta_ad": {
           "tr": "İlan sor",
           "en": "Ask about a car",
-          "ar": "اسأل عن سيارة"
+          "ar": "اسأل عن سيارة",
+          "de": "Nach einem Auto fragen",
+          "ru": "Спросить о машине"
         },
         "cta_url": "iletisim",
         "tel": "+90 342 088 27 27",
@@ -1502,7 +1842,9 @@
         "cta": {
           "tr": "İlan sor",
           "en": "Ask about a car",
-          "ar": "اسأل عن سيارة"
+          "ar": "اسأل عن سيارة",
+          "de": "Nach einem Auto fragen",
+          "ru": "Спросить о машине"
         }
       },
       "data": [],
@@ -1543,17 +1885,23 @@
         "ust": {
           "tr": "Vitrin",
           "en": "Showroom",
-          "ar": "الواجهة"
+          "ar": "الواجهة",
+          "de": "Schaufenster",
+          "ru": "Витрина"
         },
         "baslik": {
           "tr": "Galeri sayılarla",
           "en": "The showroom in numbers",
-          "ar": "المعرض بالأرقام"
+          "ar": "المعرض بالأرقام",
+          "de": "Die Galerie in Zahlen",
+          "ru": "Галерея в цифрах"
         },
         "metin": {
           "tr": "Tablayı çevirin ya da damgaya dokunun. Kurgusal demo verileri.",
           "en": "Turn the stand or tap a stamp. Fictional demo figures.",
-          "ar": "أدر المنصة أو المس الختم. بيانات تجريبية افتراضية."
+          "ar": "أدر المنصة أو المس الختم. بيانات تجريبية افتراضية.",
+          "de": "Drehen Sie das Tablett oder tippen Sie auf den Stempel. Fiktive Demodaten.",
+          "ru": "Поверните поднос или коснитесь печати. Вымышленные демо-данные."
         },
         "bg": "var(--mx-site-text, #111318)",
         "text": "var(--mx-site-bg, #ffffff)",
@@ -1570,12 +1918,16 @@
         "title": {
           "tr": "Galeri sayılarla",
           "en": "The showroom in numbers",
-          "ar": "المعرض بالأرقام"
+          "ar": "المعرض بالأرقام",
+          "de": "Die Galerie in Zahlen",
+          "ru": "Галерея в цифрах"
         },
         "description": {
           "tr": "Kurgusal demo verileri.",
           "en": "Fictional demo figures.",
-          "ar": "بيانات تجريبية افتراضية."
+          "ar": "بيانات تجريبية افتراضية.",
+          "de": "Fiktive Demo-Daten.",
+          "ru": "Вымышленные демо-данные."
         }
       },
       "data": [
@@ -1584,12 +1936,16 @@
           "etiket": {
             "tr": "Vitrindeki araç",
             "en": "Cars on display",
-            "ar": "سيارات في المعرض"
+            "ar": "سيارات في المعرض",
+            "de": "Fahrzeug im Schaufenster",
+            "ru": "Автомобиль в витрине"
           },
           "metin": {
             "tr": "Bu hafta galeride; hepsi raporlu.",
             "en": "In the showroom this week; all with reports.",
-            "ar": "في المعرض هذا الأسبوع وجميعها بتقارير."
+            "ar": "في المعرض هذا الأسبوع وجميعها بتقارير.",
+            "de": "Diese Woche in der Galerie; alle mit Gutachten.",
+            "ru": "На этой неделе в галерее; все с отчётом."
           },
           "ikon": "directions_car",
           "max": 40
@@ -1599,17 +1955,23 @@
           "onek": {
             "tr": "%",
             "en": "%",
-            "ar": "%"
+            "ar": "%",
+            "de": "%",
+            "ru": "%"
           },
           "etiket": {
             "tr": "Raporlu ilan",
             "en": "Listings with a report",
-            "ar": "إعلانات بتقرير"
+            "ar": "إعلانات بتقرير",
+            "de": "Anzeige mit Bericht",
+            "ru": "Объявление с отчётом"
           },
           "metin": {
             "tr": "Raporsuz araç vitrine çıkmaz.",
             "en": "No car goes on display without a report.",
-            "ar": "لا تُعرض سيارة دون تقرير."
+            "ar": "لا تُعرض سيارة دون تقرير.",
+            "de": "Ein Fahrzeug ohne Gutachten kommt nicht in den Schauraum.",
+            "ru": "Автомобиль без экспертного отчёта в шоурум не попадает."
           },
           "ikon": "fact_check",
           "max": 100
@@ -1619,17 +1981,23 @@
           "sonek": {
             "tr": " dk",
             "en": " min",
-            "ar": " دقيقة"
+            "ar": " دقيقة",
+            "de": " Min.",
+            "ru": " мин."
           },
           "etiket": {
             "tr": "Takas değerleme",
             "en": "Trade-in valuation",
-            "ar": "تقييم المقايضة"
+            "ar": "تقييم المقايضة",
+            "de": "Inzahlungnahme-Bewertung",
+            "ru": "Оценка при обмене"
           },
           "metin": {
             "tr": "Aracınızın ön değerlemesi, ortalama.",
             "en": "Average time for a first valuation of your car.",
-            "ar": "متوسط مدة التقييم الأولي لسيارتك."
+            "ar": "متوسط مدة التقييم الأولي لسيارتك.",
+            "de": "Vorbewertung Ihres Fahrzeugs, Durchschnitt.",
+            "ru": "Предварительная оценка вашего автомобиля, средняя."
           },
           "ikon": "sync_alt",
           "max": 60
@@ -1639,12 +2007,16 @@
           "etiket": {
             "tr": "Teslim edilen araç",
             "en": "Cars handed over",
-            "ar": "سيارات مُسلَّمة"
+            "ar": "سيارات مُسلَّمة",
+            "de": "Übergebenes Fahrzeug",
+            "ru": "Выданный автомобиль"
           },
           "metin": {
             "tr": "2026 yılında, kurgusal.",
             "en": "In 2026, fictional.",
-            "ar": "في عام 2026، افتراضي."
+            "ar": "في عام 2026، افتراضي.",
+            "de": "Im Jahr 2026, fiktiv.",
+            "ru": "В 2026 году, вымышленно."
           },
           "ikon": "key",
           "max": 250
@@ -1693,17 +2065,23 @@
         "ust": {
           "tr": "Teslimler",
           "en": "Handovers",
-          "ar": "التسليمات"
+          "ar": "التسليمات",
+          "de": "Übergaben",
+          "ru": "Выдача"
         },
         "baslik": {
           "tr": "Kimlere araç teslim ettik?",
           "en": "Who have we handed cars to?",
-          "ar": "لمن سلّمنا السيارات؟"
+          "ar": "لمن سلّمنا السيارات؟",
+          "de": "Wem haben wir Autos übergeben?",
+          "ru": "Кому мы передали автомобили?"
         },
         "metin": {
           "tr": "Gruba dokunun; sayaç o gruptaki teslim adedine sayar. Kurgusal adlar; gerçek kişi ya da kuruluş değildir.",
           "en": "Tap a group and the counter counts its handovers. Fictional names; not real people or organisations.",
-          "ar": "المس المجموعة ليعدّ العدّاد تسليماتها. أسماء افتراضية وليست أشخاصًا أو جهات حقيقية."
+          "ar": "المس المجموعة ليعدّ العدّاد تسليماتها. أسماء افتراضية وليست أشخاصًا أو جهات حقيقية.",
+          "de": "Tippen Sie auf die Gruppe; der Zähler zählt bis zur Anzahl der Lieferungen dieser Gruppe. Fiktive Namen; keine realen Personen oder Organisationen.",
+          "ru": "Нажмите на группу — счётчик досчитает до числа доставок в этой группе. Имена условные; не относятся к реальным людям или организациям."
         },
         "sayi": "",
         "sayiEtiket": "",
@@ -1720,7 +2098,9 @@
         "toplamEtiket": {
           "tr": "Kurgusal teslim",
           "en": "Fictional handovers",
-          "ar": "تسليمات افتراضية"
+          "ar": "تسليمات افتراضية",
+          "de": "Fiktive Lieferung",
+          "ru": "Вымышленная сдача"
         },
         "bgcolor": "var(--mx-site-surface, #f6f7f9)",
         "color": "var(--mx-site-text, #111318)",
@@ -1728,12 +2108,16 @@
         "title": {
           "tr": "Kimlere araç teslim ettik?",
           "en": "Who have we handed cars to?",
-          "ar": "لمن سلّمنا السيارات؟"
+          "ar": "لمن سلّمنا السيارات؟",
+          "de": "Wem haben wir Autos übergeben?",
+          "ru": "Кому мы передали автомобили?"
         },
         "description": {
           "tr": "Gruba dokunun; sayaç o gruptaki teslim adedine sayar. Kurgusal adlar; gerçek kişi ya da kuruluş değildir.",
           "en": "Tap a group and the counter counts its handovers. Fictional names; not real people or organisations.",
-          "ar": "المس المجموعة ليعدّ العدّاد تسليماتها. أسماء افتراضية وليست أشخاصًا أو جهات حقيقية."
+          "ar": "المس المجموعة ليعدّ العدّاد تسليماتها. أسماء افتراضية وليست أشخاصًا أو جهات حقيقية.",
+          "de": "Tippen Sie auf die Gruppe; der Zähler zählt bis zur Anzahl der Lieferungen dieser Gruppe. Fiktive Namen; keine realen Personen oder Organisationen.",
+          "ru": "Нажмите на группу — счётчик досчитает до числа доставок в этой группе. Имена условные; не относятся к реальным людям или организациям."
         }
       },
       "data": [
@@ -1741,12 +2125,16 @@
           "ad": {
             "tr": "Ayşe K.",
             "en": "Ayse K.",
-            "ar": "عائشة ك."
+            "ar": "عائشة ك.",
+            "de": "Ayşe K.",
+            "ru": "Ayşe K."
           },
           "sektor": {
             "tr": "Aile aracı",
             "en": "Family car",
-            "ar": "سيارة عائلية"
+            "ar": "سيارة عائلية",
+            "de": "Familienauto",
+            "ru": "Семейный автомобиль"
           },
           "yil": "2026"
         },
@@ -1754,12 +2142,16 @@
           "ad": {
             "tr": "Burak ve Elif T.",
             "en": "Burak and Elif T.",
-            "ar": "بوراك وإليف ت."
+            "ar": "بوراك وإليف ت.",
+            "de": "Burak und Elif T.",
+            "ru": "Burak и Elif T."
           },
           "sektor": {
             "tr": "Aile aracı",
             "en": "Family car",
-            "ar": "سيارة عائلية"
+            "ar": "سيارة عائلية",
+            "de": "Familienauto",
+            "ru": "Семейный автомобиль"
           },
           "yil": "2026"
         },
@@ -1767,12 +2159,16 @@
           "ad": {
             "tr": "Kemal D.",
             "en": "Kemal D.",
-            "ar": "كمال د."
+            "ar": "كمال د.",
+            "de": "Kemal D.",
+            "ru": "Kemal D."
           },
           "sektor": {
             "tr": "Aile aracı",
             "en": "Family car",
-            "ar": "سيارة عائلية"
+            "ar": "سيارة عائلية",
+            "de": "Familienauto",
+            "ru": "Семейный автомобиль"
           },
           "yil": "2025"
         },
@@ -1780,12 +2176,16 @@
           "ad": {
             "tr": "Merve S.",
             "en": "Merve S.",
-            "ar": "مروة س."
+            "ar": "مروة س.",
+            "de": "Merve S.",
+            "ru": "Merve S."
           },
           "sektor": {
             "tr": "Aile aracı",
             "en": "Family car",
-            "ar": "سيارة عائلية"
+            "ar": "سيارة عائلية",
+            "de": "Familienauto",
+            "ru": "Семейный автомобиль"
           },
           "yil": "2025"
         },
@@ -1793,12 +2193,16 @@
           "ad": {
             "tr": "Lale Fırını",
             "en": "Lale Bakery",
-            "ar": "مخبز لاله"
+            "ar": "مخبز لاله",
+            "de": "Lale Fırını",
+            "ru": "Lale Fırını"
           },
           "sektor": {
             "tr": "Esnaf · hafif ticari",
             "en": "Trade · light commercial",
-            "ar": "الحرفيون · تجارية خفيفة"
+            "ar": "الحرفيون · تجارية خفيفة",
+            "de": "Gewerbetreibende · leichtes Gewerbe",
+            "ru": "Предприниматели · лёгкий коммерческий"
           },
           "yil": "2026"
         },
@@ -1806,12 +2210,16 @@
           "ad": {
             "tr": "Usta Tesisat",
             "en": "Usta Plumbing",
-            "ar": "أوستا للسباكة"
+            "ar": "أوستا للسباكة",
+            "de": "Meister Sanitär",
+            "ru": "Мастер Сантехника"
           },
           "sektor": {
             "tr": "Esnaf · hafif ticari",
             "en": "Trade · light commercial",
-            "ar": "الحرفيون · تجارية خفيفة"
+            "ar": "الحرفيون · تجارية خفيفة",
+            "de": "Gewerbetreibende · leichtes Gewerbe",
+            "ru": "Предприниматели · лёгкий коммерческий"
           },
           "yil": "2025"
         },
@@ -1819,12 +2227,16 @@
           "ad": {
             "tr": "Bakır Çiçekçilik",
             "en": "Bakir Florist",
-            "ar": "باكر للزهور"
+            "ar": "باكر للزهور",
+            "de": "Bakır Çiçekçilik",
+            "ru": "Bakır Çiçekçilik"
           },
           "sektor": {
             "tr": "Esnaf · hafif ticari",
             "en": "Trade · light commercial",
-            "ar": "الحرفيون · تجارية خفيفة"
+            "ar": "الحرفيون · تجارية خفيفة",
+            "de": "Gewerbetreibende · leichtes Gewerbe",
+            "ru": "Предприниматели · лёгкий коммерческий"
           },
           "yil": "2025"
         },
@@ -1832,12 +2244,16 @@
           "ad": {
             "tr": "Kuzey Lojistik",
             "en": "Kuzey Logistics",
-            "ar": "كوزي للخدمات اللوجستية"
+            "ar": "كوزي للخدمات اللوجستية",
+            "de": "Kuzey Lojistik",
+            "ru": "Kuzey Lojistik"
           },
           "sektor": {
             "tr": "Kurumsal filo",
             "en": "Corporate fleet",
-            "ar": "أسطول الشركات"
+            "ar": "أسطول الشركات",
+            "de": "Firmenflotte",
+            "ru": "Корпоративный автопарк"
           },
           "yil": "2026"
         },
@@ -1845,12 +2261,16 @@
           "ad": {
             "tr": "Avlu Mimarlık",
             "en": "Avlu Architects",
-            "ar": "أفلو للعمارة"
+            "ar": "أفلو للعمارة",
+            "de": "Avlu Mimarlık",
+            "ru": "Avlu Mimarlık"
           },
           "sektor": {
             "tr": "Kurumsal filo",
             "en": "Corporate fleet",
-            "ar": "أسطول الشركات"
+            "ar": "أسطول الشركات",
+            "de": "Firmenflotte",
+            "ru": "Корпоративный автопарк"
           },
           "yil": "2026"
         },
@@ -1858,12 +2278,16 @@
           "ad": {
             "tr": "Pınar Eczanesi",
             "en": "Pinar Pharmacy",
-            "ar": "صيدلية بينار"
+            "ar": "صيدلية بينار",
+            "de": "Pınar Eczanesi",
+            "ru": "Pınar Eczanesi"
           },
           "sektor": {
             "tr": "Kurumsal filo",
             "en": "Corporate fleet",
-            "ar": "أسطول الشركات"
+            "ar": "أسطول الشركات",
+            "de": "Firmenflotte",
+            "ru": "Корпоративный автопарк"
           },
           "yil": "2025"
         },
@@ -1871,12 +2295,16 @@
           "ad": {
             "tr": "Deniz A.",
             "en": "Deniz A.",
-            "ar": "دنيز أ."
+            "ar": "دنيز أ.",
+            "de": "Deniz A.",
+            "ru": "Deniz A."
           },
           "sektor": {
             "tr": "İlk araç",
             "en": "First car",
-            "ar": "السيارة الأولى"
+            "ar": "السيارة الأولى",
+            "de": "Erstes Fahrzeug",
+            "ru": "Первый автомобиль"
           },
           "yil": "2026"
         },
@@ -1884,12 +2312,16 @@
           "ad": {
             "tr": "Ozan Y.",
             "en": "Ozan Y.",
-            "ar": "أوزان ي."
+            "ar": "أوزان ي.",
+            "de": "Ozan Y.",
+            "ru": "Ozan Y."
           },
           "sektor": {
             "tr": "İlk araç",
             "en": "First car",
-            "ar": "السيارة الأولى"
+            "ar": "السيارة الأولى",
+            "de": "Erstes Fahrzeug",
+            "ru": "Первый автомобиль"
           },
           "yil": "2025"
         }
@@ -1936,17 +2368,23 @@
         "ust": {
           "tr": "Sözlük",
           "en": "Glossary",
-          "ar": "المسرد"
+          "ar": "المسرد",
+          "de": "Glossar",
+          "ru": "Глоссарий"
         },
         "baslik": {
           "tr": "Ekspertiz, tramer, kasko: terimler",
           "en": "Inspection, claims record, insurance: the terms",
-          "ar": "الفحص وسجل الحوادث والتأمين: المصطلحات"
+          "ar": "الفحص وسجل الحوادث والتأمين: المصطلحات",
+          "de": "Gutachten, Tramer, Kasko: die Begriffe",
+          "ru": "Экспертиза, Tramer, КАСКО: термины"
         },
         "metin": {
           "tr": "Terime dokunun, ilgili sorular öne çıksın. Bilgilendirme amaçlıdır; güncel kural için resmî kaynaklara bakın.",
           "en": "Tap a term to highlight its questions. For information only; check official sources for current rules.",
-          "ar": "المس المصطلح لتبرز أسئلته. لأغراض إعلامية فقط؛ راجع المصادر الرسمية للقواعد الحالية."
+          "ar": "المس المصطلح لتبرز أسئلته. لأغراض إعلامية فقط؛ راجع المصادر الرسمية للقواعد الحالية.",
+          "de": "Tippen Sie auf einen Begriff, um die zugehörigen Fragen hervorzuheben. Nur zu Informationszwecken; für aktuelle Regeln konsultieren Sie offizielle Quellen.",
+          "ru": "Нажмите на термин, чтобы выделить связанные вопросы. Только для информации; для актуальных правил обращайтесь к официальным источникам."
         },
         "tekAcik": "",
         "ilkAcik": "",
@@ -1967,17 +2405,23 @@
         "badge": {
           "tr": "Sözlük",
           "en": "Glossary",
-          "ar": "المسرد"
+          "ar": "المسرد",
+          "de": "Glossar",
+          "ru": "Глоссарий"
         },
         "title": {
           "tr": "Ekspertiz, tramer, kasko: terimler",
           "en": "Inspection, claims record, insurance: the terms",
-          "ar": "الفحص وسجل الحوادث والتأمين: المصطلحات"
+          "ar": "الفحص وسجل الحوادث والتأمين: المصطلحات",
+          "de": "Gutachten, Tramer, Kasko: die Begriffe",
+          "ru": "Экспертиза, Tramer, КАСКО: термины"
         },
         "description": {
           "tr": "Terime dokunun, ilgili sorular öne çıksın.",
           "en": "Tap a term to highlight its questions.",
-          "ar": "المس المصطلح لتبرز أسئلته."
+          "ar": "المس المصطلح لتبرز أسئلته.",
+          "de": "Tippen Sie auf einen Begriff, damit die passenden Fragen nach vorn rücken.",
+          "ru": "Нажмите на термин, и связанные вопросы выйдут вперёд."
         }
       },
       "data": [
@@ -1985,189 +2429,259 @@
           "question": {
             "tr": "Ekspertiz raporu neyi gösterir?",
             "en": "What does an inspection report show?",
-            "ar": "ماذا يبيّن تقرير الفحص؟"
+            "ar": "ماذا يبيّن تقرير الفحص؟",
+            "de": "Was zeigt der Gutachtenbericht?",
+            "ru": "Что показывает отчёт об экспертизе?"
           },
           "answer": {
             "tr": "Kaporta (boyalı, değişen parça), motor, şanzıman, alt takım ve elektronik kontrollerin sonucunu; raporun tarihi ve düzenleyen firma da yazar.",
             "en": "The results of body (painted, replaced parts), engine, gearbox, underbody and electronics checks; the date and the issuing firm are on it too.",
-            "ar": "نتائج فحص الهيكل (الأجزاء المدهونة والمستبدلة) والمحرك وناقل الحركة والهيكل السفلي والإلكترونيات، مع تاريخ التقرير والجهة المصدرة."
+            "ar": "نتائج فحص الهيكل (الأجزاء المدهونة والمستبدلة) والمحرك وناقل الحركة والهيكل السفلي والإلكترونيات، مع تاريخ التقرير والجهة المصدرة.",
+            "de": "Die Ergebnisse der Karosserie- (lackiert, ausgetauschte Teile), Motor-, Getriebe-, Fahrwerks- und Elektronikprüfungen; Datum und ausstellendes Unternehmen sind ebenfalls angegeben.",
+            "ru": "Результаты проверки кузова (окрашен, заменённые детали), двигателя, коробки передач, ходовой части и электроники; на отчёте также указаны дата и компания-издатель."
           },
           "terim": {
             "tr": "Ekspertiz",
             "en": "Inspection",
-            "ar": "الفحص"
+            "ar": "الفحص",
+            "de": "Gutachten",
+            "ru": "Экспертиза"
           },
           "soru": {
             "tr": "Ekspertiz raporu neyi gösterir?",
             "en": "What does an inspection report show?",
-            "ar": "ماذا يبيّن تقرير الفحص؟"
+            "ar": "ماذا يبيّن تقرير الفحص؟",
+            "de": "Was zeigt der Gutachtenbericht?",
+            "ru": "Что показывает отчёт об экспертизе?"
           },
           "cevap": {
             "tr": "Kaporta (boyalı, değişen parça), motor, şanzıman, alt takım ve elektronik kontrollerin sonucunu; raporun tarihi ve düzenleyen firma da yazar.",
             "en": "The results of body (painted, replaced parts), engine, gearbox, underbody and electronics checks; the date and the issuing firm are on it too.",
-            "ar": "نتائج فحص الهيكل (الأجزاء المدهونة والمستبدلة) والمحرك وناقل الحركة والهيكل السفلي والإلكترونيات، مع تاريخ التقرير والجهة المصدرة."
+            "ar": "نتائج فحص الهيكل (الأجزاء المدهونة والمستبدلة) والمحرك وناقل الحركة والهيكل السفلي والإلكترونيات، مع تاريخ التقرير والجهة المصدرة.",
+            "de": "Die Ergebnisse der Karosserie- (lackiert, ausgetauschte Teile), Motor-, Getriebe-, Fahrwerks- und Elektronikprüfungen; Datum und ausstellendes Unternehmen sind ebenfalls angegeben.",
+            "ru": "Результаты проверки кузова (окрашен, заменённые детали), двигателя, коробки передач, ходовой части и электроники; на отчёте также указаны дата и компания-издатель."
           }
         },
         {
           "question": {
             "tr": "Kendi seçtiğim yerde ekspertiz yaptırabilir miyim?",
             "en": "Can I have the car inspected where I choose?",
-            "ar": "هل يمكنني فحص السيارة في مكان أختاره؟"
+            "ar": "هل يمكنني فحص السيارة في مكان أختاره؟",
+            "de": "Kann ich das Gutachten an einem Ort meiner Wahl erstellen lassen?",
+            "ru": "Могу ли я заказать экспертизу в выбранном мной месте?"
           },
           "answer": {
             "tr": "Evet; aracı randevuyla seçtiğiniz ekspertiz firmasına birlikte götürürüz. Ücreti yaptıran öder.",
             "en": "Yes; we take the car with you to the inspection firm of your choice by appointment. Whoever orders it pays the fee.",
-            "ar": "نعم؛ نأخذ السيارة معك بموعد إلى جهة الفحص التي تختارها، ويدفع الرسوم من يطلب الفحص."
+            "ar": "نعم؛ نأخذ السيارة معك بموعد إلى جهة الفحص التي تختارها، ويدفع الرسوم من يطلب الفحص.",
+            "de": "Ja; wir bringen das Fahrzeug nach Terminvereinbarung gemeinsam zur von Ihnen gewählten Gutachterfirma. Die Kosten trägt der Auftraggeber.",
+            "ru": "Да; мы вместе отвезём автомобиль по записи в выбранную вами экспертную компанию. Оплачивает заказчик."
           },
           "terim": {
             "tr": "Ekspertiz",
             "en": "Inspection",
-            "ar": "الفحص"
+            "ar": "الفحص",
+            "de": "Gutachten",
+            "ru": "Экспертиза"
           },
           "soru": {
             "tr": "Kendi seçtiğim yerde ekspertiz yaptırabilir miyim?",
             "en": "Can I have the car inspected where I choose?",
-            "ar": "هل يمكنني فحص السيارة في مكان أختاره؟"
+            "ar": "هل يمكنني فحص السيارة في مكان أختاره؟",
+            "de": "Kann ich das Gutachten an einem Ort meiner Wahl erstellen lassen?",
+            "ru": "Могу ли я заказать экспертизу в выбранном мной месте?"
           },
           "cevap": {
             "tr": "Evet; aracı randevuyla seçtiğiniz ekspertiz firmasına birlikte götürürüz. Ücreti yaptıran öder.",
             "en": "Yes; we take the car with you to the inspection firm of your choice by appointment. Whoever orders it pays the fee.",
-            "ar": "نعم؛ نأخذ السيارة معك بموعد إلى جهة الفحص التي تختارها، ويدفع الرسوم من يطلب الفحص."
+            "ar": "نعم؛ نأخذ السيارة معك بموعد إلى جهة الفحص التي تختارها، ويدفع الرسوم من يطلب الفحص.",
+            "de": "Ja; wir bringen das Fahrzeug nach Terminvereinbarung gemeinsam zur von Ihnen gewählten Gutachterfirma. Die Kosten trägt der Auftraggeber.",
+            "ru": "Да; мы вместе отвезём автомобиль по записи в выбранную вами экспертную компанию. Оплачивает заказчик."
           }
         },
         {
           "question": {
             "tr": "Tramer kaydı nedir?",
             "en": "What is a claims (Tramer) record?",
-            "ar": "ما هو سجل الحوادث (ترامر)؟"
+            "ar": "ما هو سجل الحوادث (ترامر)؟",
+            "de": "Was ist ein Tramer-Eintrag?",
+            "ru": "Что такое запись Tramer?"
           },
           "answer": {
             "tr": "Aracın sigorta şirketlerine bildirilmiş hasar ödemelerinin kaydıdır; şasi numarasıyla sorgulanır.",
             "en": "The record of damage payments reported by insurers for the car; it is checked with the chassis number.",
-            "ar": "سجل مدفوعات الأضرار التي أبلغت عنها شركات التأمين للسيارة، ويُستعلم عنه برقم الهيكل."
+            "ar": "سجل مدفوعات الأضرار التي أبلغت عنها شركات التأمين للسيارة، ويُستعلم عنه برقم الهيكل.",
+            "de": "Die Aufzeichnung der von Versicherungen gemeldeten Schadenszahlungen für das Fahrzeug; wird über die Fahrgestellnummer abgefragt.",
+            "ru": "Запись выплат за ущерб, заявленных страховыми компаниями для автомобиля; проверяется по VIN-коду."
           },
           "terim": {
             "tr": "Tramer",
             "en": "Claims record",
-            "ar": "سجل الحوادث"
+            "ar": "سجل الحوادث",
+            "de": "Schadenhistorie (Tramer)",
+            "ru": "История ущерба (Tramer)"
           },
           "soru": {
             "tr": "Tramer kaydı nedir?",
             "en": "What is a claims (Tramer) record?",
-            "ar": "ما هو سجل الحوادث (ترامر)؟"
+            "ar": "ما هو سجل الحوادث (ترامر)؟",
+            "de": "Was ist ein Tramer-Eintrag?",
+            "ru": "Что такое запись Tramer?"
           },
           "cevap": {
             "tr": "Aracın sigorta şirketlerine bildirilmiş hasar ödemelerinin kaydıdır; şasi numarasıyla sorgulanır.",
             "en": "The record of damage payments reported by insurers for the car; it is checked with the chassis number.",
-            "ar": "سجل مدفوعات الأضرار التي أبلغت عنها شركات التأمين للسيارة، ويُستعلم عنه برقم الهيكل."
+            "ar": "سجل مدفوعات الأضرار التي أبلغت عنها شركات التأمين للسيارة، ويُستعلم عنه برقم الهيكل.",
+            "de": "Die Aufzeichnung der von Versicherungen gemeldeten Schadenszahlungen für das Fahrzeug; wird über die Fahrgestellnummer abgefragt.",
+            "ru": "Запись выплат за ущерб, заявленных страховыми компаниями для автомобиля; проверяется по VIN-коду."
           }
         },
         {
           "question": {
             "tr": "Tramer kaydı varsa araç kazalı mıdır?",
             "en": "Does a claims record mean the car was in a crash?",
-            "ar": "هل وجود سجل حوادث يعني أن السيارة تعرّضت لحادث؟"
+            "ar": "هل وجود سجل حوادث يعني أن السيارة تعرّضت لحادث؟",
+            "de": "Bedeutet ein Tramer-Eintrag, dass das Auto einen Unfall hatte?",
+            "ru": "Означает ли запись в Tramer, что автомобиль был в аварии?"
           },
           "answer": {
             "tr": "Kayıt tutarı tek başına hasarın büyüklüğünü söylemez; ekspertiz raporuyla birlikte okunmalıdır.",
             "en": "The amount alone does not tell how serious the damage was; read it together with the inspection report.",
-            "ar": "المبلغ وحده لا يبيّن حجم الضرر، ويجب قراءته مع تقرير الفحص."
+            "ar": "المبلغ وحده لا يبيّن حجم الضرر، ويجب قراءته مع تقرير الفحص.",
+            "de": "Der Betrag allein gibt keine Auskunft über die Schwere des Schadens; er muss zusammen mit dem Gutachten gelesen werden.",
+            "ru": "Сумма сама по себе не говорит о тяжести ущерба; ее следует рассматривать вместе с заключением эксперта."
           },
           "terim": {
             "tr": "Tramer",
             "en": "Claims record",
-            "ar": "سجل الحوادث"
+            "ar": "سجل الحوادث",
+            "de": "Schadenhistorie (Tramer)",
+            "ru": "История ущерба (Tramer)"
           },
           "soru": {
             "tr": "Tramer kaydı varsa araç kazalı mıdır?",
             "en": "Does a claims record mean the car was in a crash?",
-            "ar": "هل وجود سجل حوادث يعني أن السيارة تعرّضت لحادث؟"
+            "ar": "هل وجود سجل حوادث يعني أن السيارة تعرّضت لحادث؟",
+            "de": "Bedeutet ein Tramer-Eintrag, dass das Auto einen Unfall hatte?",
+            "ru": "Означает ли запись в Tramer, что автомобиль был в аварии?"
           },
           "cevap": {
             "tr": "Kayıt tutarı tek başına hasarın büyüklüğünü söylemez; ekspertiz raporuyla birlikte okunmalıdır.",
             "en": "The amount alone does not tell how serious the damage was; read it together with the inspection report.",
-            "ar": "المبلغ وحده لا يبيّن حجم الضرر، ويجب قراءته مع تقرير الفحص."
+            "ar": "المبلغ وحده لا يبيّن حجم الضرر، ويجب قراءته مع تقرير الفحص.",
+            "de": "Der Betrag allein gibt keine Auskunft über die Schwere des Schadens; er muss zusammen mit dem Gutachten gelesen werden.",
+            "ru": "Сумма сама по себе не говорит о тяжести ущерба; ее следует рассматривать вместе с заключением эксперта."
           }
         },
         {
           "question": {
             "tr": "Kasko ile trafik sigortası farkı ne?",
             "en": "Comprehensive vs compulsory traffic insurance?",
-            "ar": "ما الفرق بين التأمين الشامل وتأمين المرور الإلزامي؟"
+            "ar": "ما الفرق بين التأمين الشامل وتأمين المرور الإلزامي؟",
+            "de": "Was ist der Unterschied zwischen Vollkasko und Kfz-Haftpflichtversicherung?",
+            "ru": "В чём разница между каско и обязательным страхованием автогражданской ответственности?"
           },
           "answer": {
             "tr": "Trafik sigortası zorunludur ve karşı tarafın zararını karşılar; kasko isteğe bağlıdır ve kendi aracınızı korur.",
             "en": "Traffic insurance is compulsory and covers the other party’s loss; comprehensive cover is optional and protects your own car.",
-            "ar": "تأمين المرور إلزامي ويغطي خسارة الطرف الآخر، أما التأمين الشامل فاختياري ويحمي سيارتك."
+            "ar": "تأمين المرور إلزامي ويغطي خسارة الطرف الآخر، أما التأمين الشامل فاختياري ويحمي سيارتك.",
+            "de": "Die Haftpflichtversicherung ist Pflicht und deckt den Schaden der Gegenseite; die Kaskoversicherung ist freiwillig und schützt Ihr eigenes Fahrzeug.",
+            "ru": "Страхование гражданской ответственности (трафик) обязательно и покрывает ущерб другой стороны; каско добровольное и защищает ваш собственный автомобиль."
           },
           "terim": {
             "tr": "Kasko",
             "en": "Insurance",
-            "ar": "التأمين"
+            "ar": "التأمين",
+            "de": "Vollkasko",
+            "ru": "КАСКО"
           },
           "soru": {
             "tr": "Kasko ile trafik sigortası farkı ne?",
             "en": "Comprehensive vs compulsory traffic insurance?",
-            "ar": "ما الفرق بين التأمين الشامل وتأمين المرور الإلزامي؟"
+            "ar": "ما الفرق بين التأمين الشامل وتأمين المرور الإلزامي؟",
+            "de": "Was ist der Unterschied zwischen Vollkasko und Kfz-Haftpflichtversicherung?",
+            "ru": "В чём разница между каско и обязательным страхованием автогражданской ответственности?"
           },
           "cevap": {
             "tr": "Trafik sigortası zorunludur ve karşı tarafın zararını karşılar; kasko isteğe bağlıdır ve kendi aracınızı korur.",
             "en": "Traffic insurance is compulsory and covers the other party’s loss; comprehensive cover is optional and protects your own car.",
-            "ar": "تأمين المرور إلزامي ويغطي خسارة الطرف الآخر، أما التأمين الشامل فاختياري ويحمي سيارتك."
+            "ar": "تأمين المرور إلزامي ويغطي خسارة الطرف الآخر، أما التأمين الشامل فاختياري ويحمي سيارتك.",
+            "de": "Die Haftpflichtversicherung ist Pflicht und deckt den Schaden der Gegenseite; die Kaskoversicherung ist freiwillig und schützt Ihr eigenes Fahrzeug.",
+            "ru": "Страхование гражданской ответственности (трафик) обязательно и покрывает ущерб другой стороны; каско добровольное и защищает ваш собственный автомобиль."
           }
         },
         {
           "question": {
             "tr": "«Lokal boyalı» ne demek?",
             "en": "What does “locally painted” mean?",
-            "ar": "ماذا يعني «مدهون موضعيًا»؟"
+            "ar": "ماذا يعني «مدهون موضعيًا»؟",
+            "de": "Was bedeutet «lokal lackiert»?",
+            "ru": "Что значит «окрашено локально»?"
           },
           "answer": {
             "tr": "Parçanın yalnız bir bölümü boyanmıştır; «boyalı» tüm parçanın, «değişen» parçanın yenisiyle değiştirildiğini anlatır.",
             "en": "Only part of the panel was painted; “painted” means the whole panel, “replaced” means a new panel was fitted.",
-            "ar": "يعني أن جزءًا من القطعة فقط دُهن؛ أما «مدهون» فيعني القطعة كلها، و«مستبدل» يعني تركيب قطعة جديدة."
+            "ar": "يعني أن جزءًا من القطعة فقط دُهن؛ أما «مدهون» فيعني القطعة كلها، و«مستبدل» يعني تركيب قطعة جديدة.",
+            "de": "Nur ein Teil des Bauteils ist lackiert; «lackiert» bezieht sich auf das ganze Teil, «ausgetauscht» bedeutet, dass das Teil durch ein neues ersetzt wurde.",
+            "ru": "Окрашена только часть детали; «крашено» относится ко всей детали, «заменено» означает, что деталь заменена новой."
           },
           "terim": {
             "tr": "Değişen / boyalı",
             "en": "Replaced / painted",
-            "ar": "مستبدل / مدهون"
+            "ar": "مستبدل / مدهون",
+            "de": "Ersetzt / gestrichen",
+            "ru": "Заменено / окрашено"
           },
           "soru": {
             "tr": "«Lokal boyalı» ne demek?",
             "en": "What does “locally painted” mean?",
-            "ar": "ماذا يعني «مدهون موضعيًا»؟"
+            "ar": "ماذا يعني «مدهون موضعيًا»؟",
+            "de": "Was bedeutet «lokal lackiert»?",
+            "ru": "Что значит «окрашено локально»?"
           },
           "cevap": {
             "tr": "Parçanın yalnız bir bölümü boyanmıştır; «boyalı» tüm parçanın, «değişen» parçanın yenisiyle değiştirildiğini anlatır.",
             "en": "Only part of the panel was painted; “painted” means the whole panel, “replaced” means a new panel was fitted.",
-            "ar": "يعني أن جزءًا من القطعة فقط دُهن؛ أما «مدهون» فيعني القطعة كلها، و«مستبدل» يعني تركيب قطعة جديدة."
+            "ar": "يعني أن جزءًا من القطعة فقط دُهن؛ أما «مدهون» فيعني القطعة كلها، و«مستبدل» يعني تركيب قطعة جديدة.",
+            "de": "Nur ein Teil des Bauteils ist lackiert; «lackiert» bezieht sich auf das ganze Teil, «ausgetauscht» bedeutet, dass das Teil durch ein neues ersetzt wurde.",
+            "ru": "Окрашена только часть детали; «крашено» относится ко всей детали, «заменено» означает, что деталь заменена новой."
           }
         },
         {
           "question": {
             "tr": "Satış nerede ve nasıl yapılır?",
             "en": "Where and how is the sale made?",
-            "ar": "أين وكيف يتم البيع؟"
+            "ar": "أين وكيف يتم البيع؟",
+            "de": "Wo und wie wird der Verkauf abgewickelt?",
+            "ru": "Где и как осуществляется продажа?"
           },
           "answer": {
             "tr": "Devir noterde yapılır; ödeme noterin güvenli ödeme sistemiyle de yapılabilir. Randevuyu galeri alır.",
             "en": "The transfer is done at a notary; payment can also go through the notary’s secure payment system. The dealer books the appointment.",
-            "ar": "يتم النقل لدى الكاتب العدل، ويمكن الدفع أيضًا عبر نظام الدفع الآمن لديه، ويحجز المعرض الموعد."
+            "ar": "يتم النقل لدى الكاتب العدل، ويمكن الدفع أيضًا عبر نظام الدفع الآمن لديه، ويحجز المعرض الموعد.",
+            "de": "Die Übertragung erfolgt beim Notar; die Zahlung kann auch über das sichere Zahlungssystem des Notars erfolgen. Den Termin vereinbart die Galerie.",
+            "ru": "Переоформление проводится у нотариуса; оплату можно произвести и через защищённую платёжную систему нотариуса. Запись организует автосалон."
           },
           "terim": {
             "tr": "Noter",
             "en": "Notary",
-            "ar": "الكاتب العدل"
+            "ar": "الكاتب العدل",
+            "de": "Notar",
+            "ru": "Нотариус"
           },
           "soru": {
             "tr": "Satış nerede ve nasıl yapılır?",
             "en": "Where and how is the sale made?",
-            "ar": "أين وكيف يتم البيع؟"
+            "ar": "أين وكيف يتم البيع؟",
+            "de": "Wo und wie wird der Verkauf abgewickelt?",
+            "ru": "Где и как осуществляется продажа?"
           },
           "cevap": {
             "tr": "Devir noterde yapılır; ödeme noterin güvenli ödeme sistemiyle de yapılabilir. Randevuyu galeri alır.",
             "en": "The transfer is done at a notary; payment can also go through the notary’s secure payment system. The dealer books the appointment.",
-            "ar": "يتم النقل لدى الكاتب العدل، ويمكن الدفع أيضًا عبر نظام الدفع الآمن لديه، ويحجز المعرض الموعد."
+            "ar": "يتم النقل لدى الكاتب العدل، ويمكن الدفع أيضًا عبر نظام الدفع الآمن لديه، ويحجز المعرض الموعد.",
+            "de": "Die Übertragung erfolgt beim Notar; die Zahlung kann auch über das sichere Zahlungssystem des Notars erfolgen. Den Termin vereinbart die Galerie.",
+            "ru": "Переоформление проводится у нотариуса; оплату можно произвести и через защищённую платёжную систему нотариуса. Запись организует автосалон."
           }
         }
       ],
@@ -2211,22 +2725,30 @@
         "ust": {
           "tr": "Galeri bileti",
           "en": "Showroom ticket",
-          "ar": "تذكرة المعرض"
+          "ar": "تذكرة المعرض",
+          "de": "Galerieticket",
+          "ru": "Билет в галерею"
         },
         "baslik": {
           "tr": "Test sürüşüne gelin",
           "en": "Come for a test drive",
-          "ar": "تعال لتجربة القيادة"
+          "ar": "تعال لتجربة القيادة",
+          "de": "Kommen Sie zu einer Probefahrt",
+          "ru": "Приезжайте на тест-драйв"
         },
         "metin": {
           "tr": "Gelmeden ilan numarasını yazın; araç ve raporu hazır beklesin. Yetki belgesi no: DEMO-27-0301 · Selvi Otomotiv Tic. Ltd. Şti. (kurgusal).",
           "en": "Send the listing number before you come so the car and its report are ready. Authorisation certificate no: DEMO-27-0301 · Selvi Automotive Trading Ltd. (fictional).",
-          "ar": "أرسل رقم الإعلان قبل حضورك لتكون السيارة وتقريرها جاهزين. رقم شهادة التفويض: DEMO-27-0301 · شركة سلفي لتجارة السيارات المحدودة (افتراضية)."
+          "ar": "أرسل رقم الإعلان قبل حضورك لتكون السيارة وتقريرها جاهزين. رقم شهادة التفويض: DEMO-27-0301 · شركة سلفي لتجارة السيارات المحدودة (افتراضية).",
+          "de": "Senden Sie die Inseratsnummer vorab, damit das Fahrzeug und der Bericht bereitstehen. Zulassungszertifikat Nr.: DEMO-27-0301 · Selvi Otomotiv Tic. Ltd. Şti. (fiktiv).",
+          "ru": "Отправьте номер объявления заранее, чтобы автомобиль и отчёт были готовы. Сертификат на право деятельности №: DEMO-27-0301 · Selvi Otomotiv Tic. Ltd. Şti. (вымышленное)."
         },
         "adres": {
           "tr": "İpek Yolu Bulvarı No: 140, Şehitkamil, Gaziantep (kurgusal adres)",
           "en": "140 Ipek Yolu Boulevard, Sehitkamil, Gaziantep (fictional address)",
-          "ar": "جادة طريق الحرير رقم 140، شهيد كامل، غازي عنتاب (عنوان افتراضي)"
+          "ar": "جادة طريق الحرير رقم 140، شهيد كامل، غازي عنتاب (عنوان افتراضي)",
+          "de": "İpek Yolu Bulvarı Nr. 140, Şehitkamil, Gaziantep (fiktive Adresse)",
+          "ru": "İpek Yolu Bulvarı № 140, Шехиткамиль, Газиантеп (вымышленный адрес)"
         },
         "telefon": "+90 342 088 27 27",
         "eposta": "vitrin@selvioto.example",
@@ -2234,14 +2756,18 @@
         "saat": {
           "tr": "Pzt–Cmt 09:30 – 19:30 · Paz 12:00 – 18:00",
           "en": "Mon–Sat 09:30 – 19:30 · Sun 12:00 – 18:00",
-          "ar": "الاثنين–السبت 09:30 – 19:30 · الأحد 12:00 – 18:00"
+          "ar": "الاثنين–السبت 09:30 – 19:30 · الأحد 12:00 – 18:00",
+          "de": "Mo–Sa 09:30 – 19:30 · So 12:00 – 18:00",
+          "ru": "Пн–Сб 09:30 – 19:30 · Вс 12:00 – 18:00"
         },
         "haritaUrl": "",
         "haritaGomme": "",
         "waMesaj": {
           "tr": "Merhaba Selvi Otomotiv, ilan no … için test sürüşü istiyorum.",
           "en": "Hello Selvi Motors, I would like a test drive for listing no …",
-          "ar": "مرحبًا سلفي للسيارات، أودّ تجربة قيادة للإعلان رقم …"
+          "ar": "مرحبًا سلفي للسيارات، أودّ تجربة قيادة للإعلان رقم …",
+          "de": "Hallo Selvi Otomotiv, ich möchte eine Probefahrt für Anzeige Nr. …",
+          "ru": "Здравствуйте, Selvi Otomotiv, я хотел бы провести тест-драйв по объявлению № …"
         },
         "bg": "var(--mx-site-bg, #ffffff)",
         "text": "var(--mx-site-text, #111318)",
@@ -2259,40 +2785,54 @@
         "address": {
           "tr": "İpek Yolu Bulvarı No: 140, Şehitkamil, Gaziantep (kurgusal adres)",
           "en": "140 Ipek Yolu Boulevard, Sehitkamil, Gaziantep (fictional address)",
-          "ar": "جادة طريق الحرير رقم 140، شهيد كامل، غازي عنتاب (عنوان افتراضي)"
+          "ar": "جادة طريق الحرير رقم 140، شهيد كامل، غازي عنتاب (عنوان افتراضي)",
+          "de": "İpek Yolu Bulvarı Nr. 140, Şehitkamil, Gaziantep (fiktive Adresse)",
+          "ru": "İpek Yolu Bulvarı № 140, Шехиткамиль, Газиантеп (вымышленный адрес)"
         },
         "phone": "+90 342 088 27 27",
         "email": "vitrin@selvioto.example",
         "hours": {
           "tr": "Pzt–Cmt 09:30 – 19:30 · Paz 12:00 – 18:00",
           "en": "Mon–Sat 09:30 – 19:30 · Sun 12:00 – 18:00",
-          "ar": "الاثنين–السبت 09:30 – 19:30 · الأحد 12:00 – 18:00"
+          "ar": "الاثنين–السبت 09:30 – 19:30 · الأحد 12:00 – 18:00",
+          "de": "Mo–Sa 09:30 – 19:30 · So 12:00 – 18:00",
+          "ru": "Пн–Сб 09:30 – 19:30 · Вс 12:00 – 18:00"
         },
         "social": [],
         "title": {
           "tr": "Teklif isteyin",
           "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "ar": "اطلب عرض سعر",
+          "de": "Angebot anfordern",
+          "ru": "Запросить предложение"
         },
         "description": {
           "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
           "en": "Leave your details; we reply within two business days. This form is a demo; it opens your e-mail client and stores no data.",
-          "ar": "اترك بياناتك وسنرد خلال يومي عمل. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يحفظ أي بيانات."
+          "ar": "اترك بياناتك وسنرد خلال يومي عمل. هذا النموذج تجريبي؛ يفتح برنامج البريد لديك ولا يحفظ أي بيانات.",
+          "de": "Hinterlassen Sie Ihre Angaben; wir melden uns innerhalb von zwei Werktagen. Dieses Formular ist eine Demo; es öffnet Ihren E-Mail-Client und speichert keine Daten.",
+          "ru": "Оставьте свои данные; мы ответим в течение двух рабочих дней. Эта форма является демо; она открывает ваш почтовый клиент и не хранит данные."
         },
         "panelTitle": {
           "tr": "Selvi Otomotiv",
           "en": "Selvi Otomotiv",
-          "ar": "Selvi Otomotiv"
+          "ar": "Selvi Otomotiv",
+          "de": "Selvi Otomotiv",
+          "ru": "Selvi Otomotiv"
         },
         "panelText": {
           "tr": "Görseller temsilidir; bu bir kurulum demosudur.",
           "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "ar": "الصور تمثيلية وهذا عرض تجريبي.",
+          "de": "Die Bilder sind symbolisch; dies ist eine Einrichtungs-Demo.",
+          "ru": "Изображения условные; это демонстрация установки."
         },
         "formTitle": {
           "tr": "Teklif formu",
           "en": "Quote form",
-          "ar": "نموذج الطلب"
+          "ar": "نموذج الطلب",
+          "de": "Angebotsformular",
+          "ru": "Форма запроса предложения"
         },
         "subjects": [
           {
@@ -2300,7 +2840,9 @@
             "name": {
               "tr": "Yeni talep",
               "en": "New request",
-              "ar": "طلب جديد"
+              "ar": "طلب جديد",
+              "de": "Neue Anfrage",
+              "ru": "Новый запрос"
             }
           },
           {
@@ -2308,7 +2850,9 @@
             "name": {
               "tr": "Ölçü ve keşif",
               "en": "Measure and survey",
-              "ar": "قياس واستقصاء"
+              "ar": "قياس واستقصاء",
+              "de": "Aufmaß und Besichtigung",
+              "ru": "Замеры и осмотр"
             }
           },
           {
@@ -2316,7 +2860,9 @@
             "name": {
               "tr": "Teknik soru",
               "en": "Technical question",
-              "ar": "سؤال فني"
+              "ar": "سؤال فني",
+              "de": "Technische Frage",
+              "ru": "Технический вопрос"
             }
           },
           {
@@ -2324,19 +2870,25 @@
             "name": {
               "tr": "Diğer",
               "en": "Other",
-              "ar": "أخرى"
+              "ar": "أخرى",
+              "de": "Sonstiges",
+              "ru": "Другое"
             }
           }
         ],
         "kvkkText": {
           "tr": "Kişisel verilerimin bu talebin yanıtlanması amacıyla işlenmesine ilişkin aydınlatma metnini okudum.",
           "en": "I have read the privacy notice on how my personal data is processed to answer this request.",
-          "ar": "لقد قرأت إشعار الخصوصية المتعلق بمعالجة بياناتي الشخصية للرد على هذا الطلب."
+          "ar": "لقد قرأت إشعار الخصوصية المتعلق بمعالجة بياناتي الشخصية للرد على هذا الطلب.",
+          "de": "Ich habe die Datenschutzerklärung zur Verarbeitung meiner personenbezogenen Daten zur Beantwortung dieser Anfrage gelesen.",
+          "ru": "Я ознакомился(лась) с уведомлением о конфиденциальности об обработке моих персональных данных для ответа на этот запрос."
         },
         "kvkkLinkText": {
           "tr": "Aydınlatma metni",
           "en": "Privacy notice",
-          "ar": "إشعار الخصوصية"
+          "ar": "إشعار الخصوصية",
+          "de": "Datenschutzhinweis",
+          "ru": "Информация об обработке данных"
         },
         "kvkkHref": "kisiselveriler"
       },
@@ -2379,28 +2931,38 @@
         "ust": {
           "tr": "İlan sorgusu",
           "en": "Listing lookup",
-          "ar": "الاستعلام عن إعلان"
+          "ar": "الاستعلام عن إعلان",
+          "de": "Inseratsabfrage",
+          "ru": "Поиск объявления"
         },
         "baslik": {
           "tr": "İlan numarasıyla sorun",
           "en": "Ask with the listing number",
-          "ar": "اسأل برقم الإعلان"
+          "ar": "اسأل برقم الإعلان",
+          "de": "Mit der Anzeigennummer anfragen",
+          "ru": "Спросите по номеру объявления"
         },
         "metin": {
           "tr": "Vitrindeki kartta ya da ilanda yazan numarayı girin; danışman ekspertiz raporunu ve test sürüşü saatini paylaşsın. Km ve hasar durumu ekspertiz raporuyla doğrulanır.",
           "en": "Enter the number on the showroom card or listing; an adviser shares the inspection report and a test-drive time. Mileage and damage status are verified by an inspection report.",
-          "ar": "أدخل الرقم المكتوب على بطاقة الواجهة أو في الإعلان ليشاركك المستشار تقرير الفحص وموعد تجربة القيادة. يُتحقَّق من المسافة المقطوعة وحالة الأضرار بتقرير فحص."
+          "ar": "أدخل الرقم المكتوب على بطاقة الواجهة أو في الإعلان ليشاركك المستشار تقرير الفحص وموعد تجربة القيادة. يُتحقَّق من المسافة المقطوعة وحالة الأضرار بتقرير فحص.",
+          "de": "Geben Sie die Nummer auf der Ausstellungs- oder Anzeigekarte ein; ein Berater teilt den Gutachtenbericht und die Uhrzeit für die Probefahrt. Kilometerstand und Schadenszustand werden durch den Gutachtenbericht bestätigt.",
+          "ru": "Введите номер с карточки в шоуруме или объявления; консультант предоставит отчет об осмотре и время тест-драйва. Пробег и состояние повреждений подтверждаются отчетом об осмотре."
         },
         "btn1Text": {
           "tr": "Ekspertiz sözlüğü",
           "en": "Inspection glossary",
-          "ar": "مسرد الفحص"
+          "ar": "مسرد الفحص",
+          "de": "Gutachten-Glossar",
+          "ru": "Словарь экспертизы"
         },
         "btn1Url": "sorular",
         "btn2Text": {
           "tr": "İletişim",
           "en": "Contact",
-          "ar": "اتصل بنا"
+          "ar": "اتصل بنا",
+          "de": "Kontakt",
+          "ru": "Контакты"
         },
         "btn2Url": "iletisim",
         "img": "",
@@ -2409,34 +2971,46 @@
         "not": {
           "tr": "İlan numarası vitrin camındaki kartın sağ üst köşesinde yazar. Yetki belgesi no: DEMO-27-0301 · Selvi Otomotiv Tic. Ltd. Şti. (kurgusal).",
           "en": "The listing number is in the top corner of the card on the showroom window. Authorisation certificate no: DEMO-27-0301 · Selvi Automotive Trading Ltd. (fictional).",
-          "ar": "رقم الإعلان مكتوب في الزاوية العليا من البطاقة على واجهة العرض. رقم شهادة التفويض: DEMO-27-0301 · شركة سلفي لتجارة السيارات المحدودة (افتراضية)."
+          "ar": "رقم الإعلان مكتوب في الزاوية العليا من البطاقة على واجهة العرض. رقم شهادة التفويض: DEMO-27-0301 · شركة سلفي لتجارة السيارات المحدودة (افتراضية).",
+          "de": "Die Anzeigennummer steht oben rechts auf dem Schild an der Schaufensterscheibe. Genehmigungsnr.: DEMO-27-0301 · Selvi Otomotiv Tic. Ltd. Şti. (fiktiv).",
+          "ru": "Номер объявления указан в правом верхнем углу карточки на витрине. № разрешения: DEMO-27-0301 · Selvi Otomotiv Tic. Ltd. Şti. (вымышленно)."
         },
         "number": "903420882727",
         "numberText": "+90 342 088 27 27",
         "waLabel": {
           "tr": "Mesaj gönder",
           "en": "Send a message",
-          "ar": "أرسل رسالة"
+          "ar": "أرسل رسالة",
+          "de": "Nachricht senden",
+          "ru": "Отправить сообщение"
         },
         "waTitle": {
           "tr": "WhatsApp ile yazın",
           "en": "Write on WhatsApp",
-          "ar": "راسلنا عبر واتساب"
+          "ar": "راسلنا عبر واتساب",
+          "de": "Schreiben Sie per WhatsApp",
+          "ru": "Напишите в WhatsApp"
         },
         "waMessage": {
           "tr": "Merhaba Selvi Otomotiv, bir ilan hakkında bilgi almak istiyorum.",
           "en": "Hello Selvi Motors, I would like information about a listing.",
-          "ar": "مرحبًا سلفي للسيارات، أودّ الاستفسار عن إعلان."
+          "ar": "مرحبًا سلفي للسيارات، أودّ الاستفسار عن إعلان.",
+          "de": "Hallo Selvi Otomotiv, ich möchte Informationen zu einem Inserat erhalten.",
+          "ru": "Здравствуйте, Selvi Otomotiv, хочу получить информацию по объявлению."
         },
         "hours": {
           "tr": "Pzt–Cmt 09:30 – 19:30 · Paz 12:00 – 18:00",
           "en": "Mon–Sat 09:30 – 19:30 · Sun 12:00 – 18:00",
-          "ar": "الاثنين–السبت 09:30 – 19:30 · الأحد 12:00 – 18:00"
+          "ar": "الاثنين–السبت 09:30 – 19:30 · الأحد 12:00 – 18:00",
+          "de": "Mo–Sa 09:30 – 19:30 · So 12:00 – 18:00",
+          "ru": "Пн–Сб 09:30 – 19:30 · Вс 12:00 – 18:00"
         },
         "hoursLabel": {
           "tr": "Çalışma saatleri",
           "en": "Opening hours",
-          "ar": "ساعات العمل"
+          "ar": "ساعات العمل",
+          "de": "Öffnungszeiten",
+          "ru": "Часы работы"
         },
         "bg": "var(--mx-site-bg, #ffffff)",
         "yaziRenk": "var(--mx-site-text, #111318)",
@@ -2452,17 +3026,23 @@
         "takipAd": {
           "tr": "İlan numarası",
           "en": "Listing number",
-          "ar": "رقم الإعلان"
+          "ar": "رقم الإعلان",
+          "de": "Anzeigennummer",
+          "ru": "Номер объявления"
         },
         "takipIpucu": {
           "tr": "Örn. SLV-2611-07",
           "en": "e.g. SLV-2611-07",
-          "ar": "مثال: SLV-2611-07"
+          "ar": "مثال: SLV-2611-07",
+          "de": "z. B. SLV-2611-07",
+          "ru": "напр. SLV-2611-07"
         },
         "takipDugme": {
           "tr": "Sorgula",
           "en": "Look up",
-          "ar": "استعلم"
+          "ar": "استعلم",
+          "de": "Abfragen",
+          "ru": "Проверить"
         },
         "bgcolor": "var(--mx-site-bg, #ffffff)",
         "color": "var(--mx-site-text, #111318)",
@@ -2470,22 +3050,30 @@
         "title": {
           "tr": "İlan numarasıyla sorun",
           "en": "Ask with the listing number",
-          "ar": "اسأل برقم الإعلان"
+          "ar": "اسأل برقم الإعلان",
+          "de": "Mit der Anzeigennummer anfragen",
+          "ru": "Спросите по номеру объявления"
         },
         "btn1Label": {
           "tr": "Ekspertiz sözlüğü",
           "en": "Inspection glossary",
-          "ar": "مسرد الفحص"
+          "ar": "مسرد الفحص",
+          "de": "Gutachten-Glossar",
+          "ru": "Словарь экспертизы"
         },
         "btn2Label": {
           "tr": "İletişim",
           "en": "Contact",
-          "ar": "اتصل بنا"
+          "ar": "اتصل بنا",
+          "de": "Kontakt",
+          "ru": "Контакты"
         },
         "description": {
           "tr": "Vitrindeki kartta ya da ilanda yazan numarayı girin.",
           "en": "Enter the number on the showroom card or listing.",
-          "ar": "أدخل الرقم المكتوب على بطاقة الواجهة أو في الإعلان."
+          "ar": "أدخل الرقم المكتوب على بطاقة الواجهة أو في الإعلان.",
+          "de": "Geben Sie die Nummer auf der Showroom-Karte oder Anzeige ein.",
+          "ru": "Введите номер, указанный на карточке в шоуруме или в объявлении."
         }
       },
       "data": [
@@ -2494,12 +3082,16 @@
           "baslik": {
             "tr": "İlan no",
             "en": "Listing no",
-            "ar": "رقم الإعلان"
+            "ar": "رقم الإعلان",
+            "de": "Anzeigen-Nr.",
+            "ru": "Номер объявления"
           },
           "aciklama": {
             "tr": "Vitrin kartında",
             "en": "On the showroom card",
-            "ar": "على بطاقة الواجهة"
+            "ar": "على بطاقة الواجهة",
+            "de": "Auf der Schaufensterkarte",
+            "ru": "На витринной карточке"
           }
         },
         {
@@ -2507,12 +3099,16 @@
           "baslik": {
             "tr": "Rapor",
             "en": "Report",
-            "ar": "التقرير"
+            "ar": "التقرير",
+            "de": "Bericht",
+            "ru": "Отчёт"
           },
           "aciklama": {
             "tr": "Ekspertiz ve tramer",
             "en": "Inspection and claims record",
-            "ar": "الفحص وسجل الحوادث"
+            "ar": "الفحص وسجل الحوادث",
+            "de": "Gutachten und Schadenshistorie",
+            "ru": "Экспертиза и история повреждений (Tramer)"
           }
         },
         {
@@ -2520,12 +3116,16 @@
           "baslik": {
             "tr": "Test sürüşü",
             "en": "Test drive",
-            "ar": "تجربة القيادة"
+            "ar": "تجربة القيادة",
+            "de": "Probefahrt",
+            "ru": "Тест-драйв"
           },
           "aciklama": {
             "tr": "Randevuyla",
             "en": "By appointment",
-            "ar": "بموعد"
+            "ar": "بموعد",
+            "de": "Nach Termin",
+            "ru": "По записи"
           }
         },
         {
@@ -2533,12 +3133,16 @@
           "baslik": {
             "tr": "Noter",
             "en": "Notary",
-            "ar": "الكاتب العدل"
+            "ar": "الكاتب العدل",
+            "de": "Notar",
+            "ru": "Нотариус"
           },
           "aciklama": {
             "tr": "Devir randevusu",
             "en": "Transfer appointment",
-            "ar": "موعد النقل"
+            "ar": "موعد النقل",
+            "de": "Übergabetermin",
+            "ru": "Запись на передачу"
           }
         }
       ],
@@ -2582,19 +3186,25 @@
         "hakkinda": {
           "tr": "Selvi Otomotiv: ekspertiz raporlu ikinci el araç. Yetki belgesi no: DEMO-27-0301 · Selvi Otomotiv Tic. Ltd. Şti. (kurgusal). Km ve hasar durumu ekspertiz raporuyla doğrulanır.",
           "en": "Selvi Motors: used cars with inspection reports. Authorisation certificate no: DEMO-27-0301 · Selvi Automotive Trading Ltd. (fictional). Mileage and damage status are verified by an inspection report.",
-          "ar": "سلفي للسيارات: سيارات مستعملة بتقارير فحص. رقم شهادة التفويض: DEMO-27-0301 · شركة سلفي لتجارة السيارات المحدودة (افتراضية). يُتحقَّق من المسافة المقطوعة وحالة الأضرار بتقرير فحص."
+          "ar": "سلفي للسيارات: سيارات مستعملة بتقارير فحص. رقم شهادة التفويض: DEMO-27-0301 · شركة سلفي لتجارة السيارات المحدودة (افتراضية). يُتحقَّق من المسافة المقطوعة وحالة الأضرار بتقرير فحص.",
+          "de": "Selvi Otomotiv: Gebrauchtwagen mit Gutachten. Zulassungsbescheinigung Nr.: DEMO-27-0301 · Selvi Otomotiv Tic. Ltd. Şti. (fiktiv). Kilometerstand und Schadenszustand werden durch das Gutachten bestätigt.",
+          "ru": "Selvi Otomotiv: подержанные автомобили с отчётом об экспертизе. Сертификат авторизации №: DEMO-27-0301 · Selvi Otomotiv Tic. Ltd. Şti. (вымышленный). Пробег и состояние повреждений подтверждаются отчётом об экспертизе."
         },
         "tel": "+90 342 088 27 27",
         "eposta": "vitrin@selvioto.example",
         "adres": {
           "tr": "İpek Yolu Bulvarı No: 140, Şehitkamil, Gaziantep (kurgusal adres)",
           "en": "140 Ipek Yolu Boulevard, Sehitkamil, Gaziantep (fictional address)",
-          "ar": "جادة طريق الحرير رقم 140، شهيد كامل، غازي عنتاب (عنوان افتراضي)"
+          "ar": "جادة طريق الحرير رقم 140، شهيد كامل، غازي عنتاب (عنوان افتراضي)",
+          "de": "İpek Yolu Bulvarı Nr. 140, Şehitkamil, Gaziantep (fiktive Adresse)",
+          "ru": "İpek Yolu Bulvarı № 140, Шехиткамиль, Газиантеп (вымышленный адрес)"
         },
         "cta_ad": {
           "tr": "İlan sor",
           "en": "Ask about a car",
-          "ar": "اسأل عن سيارة"
+          "ar": "اسأل عن سيارة",
+          "de": "Nach einem Auto fragen",
+          "ru": "Спросить о машине"
         },
         "cta_url": "iletisim",
         "rightsText": "",
@@ -2618,12 +3228,16 @@
         "about": {
           "tr": "Selvi Otomotiv demo temadır; içerik, ilanlar ve rakamlar kurgusaldır.",
           "en": "Selvi Motors is a demo theme; content, listings and figures are fictional.",
-          "ar": "سلفي للسيارات قالب تجريبي؛ المحتوى والإعلانات والأرقام افتراضية."
+          "ar": "سلفي للسيارات قالب تجريبي؛ المحتوى والإعلانات والأرقام افتراضية.",
+          "de": "Selvi Otomotiv ist ein Demo-Theme; Inhalte, Anzeigen und Zahlen sind fiktiv.",
+          "ru": "Selvi Otomotiv — демо-тема; содержимое, объявления и цифры вымышленные."
         },
         "address": {
           "tr": "İpek Yolu Bulvarı No: 140, Şehitkamil, Gaziantep (kurgusal adres)",
           "en": "140 Ipek Yolu Boulevard, Sehitkamil, Gaziantep (fictional address)",
-          "ar": "جادة طريق الحرير رقم 140، شهيد كامل، غازي عنتاب (عنوان افتراضي)"
+          "ar": "جادة طريق الحرير رقم 140، شهيد كامل، غازي عنتاب (عنوان افتراضي)",
+          "de": "İpek Yolu Bulvarı Nr. 140, Şehitkamil, Gaziantep (fiktive Adresse)",
+          "ru": "İpek Yolu Bulvarı № 140, Шехиткамиль, Газиантеп (вымышленный адрес)"
         },
         "phone": "+90 342 088 27 27",
         "email": "vitrin@selvioto.example",
@@ -2633,7 +3247,9 @@
             "name": {
               "tr": "KVKK",
               "en": "Privacy (KVKK)",
-              "ar": "حماية البيانات"
+              "ar": "حماية البيانات",
+              "de": "Datenschutz (KVKK)",
+              "ru": "Закон о защите данных (KVKK)"
             },
             "href": "kisiselveriler"
           },
@@ -2641,7 +3257,9 @@
             "name": {
               "tr": "Gizlilik",
               "en": "Privacy policy",
-              "ar": "سياسة الخصوصية"
+              "ar": "سياسة الخصوصية",
+              "de": "Datenschutz",
+              "ru": "Конфиденциальность"
             },
             "href": "gizlilikpolitikasi"
           },
@@ -2649,7 +3267,9 @@
             "name": {
               "tr": "Yasal uyarı",
               "en": "Legal notice",
-              "ar": "إشعار قانوني"
+              "ar": "إشعار قانوني",
+              "de": "Rechtlicher Hinweis",
+              "ru": "Правовое уведомление"
             },
             "href": "yasaluyari"
           }
@@ -2657,24 +3277,32 @@
         "nlTitle": {
           "tr": "Yeni gelen araçlar",
           "en": "New arrivals",
-          "ar": "السيارات الجديدة"
+          "ar": "السيارات الجديدة",
+          "de": "Neu eingetroffene Fahrzeuge",
+          "ru": "Новые поступления"
         },
         "nlText": {
           "tr": "Vitrine yeni giren raporlu araçları haftada bir e-postayla alın. Demo sitede veri saklanmaz.",
           "en": "Get newly arrived inspected cars by e-mail once a week. No data is stored on this demo site.",
-          "ar": "احصل أسبوعيًا بالبريد على السيارات المفحوصة الجديدة. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
+          "ar": "احصل أسبوعيًا بالبريد على السيارات المفحوصة الجديدة. لا تُحفظ أي بيانات في هذا الموقع التجريبي.",
+          "de": "Erhalten Sie einmal pro Woche per E-Mail die neu ins Schaufenster gestellten Fahrzeuge mit Gutachten. Auf der Demo-Website werden keine Daten gespeichert.",
+          "ru": "Раз в неделю получайте по e-mail новые автомобили с отчётами, поступившие в витрину. На демонстрационном сайте данные не сохраняются."
         },
         "nlKvkk": {
           "tr": "E-postanız yalnızca duyuru göndermek için kullanılır; dilediğiniz an listeden çıkabilirsiniz.",
           "en": "Your e-mail is used only to send announcements; you can leave the list at any time.",
-          "ar": "يُستخدم بريدك الإلكتروني لإرسال الإعلانات فقط، ويمكنك إلغاء الاشتراك في أي وقت."
+          "ar": "يُستخدم بريدك الإلكتروني لإرسال الإعلانات فقط، ويمكنك إلغاء الاشتراك في أي وقت.",
+          "de": "Ihre E-Mail-Adresse wird nur für den Versand von Ankündigungen verwendet; Sie können sich jederzeit abmelden.",
+          "ru": "Ваш e-mail используется только для рассылки объявлений; вы можете отписаться в любой момент."
         },
         "services": [
           {
             "name": {
               "tr": "Galeri rakamları",
               "en": "Showroom figures",
-              "ar": "أرقام المعرض"
+              "ar": "أرقام المعرض",
+              "de": "Galeriezahlen",
+              "ru": "Показатели галереи"
             },
             "href": "hakkimizda"
           },
@@ -2682,7 +3310,9 @@
             "name": {
               "tr": "Ekspertiz sözlüğü",
               "en": "Inspection glossary",
-              "ar": "مسرد الفحص"
+              "ar": "مسرد الفحص",
+              "de": "Gutachten-Glossar",
+              "ru": "Словарь экспертизы"
             },
             "href": "sorular"
           },
@@ -2690,7 +3320,9 @@
             "name": {
               "tr": "Teslimler",
               "en": "Handovers",
-              "ar": "التسليمات"
+              "ar": "التسليمات",
+              "de": "Übergaben",
+              "ru": "Выдача"
             },
             "href": "referanslar"
           },
@@ -2698,7 +3330,9 @@
             "name": {
               "tr": "İlan sor",
               "en": "Ask about a car",
-              "ar": "اسأل عن سيارة"
+              "ar": "اسأل عن سيارة",
+              "de": "Nach einem Auto fragen",
+              "ru": "Спросить о машине"
             },
             "href": "iletisim"
           }
@@ -2708,7 +3342,9 @@
             "days": {
               "tr": "Pzt–Cmt",
               "en": "Mon–Sat",
-              "ar": "الاثنين–السبت"
+              "ar": "الاثنين–السبت",
+              "de": "Mo–Sa",
+              "ru": "Пн–Сб"
             },
             "time": "09:30 – 19:30"
           },
@@ -2716,7 +3352,9 @@
             "days": {
               "tr": "Pazar",
               "en": "Sunday",
-              "ar": "الأحد"
+              "ar": "الأحد",
+              "de": "Sonntag",
+              "ru": "Воскресенье"
             },
             "time": "12:00 – 18:00"
           }
@@ -2788,37 +3426,51 @@
         "aria_label": {
           "tr": "Selvi Otomotiv tanıtım slaytları",
           "en": "Selvi Motors intro slides",
-          "ar": "شرائح تعريف سلفي للسيارات"
+          "ar": "شرائح تعريف سلفي للسيارات",
+          "de": "Präsentationsfolien von Selvi Otomotiv",
+          "ru": "Слайды презентации Selvi Otomotiv"
         },
         "prev_label": {
           "tr": "Önceki slayt",
           "en": "Previous slide",
-          "ar": "الشريحة السابقة"
+          "ar": "الشريحة السابقة",
+          "de": "Vorherige Folie",
+          "ru": "Предыдущий слайд"
         },
         "next_label": {
           "tr": "Sonraki slayt",
           "en": "Next slide",
-          "ar": "الشريحة التالية"
+          "ar": "الشريحة التالية",
+          "de": "Nächster Slide",
+          "ru": "Следующий слайд"
         },
         "dot_label": {
           "tr": "{n}. slayta git",
           "en": "Go to slide {n}",
-          "ar": "انتقل إلى الشريحة {n}"
+          "ar": "انتقل إلى الشريحة {n}",
+          "de": "Zu Folie {n} gehen",
+          "ru": "Перейти к слайду {n}"
         },
         "pause_label": {
           "tr": "Durdur",
           "en": "Pause",
-          "ar": "إيقاف مؤقت"
+          "ar": "إيقاف مؤقت",
+          "de": "Stopp",
+          "ru": "Стоп"
         },
         "play_label": {
           "tr": "Oynat",
           "en": "Play",
-          "ar": "تشغيل"
+          "ar": "تشغيل",
+          "de": "Abspielen",
+          "ru": "Воспроизвести"
         },
         "slide_label": {
           "tr": "Slayt {i} / {n}",
           "en": "Slide {i} of {n}",
-          "ar": "الشريحة {i} من {n}"
+          "ar": "الشريحة {i} من {n}",
+          "de": "Folie {i} / {n}",
+          "ru": "Слайд {i} / {n}"
         }
       },
       "data": [
@@ -2827,27 +3479,37 @@
           "alt": {
             "tr": "Aydınlık galeri salonunda sıralı araçlar",
             "en": "Cars lined up in a bright showroom",
-            "ar": "سيارات مصطفة في صالة عرض مضيئة"
+            "ar": "سيارات مصطفة في صالة عرض مضيئة",
+            "de": "Fahrzeuge in Reihe im hellen Showroom",
+            "ru": "Автомобили в ряд в светлом шоуруме"
           },
           "ust": {
             "tr": "38 araç · hepsi raporlu",
             "en": "38 cars · all with reports",
-            "ar": "38 سيارة · جميعها بتقارير"
+            "ar": "38 سيارة · جميعها بتقارير",
+            "de": "38 Fahrzeuge · alle mit Bericht",
+            "ru": "38 автомобилей · все с отчётами"
           },
           "baslik": {
             "tr": "Vitrin",
             "en": "Showroom",
-            "ar": "الواجهة"
+            "ar": "الواجهة",
+            "de": "Schaufenster",
+            "ru": "Витрина"
           },
           "metin": {
             "tr": "Her aracın camında ilan numarası ve rapor özeti. Km ve hasar durumu ekspertiz raporuyla doğrulanır.",
             "en": "Each car’s window shows its listing number and report summary. Mileage and damage status are verified by an inspection report.",
-            "ar": "على زجاج كل سيارة رقم إعلانها وملخص تقريرها. يُتحقَّق من المسافة المقطوعة وحالة الأضرار بتقرير فحص."
+            "ar": "على زجاج كل سيارة رقم إعلانها وملخص تقريرها. يُتحقَّق من المسافة المقطوعة وحالة الأضرار بتقرير فحص.",
+            "de": "An jeder Fahrzeugscheibe Anzeigennummer und Berichtszusammenfassung. Kilometerstand und Schäden werden per Gutachten bestätigt.",
+            "ru": "На стекле каждого автомобиля — номер объявления и краткое содержание отчёта. Пробег и повреждения подтверждаются экспертным заключением."
           },
           "cta": {
             "tr": "Galeri rakamları",
             "en": "Showroom figures",
-            "ar": "أرقام المعرض"
+            "ar": "أرقام المعرض",
+            "de": "Galeriezahlen",
+            "ru": "Показатели галереи"
           },
           "url": "hakkimizda"
         },
@@ -2856,27 +3518,37 @@
           "alt": {
             "tr": "Kaldırma lifti üzerinde muayene edilen araç",
             "en": "A car on an inspection lift",
-            "ar": "سيارة على رافعة الفحص"
+            "ar": "سيارة على رافعة الفحص",
+            "de": "Auf der Hebebühne untersuchtes Fahrzeug",
+            "ru": "Автомобиль, осматриваемый на подъёмнике"
           },
           "ust": {
             "tr": "Bağımsız rapor",
             "en": "Independent report",
-            "ar": "تقرير مستقل"
+            "ar": "تقرير مستقل",
+            "de": "Unabhängiger Bericht",
+            "ru": "Независимый отчёт"
           },
           "baslik": {
             "tr": "Ekspertiz",
             "en": "Inspection",
-            "ar": "الفحص"
+            "ar": "الفحص",
+            "de": "Gutachten",
+            "ru": "Экспертиза"
           },
           "metin": {
             "tr": "Kaporta, motor ve alt takım raporu ilanla birlikte verilir; terimler sözlükte.",
             "en": "The body, engine and underbody report comes with the listing; the terms are in the glossary.",
-            "ar": "يُرفق تقرير الهيكل والمحرك والهيكل السفلي مع الإعلان، والمصطلحات في المسرد."
+            "ar": "يُرفق تقرير الهيكل والمحرك والهيكل السفلي مع الإعلان، والمصطلحات في المسرد.",
+            "de": "Der Bericht zu Karosserie, Motor und Fahrwerk wird mit der Anzeige geliefert; die Begriffe stehen im Glossar.",
+            "ru": "Отчёт по кузову, двигателю и ходовой части прилагается к объявлению; термины — в словаре."
           },
           "cta": {
             "tr": "Ekspertiz sözlüğü",
             "en": "Inspection glossary",
-            "ar": "مسرد الفحص"
+            "ar": "مسرد الفحص",
+            "de": "Gutachten-Glossar",
+            "ru": "Словарь экспертизы"
           },
           "url": "sorular"
         },
@@ -2885,27 +3557,37 @@
           "alt": {
             "tr": "Gri SUV, stüdyo çekimi (markasız, temsilî)",
             "en": "Grey SUV, studio shot (unbranded, representative)",
-            "ar": "سيارة SUV رمادية، لقطة استوديو (بلا علامة، تمثيلية)"
+            "ar": "سيارة SUV رمادية، لقطة استوديو (بلا علامة، تمثيلية)",
+            "de": "Grauer SUV, Studioaufnahme (ohne Marke, repräsentativ)",
+            "ru": "Серый кроссовер, студийный снимок (без бренда, иллюстративный)"
           },
           "ust": {
             "tr": "İlan SLV-2611-07 · SUV · dizel · otomatik",
             "en": "Listing SLV-2611-07 · SUV · diesel · automatic",
-            "ar": "الإعلان SLV-2611-07 · SUV · ديزل · أوتوماتيك"
+            "ar": "الإعلان SLV-2611-07 · SUV · ديزل · أوتوماتيك",
+            "de": "Anzeige SLV-2611-07 · SUV · Diesel · Automatik",
+            "ru": "Объявление SLV-2611-07 · SUV · дизель · автомат"
           },
           "baslik": {
             "tr": "Haftanın aracı",
             "en": "Car of the week",
-            "ar": "سيارة الأسبوع"
+            "ar": "سيارة الأسبوع",
+            "de": "Auto der Woche",
+            "ru": "Автомобиль недели"
           },
           "metin": {
             "tr": "Yetki belgesi no: DEMO-27-0301 · Selvi Otomotiv Tic. Ltd. Şti. (kurgusal). Km ve hasar durumu ekspertiz raporuyla doğrulanır.",
             "en": "Authorisation certificate no: DEMO-27-0301 · Selvi Automotive Trading Ltd. (fictional). Mileage and damage status are verified by an inspection report.",
-            "ar": "رقم شهادة التفويض: DEMO-27-0301 · شركة سلفي لتجارة السيارات المحدودة (افتراضية). يُتحقَّق من المسافة المقطوعة وحالة الأضرار بتقرير فحص."
+            "ar": "رقم شهادة التفويض: DEMO-27-0301 · شركة سلفي لتجارة السيارات المحدودة (افتراضية). يُتحقَّق من المسافة المقطوعة وحالة الأضرار بتقرير فحص.",
+            "de": "Zulassungsbescheinigung Nr.: DEMO-27-0301 · Selvi Otomotiv Tic. Ltd. Şti. (fiktiv). Kilometerstand und Schadenstatus werden durch das Gutachten bestätigt.",
+            "ru": "Номер разрешительного документа: DEMO-27-0301 · Selvi Otomotiv Tic. Ltd. Şti. (вымышленная). Пробег и состояние повреждений подтверждаются отчётом экспертизы."
           },
           "cta": {
             "tr": "İlan sor",
             "en": "Ask about it",
-            "ar": "اسأل عنها"
+            "ar": "اسأل عنها",
+            "de": "Nach einem Auto fragen",
+            "ru": "Спросить о машине"
           },
           "url": "iletisim"
         },
@@ -2914,27 +3596,37 @@
           "alt": {
             "tr": "Masada araç anahtarı ve satış belgesi",
             "en": "Car key and sale document on a desk",
-            "ar": "مفتاح سيارة ووثيقة بيع على مكتب"
+            "ar": "مفتاح سيارة ووثيقة بيع على مكتب",
+            "de": "Autoschlüssel und Kaufvertrag auf dem Schreibtisch",
+            "ru": "Автомобильный ключ и договор купли-продажи на столе"
           },
           "ust": {
             "tr": "Takas ve noter",
             "en": "Trade-in and notary",
-            "ar": "المقايضة والكاتب العدل"
+            "ar": "المقايضة والكاتب العدل",
+            "de": "Tausch und Notar",
+            "ru": "Обмен и нотариус"
           },
           "baslik": {
             "tr": "Teslim",
             "en": "Handover",
-            "ar": "التسليم"
+            "ar": "التسليم",
+            "de": "Lieferung",
+            "ru": "Доставка"
           },
           "metin": {
             "tr": "Takas değerlemesi ortalama 45 dakika; noter randevusunu galeri alır. Kurgusal demo verileri.",
             "en": "Trade-in valuation takes 45 minutes on average; the dealer books the notary. Fictional demo figures.",
-            "ar": "يستغرق تقييم المقايضة 45 دقيقة في المتوسط، ويحجز المعرض موعد الكاتب العدل. بيانات تجريبية افتراضية."
+            "ar": "يستغرق تقييم المقايضة 45 دقيقة في المتوسط، ويحجز المعرض موعد الكاتب العدل. بيانات تجريبية افتراضية.",
+            "de": "Die Inzahlungnahme-Bewertung dauert durchschnittlich 45 Minuten; den Notartermin vereinbart die Galerie. Fiktive Demodaten.",
+            "ru": "Оценка при обмене занимает в среднем 45 минут; запись к нотариусу организует автосалон. Вымышленные демо-данные."
           },
           "cta": {
             "tr": "Teslimler",
             "en": "Handovers",
-            "ar": "التسليمات"
+            "ar": "التسليمات",
+            "de": "Übergaben",
+            "ru": "Выдача"
           },
           "url": "referanslar"
         }
@@ -2984,7 +3676,9 @@
         "cta_ad": {
           "tr": "İlan sor",
           "en": "Ask about a car",
-          "ar": "اسأل عن سيارة"
+          "ar": "اسأل عن سيارة",
+          "de": "Nach einem Auto fragen",
+          "ru": "Спросить о машине"
         },
         "cta_url": "iletisim",
         "tel": "+90 342 088 27 27",
@@ -3007,7 +3701,9 @@
         "cta": {
           "tr": "İlan sor",
           "en": "Ask about a car",
-          "ar": "اسأل عن سيارة"
+          "ar": "اسأل عن سيارة",
+          "de": "Nach einem Auto fragen",
+          "ru": "Спросить о машине"
         }
       },
       "data": [],
