@@ -4,12 +4,16 @@
   "description": {
     "tr": "Selvi Otomotiv: ekspertiz raporlu ikinci el araç; ilan numarasıyla sorgu, takas değerleme ve ekspertiz–tramer–kasko sözlüğü. Demo site; içerik kurgusaldır.",
     "en": "Selvi Motors: used cars with inspection reports; look up by listing number, trade-in valuation and an inspection–claims–insurance glossary. Demo site; content is fictional.",
-    "ar": "سلفي للسيارات: سيارات مستعملة بتقارير فحص؛ استعلام برقم الإعلان وتقييم المقايضة ومسرد للفحص وسجل الحوادث والتأمين. موقع تجريبي؛ المحتوى افتراضي."
+    "ar": "سلفي للسيارات: سيارات مستعملة بتقارير فحص؛ استعلام برقم الإعلان وتقييم المقايضة ومسرد للفحص وسجل الحوادث والتأمين. موقع تجريبي؛ المحتوى افتراضي.",
+    "de": "Selvi Otomotiv: Gebrauchtwagen mit Gutachten; Suche nach Inseratsnummer, Bewertung für Tausch sowie Glossar zu Gutachten, Tramer und Kasko. Demo-Seite; Inhalte sind fiktiv.",
+    "ru": "Selvi Otomotiv: подержанные автомобили с отчетом об экспертизе; поиск по номеру объявления, оценка для обмена и глоссарий по экспертизе, трамеру и каско. Демо-сайт; контент вымышленный."
   },
   "keyword": {
     "tr": "ikinci el araç, oto galeri, ekspertiz raporu, tramer sorgusu, kasko, Gaziantep",
     "en": "used cars, car dealer, inspection report, accident record check, comprehensive insurance, Gaziantep",
-    "ar": "سيارات مستعملة، معرض سيارات، تقرير فحص، سجل الحوادث، تأمين شامل، غازي عنتاب"
+    "ar": "سيارات مستعملة، معرض سيارات، تقرير فحص، سجل الحوادث، تأمين شامل، غازي عنتاب",
+    "de": "Gebrauchtwagen, Autohaus, Gutachten, Unfallhistorie-Abfrage, Vollkasko, Gaziantep",
+    "ru": "подержанный автомобиль, автосалон, экспертный отчёт, проверка истории ДТП, каско, Газиантеп"
   },
   "category": "Kurumsal",
   "name": "Selvi Otomotiv",
@@ -18,15 +22,27 @@
     "tr": true,
     "en": true,
     "ar": true,
-    "de": false,
-    "ru": false,
+    "de": true,
+    "ru": true,
     "es": false,
     "fr": false,
     "it": false,
     "ja": false,
     "zh": false,
     "ko": false,
-    "pt": false
+    "pt": false,
+    "fa": false,
+    "he": false,
+    "ur": false,
+    "nl": false,
+    "pl": false,
+    "uk": false,
+    "az": false,
+    "ka": false,
+    "el": false,
+    "bg": false,
+    "ro": false,
+    "hi": false
   },
   "logo": "logo.png",
   "multi": false,

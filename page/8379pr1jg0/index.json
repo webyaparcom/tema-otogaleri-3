@@ -3,17 +3,23 @@
   "name": {
     "tr": "Teslimler",
     "en": "Handovers",
-    "ar": "التسليمات"
+    "ar": "التسليمات",
+    "de": "Übergaben",
+    "ru": "Выдача"
   },
   "description": {
     "tr": "Kimlere araç teslim ettik (kurgusal).",
     "en": "Who we handed cars to (fictional).",
-    "ar": "لمن سلّمنا السيارات (افتراضي)."
+    "ar": "لمن سلّمنا السيارات (افتراضي).",
+    "de": "Wem wir Fahrzeuge übergeben haben (fiktiv).",
+    "ru": "Кому мы передали автомобили (вымышленно)."
   },
   "keyword": {
     "tr": "referans, müşteri yorumu",
     "en": "reference, review",
-    "ar": "مرجع، تقييم"
+    "ar": "مرجع، تقييم",
+    "de": "Referenz, Kundenbewertung",
+    "ru": "рекомендация, отзыв клиента"
   },
   "path": "referanslar",
   "icon": "stars",
@@ -33,7 +39,9 @@
   "title": {
     "tr": "Teslimler",
     "en": "Handovers",
-    "ar": "التسليمات"
+    "ar": "التسليمات",
+    "de": "Übergaben",
+    "ru": "Выдача"
   },
   "date": "2026-11-16T16:05:23.280Z",
   "update": "2026-11-16T16:24:43.884Z"

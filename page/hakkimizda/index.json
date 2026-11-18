@@ -2,7 +2,9 @@
   "name": {
     "tr": "Galeri",
     "en": "Showroom",
-    "ar": "المعرض"
+    "ar": "المعرض",
+    "de": "Galerie",
+    "ru": "Галерея"
   },
   "status": "play",
   "category": "",
@@ -23,7 +25,9 @@
   "description": {
     "tr": "Galeri rakamları ve teslim dağılımı (kurgusal).",
     "en": "Showroom figures and handover breakdown (fictional).",
-    "ar": "أرقام المعرض وتوزيع التسليمات (افتراضية)."
+    "ar": "أرقام المعرض وتوزيع التسليمات (افتراضية).",
+    "de": "Galeriezahlen und Verteilung der Übergaben (fiktiv).",
+    "ru": "Цифры галереи и распределение выдач (вымышленно)."
   },
   "spot": {
     "tr": "",
@@ -34,12 +38,16 @@
   "title": {
     "tr": "Galeri",
     "en": "Showroom",
-    "ar": "المعرض"
+    "ar": "المعرض",
+    "de": "Galerie",
+    "ru": "Галерея"
   },
   "keyword": {
     "tr": "hakkımızda",
     "en": "about",
-    "ar": "من نحن"
+    "ar": "من نحن",
+    "de": "Über uns",
+    "ru": "О нас"
   },
   "text": {},
   "update": "2026-11-16T16:24:43.873Z",

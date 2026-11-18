@@ -3,17 +3,23 @@
   "name": {
     "tr": "Sözlük",
     "en": "Glossary",
-    "ar": "المسرد"
+    "ar": "المسرد",
+    "de": "Glossar",
+    "ru": "Глоссарий"
   },
   "description": {
     "tr": "Ekspertiz, tramer, kasko ve noter terimleri.",
     "en": "Inspection, claims-record, insurance and notary terms.",
-    "ar": "مصطلحات الفحص وسجل الحوادث والتأمين والكاتب العدل."
+    "ar": "مصطلحات الفحص وسجل الحوادث والتأمين والكاتب العدل.",
+    "de": "Begriffe zu Gutachten, Tramer, Kasko und Notar.",
+    "ru": "Термины: экспертиза, Tramer, КАСКО и нотариус."
   },
   "keyword": {
     "tr": "sss, soru cevap",
     "en": "faq, questions",
-    "ar": "أسئلة وأجوبة"
+    "ar": "أسئلة وأجوبة",
+    "de": "FAQ, Fragen und Antworten",
+    "ru": "FAQ, вопросы и ответы"
   },
   "path": "sorular",
   "icon": "help",
@@ -33,7 +39,9 @@
   "title": {
     "tr": "Sözlük",
     "en": "Glossary",
-    "ar": "المسرد"
+    "ar": "المسرد",
+    "de": "Glossar",
+    "ru": "Глоссарий"
   },
   "date": "2026-11-16T16:05:23.274Z",
   "update": "2026-11-16T16:24:43.879Z"
